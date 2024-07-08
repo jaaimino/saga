@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a541-9273-e460-687a" name="Huns" revision="2" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="fe05-08cc-927e-a433" name="Huns" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="6548-9dee-0614-f56a" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="db0f-a9fe-3df8-7ab4" name="Huns" hidden="false" targetId="fe05-08cc-927e-a433" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="501d-e8e8-8721-5ea8" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e68d-b364-ce14-6f9c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5ee7-1f62-b654-a1ff" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="61b8-5194-f8ef-730f" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c071-75ee-839b-cd3c" name="Huns" hidden="false" targetId="fe05-08cc-927e-a433" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b112-68e1-55b4-94e6" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e5d-5e86-8af0-6937" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="58d9-4c5e-1e4a-4b7e" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="f04a-704f-703c-2d6e" name="Warriors" hidden="false" collective="false" import="true" targetId="1897-8e1b-ec24-4c58" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f95d-7c84-fd45-2e1a" name="Huns" hidden="false" targetId="fe05-08cc-927e-a433" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="44ee-11a9-a8e2-e9c5" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f39-5c5a-2991-d795" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4266-79ca-d120-0315" name="Composite Bows" hidden="false" collective="false" import="true" targetId="d5c4-d2fe-e853-40a4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a7e-f3d7-55cf-667f" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0fcd-1674-a481-850d" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1014-7bfd-ed7a-7a0b" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <modifiers>
+        <modifier type="add" field="category" value="fe05-08cc-927e-a433">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b8e4-1416-2566-166d" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2beb-6327-4da1-70ef" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bdf7-c2f2-81d0-2aa1" name="Equipment Options" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c639-5ef2-92bd-dba0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a2d0-cff3-2852-6c24" name="Bows and Slings" hidden="false" collective="false" import="true" targetId="ea4e-4463-8f31-3306" type="selectionEntry"/>
+            <entryLink id="4847-079d-18e5-69ad" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="7fc9-fb00-1d7b-ab46" name="Attila" hidden="false" collective="false" import="true" targetId="b8e4-1416-2566-166d" type="selectionEntry"/>
+    <entryLink id="e445-4ade-b35b-db11" name="Foederati" hidden="false" collective="false" import="true" targetId="a58e-c21c-0e8e-9d72" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2beb-6327-4da1-70ef" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="0ac7-43c6-7278-ddfa" name="Mounted Foederati" hidden="false" collective="false" import="true" targetId="3924-fe7d-58c5-63ea" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2beb-6327-4da1-70ef" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="555e-ae0f-cafb-5b39" name="Deserters" hidden="false" collective="false" import="true" targetId="0129-0bb5-eae7-cd83" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2beb-6327-4da1-70ef" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="16e2-0a79-b5e2-0c93" name="Uldin" hidden="false" collective="false" import="true" targetId="2beb-6327-4da1-70ef" type="selectionEntry"/>
+    <entryLink id="8529-fb28-e04e-026f" name="Personal Champion" hidden="false" collective="false" import="true" targetId="2269-2d28-6fd4-d304" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2beb-6327-4da1-70ef" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="9cb4-f09d-7a12-16a5" name="Seer" hidden="false" collective="false" import="true" targetId="8af1-397d-bb2b-2780" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2beb-6327-4da1-70ef" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="8754-aba7-7c43-bd94" name="Guides" hidden="false" collective="false" import="true" targetId="a8fd-3d8a-a503-5d8e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2beb-6327-4da1-70ef" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="e95a-6632-8754-c5a2" name="Sea Wolves" hidden="false" collective="false" import="true" targetId="b2b4-7527-34f8-c3ef" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2beb-6327-4da1-70ef" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="b8e4-1416-2566-166d" name="Attila" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b9d8-bf8f-e264-dd50" name="Attila" publicationId="90fb-5671-0e32-356b" page="24" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodygaurd, Determination, Presence, Pride, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f043-7f61-e2f3-f9fc" name="The Scourge of God" publicationId="90fb-5671-0e32-356b" page="24" hidden="false">
+          <description>Later chroniclers saw Atilla as a scourge sent by God to punish the Romans for their sins. Each time an enemy unit is eliminated, the Heros in its warband immediatel suffer one fatigue.</description>
+        </rule>
+        <rule id="0bd2-172a-17b8-481f" name="The Great Hun Army" publicationId="90fb-5671-0e32-356b" page="24" hidden="false">
+          <description>All *Levies* in Attila&apos;s warband count as units of *Huns*, allowing them to use abilites normally reserved for *Huns*. In addition, they generate Saga dice like units of Warriors, so they each generate a Saga die as long as they have at least 4 figures.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6a1b-c408-d4ef-ea27" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+        <infoLink id="6ccf-76bd-3f6b-2d43" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d102-4d17-c807-8a62" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="40bc-91a7-c0b1-b9d5" name="Huns" hidden="false" targetId="fe05-08cc-927e-a433" primary="false"/>
+        <categoryLink id="534b-f724-5562-bc4a" name="Mounts (Horses)" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+        <categoryLink id="7d54-d4c7-a54b-d83a" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="6bd7-71f6-9546-a0d9" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2beb-6327-4da1-70ef" name="Uldin" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="16f1-b896-ff1b-193d" name="Uldin" publicationId="90fb-5671-0e32-356b" page="25" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodygaurd, Determination, Presence, Pride, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f5eb-094a-3e98-b452" name="Uncatchable" publicationId="90fb-5671-0e32-356b" page="25" hidden="false">
+          <description>At the start of you Activation phase, before activating any units, you can chooe one of your units to activate for a move. Note that the unit doesn&apos;t count as having been activated for the rest of the Activation phase.</description>
+        </rule>
+        <rule id="d7ee-f13f-fd2c-de60" name="Veterans" publicationId="90fb-5671-0e32-356b" page="25" hidden="false">
+          <description>All the units in Uldin&apos;s warband gain 2 bonus defence dice when they are the target of a shooting attack or participate in a melee.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7224-45ee-428b-addf" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+        <infoLink id="bc0c-0873-eaba-65ac" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d08b-957d-00c5-082b" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="45b7-26cf-f5a0-f20e" name="Huns" hidden="false" targetId="fe05-08cc-927e-a433" primary="false"/>
+        <categoryLink id="a13d-7083-f06e-d682" name="Mounts (Horses)" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+        <categoryLink id="dc58-40b8-3a9b-6e99" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="f935-5ac3-0a10-b22a" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="ff51-350c-da1c-2f73" name="Age of Invasions" targetId="3188-29f4-c778-04ae" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

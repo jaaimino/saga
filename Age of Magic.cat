@@ -1,0 +1,1301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d129-4eb9-056b-e103" name="Age of Magic" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="true" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="5" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="ac45-6f39-de7c-3e52" name="Saga: Age of Magic"/>
+  </publications>
+  <profileTypes>
+    <profileType id="4eec-0a6b-2421-4af7" name="Spell">
+      <characteristicTypes>
+        <characteristicType id="a8dd-a5be-631f-35c6" name="Description"/>
+        <characteristicType id="2d41-9348-7b83-6580" name="Minimum"/>
+        <characteristicType id="484d-537f-d15d-5a21" name="Optimum"/>
+        <characteristicType id="f09e-ba73-12de-4ba4" name="Maximum"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
+  <categoryEntries>
+    <categoryEntry id="0e86-e0b2-7931-9116" name="Monster" hidden="false"/>
+    <categoryEntry id="33d5-4e7b-2527-f76d" name="Creature" hidden="false"/>
+    <categoryEntry id="33d7-f464-fa42-74eb" name="War Machine" hidden="false"/>
+    <categoryEntry id="3e9e-5235-9d6d-122e" name="Sorceror" hidden="false"/>
+    <categoryEntry id="3e4f-a859-b1ff-4b25" name="Lieutenant" hidden="false"/>
+    <categoryEntry id="06bb-5a0a-d41d-1fbd" name="Creature Model" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="a350-b289-78b8-970e" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8250-c903-6d71-7e31" repeats="2" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="432a-dd9a-c003-2b7d" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a350-b289-78b8-970e" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="78d5-3299-c12c-0634" name="Biped" hidden="false"/>
+    <categoryEntry id="3143-d754-0590-6b94" name="Quadruped" hidden="false"/>
+    <categoryEntry id="6330-dd93-8512-05a2" name="Flyer" hidden="false"/>
+    <categoryEntry id="805a-f7a7-7eea-99d6" name="Monster Model" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="9bd1-d113-772c-a980" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9aa-6037-40e2-edd2" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9bd1-d113-772c-a980" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="a2fb-f138-12a5-66a5" name="Behemoth" hidden="false"/>
+    <categoryEntry id="cbdd-4613-4e2a-69c1" name="Titan" hidden="false"/>
+    <categoryEntry id="b64a-df1c-8412-3604" name="Scourge" hidden="false"/>
+    <categoryEntry id="e510-27d9-f601-0c61" name="Static" hidden="false"/>
+    <categoryEntry id="fc6a-636f-1e72-398c" name="Mobile" hidden="false"/>
+    <categoryEntry id="6531-7562-0175-d816" name="Flying" hidden="false"/>
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="8250-c903-6d71-7e31" name="2 Creatures" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="18ac-d84f-6c37-7fdf" name="New CategoryLink" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="432a-dd9a-c003-2b7d" name="1 Creature" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="f109-ad04-5490-6c10" name="New CategoryLink" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="df9d-9daa-e03c-5444" name="Cost" hidden="false" collective="false" import="true" targetId="3ae5-62b1-6f81-cb98" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntry>
+    <selectionEntry id="f9aa-6037-40e2-edd2" name="1 Monster" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="b2bb-9f7c-4bfa-b6c7" name="New CategoryLink" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="01a6-4a46-2989-4ae5" name="Creature" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="2a27-e848-39cb-30a5" name="Creature Model" hidden="false" targetId="06bb-5a0a-d41d-1fbd" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b104-bb06-caba-6928" name="Monster" hidden="false" collective="false" import="true" type="model">
+      <categoryLinks>
+        <categoryLink id="47e4-b468-621d-c5b7" name="Monster Model" hidden="false" targetId="805a-f7a7-7eea-99d6" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="be07-45f9-2735-848e" name="Biped" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2858-3b75-db5d-c783" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="918c-c377-11e6-0f69" name="Biped" hidden="false" targetId="28bb-97ea-be07-8abc" type="profile"/>
+        <infoLink id="a307-c9bd-6564-9313" name="Biped" hidden="false" targetId="ff11-6a4e-4f92-960f" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8770-1c58-e27b-a31a" name="Biped" hidden="false" targetId="78d5-3299-c12c-0634" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6494-b981-47ae-1de0" name="Quadruped" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3abc-dc36-659b-c2cc" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5d28-c0ce-3795-7d23" name="Quadruped" hidden="false" targetId="7c14-0cd1-9e3a-6a77" type="profile"/>
+        <infoLink id="86d3-bddc-7561-73b2" name="Quadruped" hidden="false" targetId="3ea0-8f69-2a18-4482" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ac0f-b79c-1e4b-eed6" name="Quadruped" hidden="false" targetId="3143-d754-0590-6b94" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3dc6-dc2d-1a9a-dba0" name="Flyer" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7afe-0ab5-1739-d0de" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="a4ee-e3f6-d4d2-9ddc" name="Flyer" hidden="false" targetId="2475-b027-b073-b16e" type="profile"/>
+        <infoLink id="8ab0-9f5a-c46d-d217" name="Flyer" hidden="false" targetId="d68d-61b6-9d14-e02e" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b539-0276-3124-d848" name="Flyer" hidden="false" targetId="6330-dd93-8512-05a2" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a124-a1da-e31b-6dcf" name="Behemoth" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8008-e80a-5f09-c0e3" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="73d5-716d-b2d7-5077" name="Behemoth" hidden="false" targetId="16e1-7ed8-4c86-6625" type="profile"/>
+        <infoLink id="afb6-2801-5977-ea93" name="Behemoth" hidden="false" targetId="e7bd-8973-049c-48da" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d792-42c3-67c8-112c" name="Behemoth" hidden="false" targetId="a2fb-f138-12a5-66a5" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f894-d5ce-27ee-2f1e" name="Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a845-ab65-81df-7dd8" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="e04d-bf82-888c-b53f" name="Titan" hidden="false" targetId="b951-ba12-6e29-2fac" type="profile"/>
+        <infoLink id="a2d2-4aea-8c9f-7174" name="Titan" hidden="false" targetId="0f58-149c-1c7e-619e" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="668e-7686-97e8-40bd" name="Titan" hidden="false" targetId="cbdd-4613-4e2a-69c1" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="726e-b661-f849-da32" name="Scourge" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ab2-fd70-4236-f232" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="1d34-c47e-872a-76d0" name="Scourge" hidden="false" targetId="8daf-08c3-ad5e-905d" type="profile"/>
+        <infoLink id="f052-7281-02af-13b1" name="Scourge" hidden="false" targetId="7a19-1b00-f6df-358f" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0e98-9874-2a05-6b28" name="Scourge" hidden="false" targetId="b64a-df1c-8412-3604" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8fa5-d932-7845-4e5f" name="Static War Machine" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c74f-b867-f00f-c465" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2e4e-c9b5-4ceb-1fb5" name="Static War Machine" hidden="false" targetId="8c13-367b-7e99-dfc0" type="profile"/>
+        <infoLink id="be7c-0f5f-4e0b-d4a7" name="Static" hidden="false" targetId="f5e2-4c3e-d42b-ea24" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5aa8-c6b4-ec77-bec7" name="Static" hidden="false" targetId="e510-27d9-f601-0c61" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dd73-257e-576c-4ddc" name="Mobile War Machine" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46a6-0c3b-8f01-c42f" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8301-9c5b-8982-76d4" name="Mobile War Machine" hidden="false" targetId="4c13-d723-52f3-55ed" type="profile"/>
+        <infoLink id="e204-a16d-1a03-5e7e" name="Mobile" hidden="false" targetId="fe50-8526-0a97-c3af" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4086-a589-a95a-413f" name="Mobile" hidden="false" targetId="fc6a-636f-1e72-398c" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="49bc-8b41-407c-9458" name="Flying War Machine" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88e5-c7b2-15d0-7ecd" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2308-dfb1-9ea5-59b3" name="Flying War Machine" hidden="false" targetId="9bd6-7541-458a-9e7e" type="profile"/>
+        <infoLink id="d713-85fe-08d1-ff91" name="Flying" hidden="false" targetId="9e48-1488-8119-f3b4" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6dfd-80ca-6cad-bab5" name="Flying" hidden="false" targetId="6531-7562-0175-d816" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="3ae5-62b1-6f81-cb98" name="Cost" hidden="false" collective="false" import="true" defaultSelectionEntryId="b7e6-184c-079e-272b">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba05-3a70-2152-2b21" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe20-6495-ab20-c26b" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c386-d7ce-a440-11d2" name="2 Hearthguards" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="33d7-f464-fa42-74eb" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="709a-8a78-a651-9a9b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="75f2-2690-572d-1619" name="Hearthguard" hidden="false" collective="false" import="true" targetId="124e-28c6-d2bb-6048" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04a8-e5f8-10f8-491d" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5211-2a6d-ad53-fe8e" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="38da-c199-4b97-77cb" name="4 Warriors" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="005e-9c79-c6d2-57fe" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e7f5-78e7-6c83-923c" name="Warrior" hidden="false" collective="false" import="true" targetId="d558-4bb2-dca5-6e81" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5bf-3038-fbfa-5e4c" type="min"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a86-1cfe-0532-6e76" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b7e6-184c-079e-272b" name="6 Levies" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="464e-a2b9-bc28-18ce" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2ebf-d2a9-6b24-71a8" name="Levy" hidden="false" collective="false" import="true" targetId="cb8a-baa9-25c2-2e45" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7bf0-f719-1e3d-1b8d" type="min"/>
+                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8871-977e-9921-22c6" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="da58-0ee1-37e0-903e" name="Domain of Energy" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="6179-179d-c783-fcba" name="1. Bolt" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d4c-466b-0901-f55d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="d698-8b98-3e9d-4372" name="Bolt" publicationId="ac45-6f39-de7c-3e52" page="94" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell targets an enemy unit, striking them with a lightning bolt, a fireball, or any other elemental projectile. You can target any enemy unit within *L* and line of sight of the Sorceror. Roll two dice and apply the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">each die that exceeds the target&apos;s Armour against shooting attacks inflicts a casualty. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">each die that matches or exceeds the target&apos;s Armour against shooting attacks inflicts a casualty.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">each die that rolls a 3 or more inflicts a casualty, no matter the target&apos;s Armour. Also, if at least one of the two dice rolled scores a 6, the target suffers an extra casualty on top of those caused by the die roll. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ccf5-c983-c0bd-45ae" name="2. Elemental Barrier" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="215e-a051-7bd0-1b6b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="482b-2ac9-001c-e61c" name="Elemental Barrier" publicationId="ac45-6f39-de7c-3e52" page="94" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This is a spell of protection that you cast on a unit within *S* of the Sorceror, no line of sight required. The unit cannot be activated again during that turn, but gains the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580"> the chosen unit benefits from light cover until the start of its next turn. This applies even if the unit cannot usually benefit from cover, like units which are Imposing or mounted on animals. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">As per the minimum effect, except that the cover granted is solid instead of light.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the unit gains Resilience (4). This replaces their normal Resilience if they have any - the two aren&apos;t combined! </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d261-b61c-becb-e99d" name="3. Breath" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ab-f02f-5a2f-a536" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="421c-706b-ad2d-0cf0" name="Breath" publicationId="ac45-6f39-de7c-3e52" page="94" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Breath is another offensive spell from the Domain of Energy, which targets all enemy units within *M* and line of sight of the Sorceror. Each of these units must roll 3 dice and suffer injuries corresponding to the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580"> the unit suffers a fatigue for each 6 rolled on one of its dice. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the unit suffers a casualty for each 6 rolled on one of its dice. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the unit suffers a casualty for each 4 or more rolled on one of its dice. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b0c2-8a58-cfbc-5f23" name="4. Transmutation" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5240-d27b-3b9d-07ed" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6eca-566b-dd5f-ffda" name="Transmutation" publicationId="ac45-6f39-de7c-3e52" page="94" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell is purely defensive, and allows the Sorceror to gain welcome protection by turning into a being of stone, wind or fire. This bonus lasts until the start of your next turn, and the spell&apos;s effects are as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the Sorceror gains Resilience (2). This Resilience replaces their usual Resilience.</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the Sorceror gains Resilience (3). This Resilience replaces their usual Resilience.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the Sorceror gains Resilience (3). This Resilience replaces their usual Resilience. They also increase their Armour against both melee and shooting attacks by +2. Let&apos;s just say they basically become invulnerable! </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c15f-40e0-ecc4-488d" name="5. Tempest" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ae2-f40f-d68d-a6fe" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bb9b-8013-af3b-206b" name="Tempest" publicationId="ac45-6f39-de7c-3e52" page="94" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Idea/for Sorcerors who love the spectacular. Tempest affects all the units in an area of the battlefield. The Sorceror chooses a point within *L* and line of sight. You can mark this point with a token if you like, but it isn&apos;t strictly necessary. Every unit (both friendly and enemy) with at least one figure within *S* of that point must roll a die and suffer the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the unit suffers a fatigue if they roll a 6.</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the unit suffers a fatigue if they roll a 5 or a 6.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the unit suffers a casualty and a fatigue if they roll a4, 5 or 6. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a03b-62ff-943e-8259" name="6. Mists" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b82-4c22-f639-e856" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4d42-f720-0ce3-a0da" name="Mists" publicationId="ac45-6f39-de7c-3e52" page="94" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Mists limits line of sight until the start of your next turn. That means this spell affects shooting (reducing their range, since the target is invisible past that distance) and spells which require line of sight to their target. The maximum distance at which a.figure can draw line of sight depends on the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the maximum distance for line of sightis *L*.</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the maximum distance for line of sight is *M*.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the maximum distance for line of sight is *VS*.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ce86-5d16-1aaf-76f0" name="Domain of Light" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="7a35-653e-bd89-855b" name="1. Blinding" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cc7-d2c3-48d9-ab1b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="adfc-85dc-2652-2dab" name="Blinding" publicationId="ac45-6f39-de7c-3e52" page="95" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell impedes an enemy unit&apos;s activations during its next turn. It targets a unit within *L* and line of sight of the Sorceror. Until the start of the Sorceror&apos;s next turn, each time the unit activates it must roll a die. This occurs after the activation cost is paid and before the activation is resolved. The spell&apos;s effect is as follows: </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">this activation is cancelled on a result of 5 or more. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">this activation is cancelled on a result of 4 or more. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">this activation is cancelled on a result of 3 or more.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="981d-d225-fc8c-4c6b" name="2. Burning" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0253-eec6-fe92-978f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="829a-957b-54bd-ecd7" name="Burning" publicationId="ac45-6f39-de7c-3e52" page="95" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Burning protects the units closest to the Sorceror by punishing enemy units who try to engage them in melee. Once cast, this spell stays active until the  start of your next turn. It affects all friendly units within *VS* of the Sorceror, as well as the Sorceror themselves. Before the resolution of a melee involving one of these units begins, the enemy unit suffers a penalty based on the following spell effects:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the enemy unit has to roll a die, and suffers a fatigue on a roll of 5 or more. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the enemy unit has to roll a die, and suffers a fatigue on a roll of 4 or more.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the enemy unit immediately suffers a fatigue.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d899-2f44-2f4f-8ab7" name="3. Banishment" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10eb-4fc4-5503-c860" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="08dc-4e28-14e9-93e5" name="Banishment" publicationId="ac45-6f39-de7c-3e52" page="95" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell is designed to repel an enemy unit. The Sorceror targets an enemy unit within M, though not necessarily in line of sight. The enemy unit must make a withdrawal move, moving as far away from the Sorceror as possible. The movement distance depends on the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the movement distance is *VS*.</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the movement distance is *S*.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the movement distance is *M*. The enemy unit also suffers a fatigue after the move. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a95a-0b52-821b-d873" name="4. Shield of Light" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54e3-240f-0326-aab6" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6454-1a8a-24a7-722f" name="Shield of Light" publicationId="ac45-6f39-de7c-3e52" page="95" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Shield of light is a protective spell that improves a friendly unit&apos;s Armour. That can be the Sorceror, or a friendly unit within *VS*. That unit keeps its new Armour value until the start of your next turn. What that Armour value is depends on the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the unit&apos;s Armour against shooting attacks becomes 5.</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the unit&apos;s Armour against melee and shooting attacks becomes 5. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the unit&apos;s Armour against melee and shooting attacks becomes 6. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="915e-4f8d-88ed-f0d5" name="5. Spear of Light" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7fab-c911-e3b5-cfdc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="677b-cc27-7b61-5684" name="Spear of Light" publicationId="ac45-6f39-de7c-3e52" page="95" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">With this spell, the Sorceror fires a projectile of pure light from their hand into the enemy ranks. Once the spell is cast, place an *L* ruler so that one end is in contact with the Sorceror&apos;s base. It can be aimed in the direction of your choice. Each enemy unit with at least one figure touched by the ruler must roll two dice, and suffer consequences depending on the spell&apos;s effect, as follows: </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the unit suffers a casualty for each 6 rolled</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the unit suffers a casualty for each 5 or more rolled.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4"> the closest enemy unit to the Sorceror that is touched by the ruler suffers casualties equal to the lower of the two rolls on the two dice. The other affected units each suffer a casualty without rolling dice</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2a09-bafe-56c9-d738" name="6. Laying on Hands" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c982-a849-623c-b5be" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9843-ced0-a56b-476f" name="Laying on Hands" publicationId="ac45-6f39-de7c-3e52" page="95" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell lets you discard fatigue from a nearby unit. Choose a friendly unit within *VS* of the Sorceror and apply the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">roll a die. The unit can remove a fatigue if you roll a 3 or more. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the unit removes a fatigue. Then roll a die, and remove a second fatigue from the unit if you roll a 6.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">roll a die for each of the chosen unit&apos;s fatigues. Remove a fatigue for every roll of 3 or more. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3538-f19a-7986-226b" name="Domain of Earth" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="1a79-662f-4883-3ad2" name="1. Chrysalis" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a72d-b265-1f0f-c359" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f341-b0d0-87f6-91b7" name="Chyrsalis" publicationId="ac45-6f39-de7c-3e52" page="96" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">By creating a cocoon of plants and bark, the Sorceror can protect themselves from the enemy and benefit from a nexus of mana. Chrysalis remains active until the start of the Sorceror&apos;s next turn. As long as the Chrysalis is active, the Sorcerer can re-roll one Magic Die each time he casts a spell. The cocoon&apos;s protection depends on the spell&apos;s effect, as follows: </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the Sorceror benefits from solid cover during melees, but only if they can normally benefit from cover. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the Sorceror can no longer be the target of a charge. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the Sorceror can no longer be the target of either a charge or a shooting attack. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b23e-c5f8-2c49-84ff" name="2. Transformation" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0746-f3f8-5d5e-6d0d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="86db-5d1e-6f6f-5c3c" name="Transformation" publicationId="ac45-6f39-de7c-3e52" page="96" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Transformation allows the Sorceror to temporarily change shape. The spell remains active until the end of the turn, after which the Sorceror retakes their natural form. While the Sorceror is transformed, their characteristics are replaced by those below. They cannot cast spells while transformed, which means they cannot cast spells for the rest of the turn. The characteristics gained by the Sorceror vary according to the spell&apos;s effect, as follows:
+
+The Sorceror loses all their special rules during the transformation, but gains the special rules of the unit whose characteristics they have taken on. They also lose all their equipment options for the duration of the spell. They still activate like a Hero.
+At the end of the turn, remove all fatigues above the Sorceror&apos;s exhaustion threshold, if there are any. That means the Sorceror should be left with exactly the number of fatigues needed to exhaust them. 
+The Sorceror&apos;s base does not change during the transformation, even if it is smaller than the base of the unit whose characteristics they adopt. However, if both players agree, you can replace the Sorceror&apos;s figure with an appropriate miniature that has the correct size of base. A beautiful game is more important than micro-tactical advantage! </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the Sorceror becomes your choice of a Biped, Quadruped or Flying Creature.</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the Sorceror becomes a Warlord mounted on a beast.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the Sorceror becomes your choice of a Behemoth, Titan, or Scourge Monster.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1809-d073-fac2-5881" name="3. Animal Prowess" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d5e8-4730-310f-9c8c" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="20c5-37ff-52a5-2556" name="Animal Prowess" publicationId="ac45-6f39-de7c-3e52" page="96" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell only affects friendly Creatures and Monsters. When casting it, the Sorceror chooses one unit of either type within *S* of themselves. The results depend on the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the unit is activated to rest for free .</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the unit is activated to rest for free, and then activated to move for free.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">you can remove up to 2 fatigues from the unit, then give it a free activation of any type.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6349-7752-755b-1a75" name="4. Wall of Thorns" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="989c-1a7b-a4ed-c041" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cc6b-c8d7-72e9-701b" name="Wall of Thorns" publicationId="ac45-6f39-de7c-3e52" page="96" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Wall of Thorns targets an area of terrain, which must be small, uneven and offer light cover. This terrain piece must be within *L* of the Sorceror, but does not need to be their in line of sight. Until the start of your next turn, the zone&apos;s properties change according to the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the terrain area offers solid cover rather than light cover. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the terrain area offers solid cover rather than light cover. The terrain piece also counts as dangerous terrain to all enemy units. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">enemy units count this terrain piece as impassable, and cannot draw line of sight to units within the terrain piece - which means they cannot fire on said units. If enemy units find themselves within the terrain piece in question as the spell is cast, they are not affected. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d17d-d266-4252-7de4" name="5. Choking Weeds" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f5a-b8ea-8ac3-bf3b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6780-ff6f-6e6f-72cd" name="Choking Weeds" publicationId="ac45-6f39-de7c-3e52" page="96" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell targets an enemy unit within line of sight of the Sorceror, and within *S* of an area of uneven terrain offering light cover. A unit in such a terrain piece counts as within *S* of it. The consequences for your opponent depend on the spell&apos;s effect, as follows: </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">until the start of the Sorceror&apos;s next turn, all the targeted unit&apos;s moves and charge moves count as taking place entirely in uneven terrain.</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the targeted unit cannot activate until until the start of your next turn. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the targeted unit immediately suffers enough fatigues to become exhausted. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1f3f-a6ec-e7e2-b909" name="6. Verdant Wakening" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8a6-cd2d-86a6-6cfe" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9b45-3031-ce78-89a9" name="Verdant Wakening" publicationId="ac45-6f39-de7c-3e52" page="96" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Verdant Wakening creates a terrain area on the table. When it is cast, you can place a new terrain piece in open terrain within *S* of your Sorceror. You cannot place it on friendly or enemy units. The terrain piece&apos;s characteristics depend on the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the terrain piece is a small area of low, uneven terrain that offers light cover. It stays on the table until the start of your next turn, and is then removed. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the terrain piece is a small area of high, dangerous terrain that offers light cover. It stays on the table until the start of your next turn, and is then removed</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the terrain piece is ffsnfall area of high, dangerous terrain that offers light cover. It is permanent, and so stays in play until the end of the game. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a922-9b3b-5a5f-0e6e" name="Domain of Metal" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="0d52-6706-8db9-8234" name="1. Cleaving Blades" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cb5-9b4d-ef64-5911" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0e06-f822-f8ee-0199" name="Cleaving Blades" publicationId="ac45-6f39-de7c-3e52" page="97" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell allows a friendly unit to cause trouble for even the most powerful enemy units. Choose a friendly unit within *S* of your Sorceror - if they are feeling suicidal, they can nominate themselves. During that unit&apos;s next melee of the turn against a unit with the Imposing special rule, they gain certain bonuses depending on the spell&apos;s effect, as follows: </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">this unit can re-roll all their attack dice which score a 1 or a 2 (after modifiers). </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">each of their attack dice get a + 1 bonus.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">this unit inflicts three automatic hits on the Imposing enemy unit, which are added to the hits scored with their attack dice. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e9bd-4101-c35f-b640" name="2. Stoke Fury" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bf6-ccfe-4703-29ba" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="eee9-4e80-f9af-24a2" name="Stoke Fury" publicationId="ac45-6f39-de7c-3e52" page="97" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Stoke Fury galvanises a nearby unit. If their next charge is made entirely across open terrain, their charge distance receives a bonus based on the spell&apos;s effect, as follows:
+
+None of these bonuses apply if the charge is not made entirely through open terrain. Terrain areas overflown by flying units are ignored and do not lose them these bonuses. </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">its charge distance gets a bonus of *S* . </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">its charge distance gets a bonus of *S* and they gain 2 bonus attack dice. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">its charge distance gets a bonus of *S*, they gain 3 bonus attack dice, and the charged unit suffers a fatigue immediately after the charge is resolved. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5c11-5ca8-39f2-638f" name="3. Violence" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0d0-e023-cb2e-c0eb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a99c-a80b-79a5-924c" name="Violence" publicationId="ac45-6f39-de7c-3e52" page="97" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Violence grants a friendly unit within *S* of the Sorceror a bonus in their next melee. This bonus depends on the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the chosen unit gets 2 bonus attack dice during the melee. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the chosen unit inflicts an automatic hit, which is added to the hits scored with their attack dice.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">all their attack dice get a + 1 bonus.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="78d4-18c6-fb8b-4f0c" name="4. Strengthen" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="244b-d1d4-2039-1ab2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2b05-f777-0e5a-c2ad" name="Strengthen" publicationId="ac45-6f39-de7c-3e52" page="97" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Strengthen gives a friendly unit within *S* of the Sorceror a defensive bonus. This bonus remains active until the start of your next turn, and depends on the spell&apos;s effect, as follows:
+
+Once a unit is under the influence of Strengthen, it cannot activate again that turn. </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the chosen unit can re-roll all the 1s and 2s rolled on their defence dice during a melee. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the chosen unit can re-roll all their defence dice during a melee</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">all the chosen unit&apos;s defence dice get a + 1 bonus during a melee.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4b4a-5d51-8fbf-9119" name="5. Rust" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cf4-6e98-7402-0713" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7c49-6308-cbdc-f5e0" name="Rust" publicationId="ac45-6f39-de7c-3e52" page="97" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Rust affects an enemy unit&apos;s weapons, blunting them and lessening the targeted unit&apos;s offensive power. The Sorceror can target any enemy unit within *L* and line of sight. The consequences last until the start of the Sorceror&apos;s next turn, and depend on the spell&apos;s effect, as follows: </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the targeted unit must re-roll every 6 (after modifiers) rolled on their attack dice in melees and shooting attacks.</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the targeted unit must re-roll every 5 and 6 (after modifiers) rolled on their attack dice in melees and shooting attacks. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">all the targeted unit&apos;s attack dice and defence dice suffer a -1 penalty. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a3af-0bbd-ed1a-6fb9" name="6. Rites of Battle" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ddd-74e2-bbf2-e544" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b34a-5ecf-f0f1-4c4f" name="Rites of Battle" publicationId="ac45-6f39-de7c-3e52" page="97" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell gives a combat bonus to all friendly units engaged in melee near the Sorceror. Once cast, until the end of the next turn, 2 bonus attack dice are bestowed on each unit engaged in melee within a certain distance of the Sorceror. That distance depends on the spell&apos;s effect, as follows:
+
+The Sorceror&apos;s position at the moment of the melee determines whether the bonus is bestowed or not. Therefore, the Sorceror can move to affect new units. And of course, this bonus also benefits the Sorceror themselves. </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">this distance is *M*. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">this distance is *L*. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">this distance is *L*. The targeted units also get 2 bonus defence dice. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="14cc-7f13-ecab-04d4" name="Domain of Time" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="46bf-d63c-fa48-13e7" name="1. Decay" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d40a-ae38-a20d-45fc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8af4-f540-3b75-7c6b" name="Decay" publicationId="ac45-6f39-de7c-3e52" page="98" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spells affects up to three units. Each of these units must be within *L* and line of sight of the Sorceror.
+For each of these targets, roll a die and apply the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">if the die roll is higher than the target&apos;s melee Armour, the target suffers a fatigue. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">if the die roll is higher than the target&apos;s Armour against shooting, it suffers a casualty. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">if the die roll is equal to or higher than the lower of the target&apos;s melee and shooting Armour values, the unit suffers a casualty and a fatigue. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="bf8a-4641-4d74-4a63" name="2. Slowed Time" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c443-a097-6182-9cc2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="8a24-6120-c51f-5417" name="Slowed Time" publicationId="ac45-6f39-de7c-3e52" page="98" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell targets a friendly unit within *S* of the Sorceror. This unit must be equipped with ranged weapons. The effect is variable, but facilitates a shooting activation, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the unit ignores the first fatigue that it suffers after a shooting activation this turn. In other words, this generally lets a unit activate to shoot twice in a row, without generating fatigue from the second activation. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the unit is immediately activated for a shooting attack, and this shooting attack does not generate fatigue. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the unit is immediately activated for a shooting attack, and this shooting attack does not generate fatigue. Also, all their attack dice get a + 1 bonus during this shooting attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="99cd-bd0f-bbfb-e930" name="3. Aging" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f34-bf62-ed21-b0c1" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2e68-82de-5570-72d9" name="Aging" publicationId="ac45-6f39-de7c-3e52" page="98" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell has no immediate effect, but affects a chosen unit within *L* and line of sight of the Sorceror in the following turn. Over the following turn, the chosen unit suffers a penalty according to the follow spell effects: </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the chosen unit suffers a fatigue after each melee it participates in. This fatigue is on top of the usual one suffered after a melee. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the chosen unit suffers a fatigue after each of its movement and charge activations. In the latter case, the fatigue is taken before the melee is resolved. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the chosen unit suffers a fatigue after each each of its activations, and an additional fatigue at the end of their turn. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="68aa-3018-dbec-7c51" name="4. Erosion" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8310-b7b1-46f9-546f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0ac3-98c3-e6c3-ecee" name="Erosion" publicationId="ac45-6f39-de7c-3e52" page="98" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell affects an area of terrain. This terrain piece must be small and uneven, and the Sorceror must have line of sight to some part of the terrain piece. Once the spell has been cast, the terrain piece counts as low and open terrain. Therefore, it has no more effect on movement, gives no cover, and does not block line of sight. The length of the spell depends on the effect obtained:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the spell lasts until the start of your next turn.</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the spell lasts until the end of your turn.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the spell last until the end of the game.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6b00-78c7-d729-9f78" name="5. Precognition" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e91-5123-6cc7-1713" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="6e01-5da4-c347-6eb8" name="Precognition" publicationId="ac45-6f39-de7c-3e52" page="98" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">Precognition gives a benefit to a friendly unit (which can be the Sorceror) during their next melee of the turn. This unit must be within *S* of your Sorceror, but not necessarily within line of sight. The bonus granted depends on the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580"> the unit can re-roll any of their defence dice which score 1 s or 2s after modifiers.</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the unit can re-roll any of their defence dice.</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the unit increases its Armour by +1 during this melee, and can re-roll all their defence dice. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ad0a-5a1b-a978-3e22" name="6. Rush" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5187-8320-67bf-fba2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="0c58-f210-51cb-52d5" name="Rush" publicationId="ac45-6f39-de7c-3e52" page="98" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell targets a friendly unit within *S* of the Sorceror. lt facilitates the next movement or charge activation of the turn, though how depends on the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the unit&apos;s next movement or charge activation of the turn is free. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the unit&apos;s next movement or charge activation of the turn is free. The activation is also ignored when calculating fatigue inflicted by subsequent activations. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the unit&apos;s next movement or charge activation of the turn is free. After resolving said activation, activate the unit to move or charge a second time. This second activation is free and generates no fatigue. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="a599-7ddd-5b1b-b5e4" name="Domain of Death" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="2988-2c6d-413f-365d" name="1. Drain Life" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eb8-4a78-74f3-656d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b8e1-7d37-0683-b613" name="Drain Life" publicationId="ac45-6f39-de7c-3e52" page="99" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell targets a unit within *L* and line of sight of the Sorceror. Note that you can just as easily target a friendly unit, though this is often a last recourse! Life Drain&apos;s effect is as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">roll a die. On a result of 1 to 3, nothing happens. On a result of 4 or more, you inflict a fatigue on the targeted unit and can remove a fatigue from your Sorceror. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">roll a die. On a result of 1 or 2, nothing happens. On a result of 3 or more, you inflict a fatigue on the targeted unit and can remove a fatigue from your Sorceror. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the targeted unit suffers a casualty and a fatigue, and your Sorceror removes all their fatigues. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ba32-10e9-28af-507d" name="2. Shadows" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f82-9cdc-b1a9-f904" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="2698-f7f9-9205-38ac" name="Shadows" publicationId="ac45-6f39-de7c-3e52" page="98" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell affects all friendly units within *S* of your Sorceror, including the Sorceror. These benefits last until the start of your next turn and depend on the spell&apos;s effect, as follows: 
+
+Note that the Sorceror casts the spell on themselves and happens to benefit friendly units within *S* as well. So if the Sorceror moves voluntarily or otherwise - friendly units can move out of or into the area of effect.</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the affected units count as being in light cover when they are the target of a shooting attack. Only units which can benefit from cover are affected.</characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the affected units count as being in light cover when they are the target of a shooting attack. This applies even if they cannot usually benefit from cover, like units that are Imposing or mounted on animals. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the affected units cannot be targeted by shooting attacks. A line of sight can still be drawn to them however, so a Sorceror can target them with a spell. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6909-c3a5-dfe8-45d0" name="3. Ritual" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae40-54be-8f84-c2eb" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="a461-ff76-a36f-9c8f" name="Ritual" publicationId="ac45-6f39-de7c-3e52" page="99" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell facilitates the selected Sorceror&apos;s next incantation. The bonus depends on the spell&apos;s effect, as follows:</characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">you can re-roll up to 2 Magic dice of your choice when casting your next spell. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">before rolling the Magic dice, the Sorceror can take a fatigue. If they do, they can choose one Magic dice and turn it to show the desired face instead of rolling it</characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the next spell is cast without needing to roll Magic dice, and you can choose the spell&apos;s effect: minimum, optimum, or maximum. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ee11-3976-cdad-87ec" name="4. Erruptions" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9307-51c4-8fce-9db9" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f703-c646-b34e-9b81" name="Erruptions" publicationId="ac45-6f39-de7c-3e52" page="98" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell gives the Flight special rule to a friendly unit within *VS* of the Sorceror. This unit must generate a Saga die at the moment the spell is cast, which generally excludes the Sorceror themselves. The duration of this bonus depends on the spell&apos;s effect, as follows: 
+
+While the unit benefits from the Flight special rule, all the rules of Flight apply to it. Most importantly, their Armour is reduced against shooting attacks, so bear that in mind before gifting a unit with Flight for the rest of the game. And before you ask, if you grow wings for Hearthguards mounted on animals, their Armour against shooting will indeed be reduced by-2: -1 for being mounted on animals and -1 for Flight! </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580"> the chosen unit gets Flight for its next movement activation of the turn. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the chosen unit gets Flight until the end of the turn. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">he chosen unit gets Flight until the end of the game. It is useful to indicate this with an appropriate marker. We like the idea of a base of bats near the unit, unless you prefer to add wings to all the figures in the unit benefiting from this spell! </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0e50-56ef-e5ef-9c53" name="5. Bane" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1506-a5aa-b638-d2ca" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="268f-736c-94b0-86ce" name="Bane" publicationId="ac45-6f39-de7c-3e52" page="99" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">This spell penalises an enemy unit, which must be within *L* and line of sight of the Sorceror. The penalty lasts until the start of your next turn, and depends on the spell&apos;s effect, as follows: </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580"> the unit must re-roll all 6s (after modifiers) scored on its attack dice. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the unit suffers a -1 penalty to all their attack dice. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4">the unit suffers a -1 penalty to all their attack dice. They also count as being Primitive during melees, which means they cannot trigger advanced Saga abilities, and reduce their Aggression by 1 for each fatigue they have. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5a45-cd9a-bd7e-7259" name="6. Nightmares" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2821-e656-858a-875b" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b9f4-f5b4-dcc8-3696" name="Nightmares" publicationId="ac45-6f39-de7c-3e52" page="99" hidden="false" typeId="4eec-0a6b-2421-4af7" typeName="Spell">
+              <characteristics>
+                <characteristic name="Description" typeId="a8dd-a5be-631f-35c6">The spell targets an enemy unit at any range within the Sorceror&apos;s line of sight. Its effects last until the start of your next turn, and are triggered before each of the unit&apos;s activations. The spell&apos;s effects are below: </characteristic>
+                <characteristic name="Minimum" typeId="2d41-9348-7b83-6580">the unit rolls a die before each of its activations, and suffers a fatigue on a result of 4 or more. </characteristic>
+                <characteristic name="Optimum" typeId="484d-537f-d15d-5a21">the unit rolls a die before each of its activations, and suffers a fatigue on a result of 3 or more. </characteristic>
+                <characteristic name="Maximum" typeId="f09e-ba73-12de-4ba4"> the unit rolls a die before each of its activations, and suffers a fatigue on a result of 2 or more. On a 6, the unit also suffers enough fatigue to become exhausted and their activation is cancelled. </characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules>
+    <rule id="80ae-8f78-539a-7a9c" name="Slow" publicationId="ac45-6f39-de7c-3e52" page="13" hidden="false">
+      <description>The move and charge distances are *S* instead of *M*.</description>
+    </rule>
+    <rule id="69ff-42e7-d0af-6091" name="Cumbersome" publicationId="ac45-6f39-de7c-3e52" page="14" hidden="false">
+      <description>A Static War Machine is difficult to move. During a movement activation, its movement distance is always *VS* and can never be increased by any means.</description>
+    </rule>
+    <rule id="48ed-e7c8-aec5-bd83" name="Powerful Shot" publicationId="ac45-6f39-de7c-3e52" page="14" hidden="false">
+      <description>A Static War Machine gets a +1 bonus to its attack dice.
+A Static War Machine&apos;s shooting attac;ks have an unlimited range. If the target of its shooting attack is at a range of *L or less, it has a shooting Aggression of 4. Otherwise it has a shooting Aggression of 2.
+The War Machine can only be activated to shoot once per turn. </description>
+    </rule>
+    <rule id="39aa-af7c-f56c-ce44" name="Imposing" publicationId="ac45-6f39-de7c-3e52" page="16" hidden="false">
+      <description>Some units are much larger in size than humans, sometimes rivalling the bulk of animals like elephants. Units with this special rule can never benefit from cover and cannot close ranks. However, the exhaustion threshold of an Imposing unit is increased by one. On the whole, that means that these units will become exhausted after suffering 4 fatigues, instead of 3 like other troops. The formation radius for Imposing units is M rather than S. That means that the figures must finish their initial deployment, movements and charges with in M of the first figure to be deployed or moved, rather than S like most other units. </description>
+    </rule>
+    <rule id="70cc-1ae9-da4d-f5d4" name="Primitive" publicationId="ac45-6f39-de7c-3e52" page="17" hidden="false">
+      <description>Primitive units are driven only by their bestial instincts, and are not generally blessed with a developed intellect. They are not capable of executing elaborate tactics, and are rarely willing to follow complex orders. But they display a terrible ferocity during the battle!
+These units are subject to the following rules.
+- Primitive units cannot be activated by any advanced Saga abilities on your Battle Board.
+- You cannot trigger any advanced Saga abilities during a melee or shooting attack in which a Primitive unit from your warband is either the attacker or the defender.
+- Primitive units reduce their melee Aggression by 1 for each fatigue they have. If the unit has several figures, it is the total Aggression that is reduced by 1, not that of each figure in the unit.</description>
+    </rule>
+    <rule id="5545-7947-6594-801b" name="Swift" publicationId="ac45-6f39-de7c-3e52" page="17" hidden="false">
+      <description>Swift units have a movement and charge distance of *L*. During a move, they can replace their *L* ruler with two *M* rulers.
+Swift units are considered mounted units. </description>
+    </rule>
+    <rule id="5694-583a-63cd-b08e" name="Breath" publicationId="ac45-6f39-de7c-3e52" page="17" hidden="false">
+      <description>A unit with Breath can breathe a powerful jet of flames, acid or other toxic matter. This attack can also represent attacks while flying over the enemy.
+Once per turn, this unit can activate for free to resolve a shooting attack with a range of *M* which does not generate fatigue. Note that this is the only way for a unit with Breath to make a shooting attack - it cannot activate normally to resolve a shooting attack. </description>
+    </rule>
+    <rule id="4d9a-b007-204b-6e8c" name="Flight" publicationId="ac45-6f39-de7c-3e52" page="17" hidden="false">
+      <description>Certain units can fly, whether thanks to wings, magic or technology.
+These units are subject to the following special rules:
+- If the unit&apos;s movement begins and ends in open terrain, their movement and charge movement is *L*. During move activations, they can replace this *L* ruler with two *M* rulers and can totally ignore friendly and enemy units during their movement, as well as terrain elements. They fly over these units and areas of terrain without difficulty.
+- During a charge, they can totally ignore&apos;friehdly units and terrain elements. They can also fly over enemy units, but for each enemy unit overflown (that is, when a flying figure passes over the base of at least one figure from said unit) during a charge, the flying unit suffers one fatigue at the end of the charge - before the melee is resolved. This is in addition to any fatigues they would normally receive.
+- During a manoeuvre, if the opponent doesn&apos;t use their fatigue to reduce their movement distance, units with Flight can move to a higher altitude rather than making their usual  manoeuvre move. This consists of removing the unit from the table, then replacing it anywhere in open terrain. As is usual for manoeuvres, it must be more than *L* away from any enemy units. If the opponent uses the unit&apos;s fatigue, it instead makes the usual move of *S*.
+- Flying units reduce their Armour by 1 against shooting attacks.
+- Neither terrain nor units block line of sight to units with this special rule. It is therefore not possible to hide flyers behind other units or a terrain element - even if it is high, like a hill or a wood. However the opposite is not true: a flying unit&apos;s own line of sight is blocked by high terrain areas and both friendly and enemy units.
+- Flying units can never close ranks or benefit from cover. </description>
+    </rule>
+  </sharedRules>
+  <sharedProfiles>
+    <profile id="74bb-993d-c74e-2a8b" name="Sorceror" publicationId="ac45-6f39-de7c-3e52" page="10" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+      <characteristics>
+        <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">0</characteristic>
+        <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (4)</characteristic>
+        <characteristic name="Agression" typeId="6680-c929-0405-8a4f">2 (0)</characteristic>
+        <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determination, Magic, Presence, Resilience (1), Unarmed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e739-1d0f-05b6-01a1" name="Lieutenant" publicationId="ac45-6f39-de7c-3e52" page="10" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+      <characteristics>
+        <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">0</characteristic>
+        <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+        <characteristic name="Agression" typeId="6680-c929-0405-8a4f">4 (2)</characteristic>
+        <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Determination, Presence, Resilience (1),</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="28bb-97ea-be07-8abc" name="Biped" publicationId="ac45-6f39-de7c-3e52" page="11" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+      <characteristics>
+        <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+        <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+        <characteristic name="Agression" typeId="6680-c929-0405-8a4f">5 (1)</characteristic>
+        <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Imposing, Presence, Resilience (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="7c14-0cd1-9e3a-6a77" name="Quadruped" publicationId="ac45-6f39-de7c-3e52" page="12" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+      <characteristics>
+        <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+        <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (3)</characteristic>
+        <characteristic name="Agression" typeId="6680-c929-0405-8a4f">5 (1)</characteristic>
+        <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Imposing, Presence, Resilience (1), Swift</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2475-b027-b073-b16e" name="Flyer" publicationId="ac45-6f39-de7c-3e52" page="12" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+      <characteristics>
+        <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+        <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (3)</characteristic>
+        <characteristic name="Agression" typeId="6680-c929-0405-8a4f">4 (1)</characteristic>
+        <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Flight, Imposing, Presence, Resilience (1)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="16e1-7ed8-4c86-6625" name="Behemoth" publicationId="ac45-6f39-de7c-3e52" page="13" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+      <characteristics>
+        <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+        <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+        <characteristic name="Agression" typeId="6680-c929-0405-8a4f">14 (0)</characteristic>
+        <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Imposing, Presence, Primitive, Resilience (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="b951-ba12-6e29-2fac" name="Titan" publicationId="ac45-6f39-de7c-3e52" page="13" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+      <characteristics>
+        <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+        <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+        <characteristic name="Agression" typeId="6680-c929-0405-8a4f">12 (0)</characteristic>
+        <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Imposing, Presence, Primitive, Resilience (2), Slow</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8daf-08c3-ad5e-905d" name="Scourge" publicationId="ac45-6f39-de7c-3e52" page="14" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+      <characteristics>
+        <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+        <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+        <characteristic name="Agression" typeId="6680-c929-0405-8a4f">10 (4)</characteristic>
+        <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Breath, Flight, Imposing, Presence, Primitive, Resilience (2)</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8c13-367b-7e99-dfc0" name="Static War Machine" publicationId="ac45-6f39-de7c-3e52" page="14" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+      <characteristics>
+        <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">0</characteristic>
+        <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (4)</characteristic>
+        <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (4 or 2)</characteristic>
+        <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Cumbersome, Powerful Shot, Presence, Resilience (1), Unarmed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4c13-d723-52f3-55ed" name="Mobile War Machine" publicationId="ac45-6f39-de7c-3e52" page="15" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+      <characteristics>
+        <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">0</characteristic>
+        <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+        <characteristic name="Agression" typeId="6680-c929-0405-8a4f">2 (4)</characteristic>
+        <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Firearms, Presence, Resilience (1), Unarmed</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="9bd6-7541-458a-9e7e" name="Flying War Machine" publicationId="ac45-6f39-de7c-3e52" page="15" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+      <characteristics>
+        <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">0</characteristic>
+        <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+        <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (4)</characteristic>
+        <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Breath, Flight, Presence, Resilience (1), Unarmed</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="a476-126d-279a-1f2a" name="Firearms" hidden="false">
+      <rules>
+        <rule id="eae1-7cfe-ad4b-c0bb" name="Firearms" publicationId="ac45-6f39-de7c-3e52" page="16" hidden="false">
+          <description>Black powder exists in many fantasy worlds. In others, enchantments allow weapons to produce devastating, often uncontrollable ranged attacks. The following rules allow you to integrate these unstable but very powerful weapons into the Age of Magic.
+Firearms are ranged weapons with a range of *L*. A unit equipped with firearms reduces its Armour by -1 against both melee and shooting attacks. It can never close ranks during a melee.
+A unit with firearms gets a +1 bonus to its attack dice when resolving a shooting attack if the target is within *M* of the shooting unit. In addition, if the target is within *M* and the shooting attack inflicts at least one casualty, the target unit suffers a fatigue after the shooting attack
+is resolved. This represents the chaos caused by the explosions, smoke and smell of gunpowder!
+Note: Casualties cancelled by the Resilience special rule are not taken into account when applying that last rule.
+A unit equipped with firearms can never resolve two consecutive shooting activations during the same turn. It must resolve another type of activation (so a cancelled activation doesn&apos;t count!) before being able to activate to shoot again.
+Only foot figures can be equipped with firearms. Mounted figures cannot use this equipment. </description>
+        </rule>
+      </rules>
+    </infoGroup>
+    <infoGroup id="39b6-0313-1dca-9182" name="Mount: Animal" hidden="false">
+      <rules>
+        <rule id="4dbc-2a77-b506-399f" name="Mount: Animal" publicationId="ac45-6f39-de7c-3e52" page="16" hidden="false">
+          <description>Due to the almost limitless variety of mounts in the fantasy universe, units will generally have access to this option, which covers all swift and domesticated mounts, no bigger than horses, and not aggressive enough to add to their rider&apos;s striking power: wolves, giant spiders (the ones smaller than horses) or goats.
+Units with this special rule are subject to all the rules described in the Mounts: Horses section of the Saga rulebook (see Rulebook, Mounts: Horses, p. 39). </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="53db-b339-cf7c-7613" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="89b3-99bc-05ad-7519" name="Mount: Beast" hidden="false">
+      <rules>
+        <rule id="b31e-1bff-df20-19a5" name="Mount: Beast" publicationId="ac45-6f39-de7c-3e52" page="16" hidden="false">
+          <description>Certain Heroes, primarily Warlords, can be mounted on a beast. Beasts are imposing and aggressive mounts that only a Warlord could ride, like giant wolves, sabretooth tigers, or pegasi.
+A Warlord can ride a beast at no additional cost. If that is the case, they become subject to the following rules:
+- A Warlord mounted on a beast has a charge distance of *L* if the charge movement is made entirely in open terrain. Their move distance remains *M*.
+- Their melee Aggression is increased by 2 to a total of 10. 
+- They count as a mounted unit.
+- They have Resilience (2) instead of Resilience (1).
+- They gain the Imposing special rule.
+- They cannot have any other equipment options.
+- They lose the We Obey and Bodyguards special rules.
+Certain beasts can have the Flight special rule. In this case, the Flight movement rules replace the first part of the rules above. The rest of the rules apply normally - for example, the Warlord reduces their Armour due to Flight.
+The base of a Warlord mounted on a beast must fit within a 80mm by SOmm rectangle, and cannot be smaller than a 40mm diameter circle. </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1525-98e4-c249-b80e" name="Imposing" hidden="false" targetId="39aa-af7c-f56c-ce44" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="7b57-92e8-c726-d017" name="Sorceror" hidden="false">
+      <infoLinks>
+        <infoLink id="c624-7ad8-3acc-b3c9" name="Bodyguards" hidden="false" targetId="0ec9-efe5-7da3-39f1" type="rule"/>
+        <infoLink id="6dc0-8b39-1a34-b5f6" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="4c0f-c16f-f087-1be6" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="6f72-3e51-715b-e69d" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a684-458b-d80e-3cbe" name="Unarmed" hidden="false" targetId="f23c-6307-7fd1-1aee" type="infoGroup"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="1c61-2dc5-b486-fe28" name="Lieutenant" hidden="false">
+      <infoLinks>
+        <infoLink id="b424-d271-f5f7-f767" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="5821-6044-9fd7-e0d4" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="86c2-f792-1f0d-74e3" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="ff11-6a4e-4f92-960f" name="Biped" hidden="false">
+      <infoLinks>
+        <infoLink id="0b39-f954-99ee-4d05" name="Imposing" hidden="false" targetId="39aa-af7c-f56c-ce44" type="rule"/>
+        <infoLink id="929d-604f-498f-3bd0" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="bda2-5871-3eff-9688" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="3ea0-8f69-2a18-4482" name="Quadruped" hidden="false">
+      <infoLinks>
+        <infoLink id="ea00-e889-99b3-ecc9" name="Imposing" hidden="false" targetId="39aa-af7c-f56c-ce44" type="rule"/>
+        <infoLink id="e610-fba6-cb01-3c82" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="4c46-c68a-f2b3-ac5c" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7f58-ee6b-48c0-b421" name="Swift" hidden="false" targetId="5545-7947-6594-801b" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="d68d-61b6-9d14-e02e" name="Flyer" hidden="false">
+      <infoLinks>
+        <infoLink id="88fa-f921-ff50-258b" name="Imposing" hidden="false" targetId="39aa-af7c-f56c-ce44" type="rule"/>
+        <infoLink id="79bf-ed42-85cd-8251" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="9fc5-1ca9-7ae7-0599" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="87fe-cad9-3cd8-f158" name="Flight" hidden="false" targetId="4d9a-b007-204b-6e8c" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="e7bd-8973-049c-48da" name="Behemoth" hidden="false">
+      <infoLinks>
+        <infoLink id="3b89-c85c-ede7-a13d" name="Imposing" hidden="false" targetId="39aa-af7c-f56c-ce44" type="rule"/>
+        <infoLink id="399b-f4de-4266-2364" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="0ad3-bc23-4502-8c94" name="Primitive" hidden="false" targetId="70cc-1ae9-da4d-f5d4" type="rule"/>
+        <infoLink id="75eb-bf2a-894d-8b7a" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="0f58-149c-1c7e-619e" name="Titan" hidden="false">
+      <infoLinks>
+        <infoLink id="86af-50b7-32d7-1485" name="Imposing" hidden="false" targetId="39aa-af7c-f56c-ce44" type="rule"/>
+        <infoLink id="6b13-c9ee-254f-3fdd" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="2d99-7830-8468-9f6c" name="Primitive" hidden="false" targetId="70cc-1ae9-da4d-f5d4" type="rule"/>
+        <infoLink id="e0cf-9577-4000-7c37" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0790-3f43-636b-a7f7" name="Slow" hidden="false" targetId="80ae-8f78-539a-7a9c" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="7a19-1b00-f6df-358f" name="Scourge" hidden="false">
+      <infoLinks>
+        <infoLink id="607f-0ba4-26b7-3c10" name="Imposing" hidden="false" targetId="39aa-af7c-f56c-ce44" type="rule"/>
+        <infoLink id="bdf7-6410-c70d-772b" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="ea4a-a4fa-0bc1-3991" name="Primitive" hidden="false" targetId="70cc-1ae9-da4d-f5d4" type="rule"/>
+        <infoLink id="2729-f144-4854-fc34" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="d830-79c3-cda2-6bbd" name="Breath" hidden="false" targetId="5694-583a-63cd-b08e" type="rule"/>
+        <infoLink id="e08b-fbbc-7685-4220" name="Flight" hidden="false" targetId="4d9a-b007-204b-6e8c" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="f5e2-4c3e-d42b-ea24" name="Static" hidden="false">
+      <infoLinks>
+        <infoLink id="ea47-4f80-7e9d-3e21" name="Cumbersome" hidden="false" targetId="69ff-42e7-d0af-6091" type="rule"/>
+        <infoLink id="cfdd-80c4-5ef4-a9ec" name="Powerful Shot" hidden="false" targetId="48ed-e7c8-aec5-bd83" type="rule"/>
+        <infoLink id="71df-e0cc-cf88-7afa" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="584b-ee47-063f-cc73" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3c8a-fefe-7783-7647" name="Unarmed" hidden="false" targetId="f23c-6307-7fd1-1aee" type="infoGroup"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="fe50-8526-0a97-c3af" name="Mobile" hidden="false">
+      <infoLinks>
+        <infoLink id="cbbc-f444-b6a4-332e" name="Firearms" hidden="false" targetId="a476-126d-279a-1f2a" type="infoGroup"/>
+        <infoLink id="ae80-7e98-6c19-cd5a" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="6311-a6e7-3f95-d37c" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4fe4-4156-5853-f35d" name="Unarmed" hidden="false" targetId="f23c-6307-7fd1-1aee" type="infoGroup"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="9e48-1488-8119-f3b4" name="Flying" hidden="false">
+      <infoLinks>
+        <infoLink id="e9e9-810a-9a43-ced3" name="Breath" hidden="false" targetId="5694-583a-63cd-b08e" type="rule"/>
+        <infoLink id="3a80-5c08-204f-d714" name="Flight" hidden="false" targetId="4d9a-b007-204b-6e8c" type="rule"/>
+        <infoLink id="8132-fdc5-8c80-ea25" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="df1c-ca2c-10c5-3a8c" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="df3d-386f-a6c1-aba8" name="Unarmed" hidden="false" targetId="f23c-6307-7fd1-1aee" type="infoGroup"/>
+      </infoLinks>
+    </infoGroup>
+  </sharedInfoGroups>
+</catalogue>

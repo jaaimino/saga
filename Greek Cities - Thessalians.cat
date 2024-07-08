@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="e2ef-7898-3657-e692" name="Greek Cities - Thessalians" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="129c-25ed-0da9-582c" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="323d-90a5-6d39-49d9" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5128-2ded-a342-30e2" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="be0c-777a-d86c-b7c2" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="1e4c-3ec5-ce09-d0c3" name="Thessalian Cavalry" hidden="false" targetId="0883-b240-8df5-d45e" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="fd20-dc57-d3f0-f12a" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b1e-e288-5545-311a" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="0070-5ae9-2817-2b93" name="Warriors" hidden="false" collective="false" import="true" targetId="1897-8e1b-ec24-4c58" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="cefd-508f-e56e-115a" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="df4e-df1f-1237-e3f2">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0273-4563-b40b-3496" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1978-697d-e939-a5b9" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="df4e-df1f-1237-e3f2" name="Phalanx" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc22-d201-afea-048c" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4e61-b809-fae9-54a9" name="Phalanx" hidden="false" targetId="dc9f-b2af-22d6-44ef" type="infoGroup"/>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5a56-fa1c-a33b-f2ae" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+              <infoLinks>
+                <infoLink id="86ec-d750-c602-5d14" name="Thessalian Cavalry" hidden="false" targetId="0883-b240-8df5-d45e" type="rule"/>
+              </infoLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="f74c-1ee9-e96d-d2ef" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="2ac2-f993-f3d9-470a" name="Javelins" hidden="false" collective="false" import="true" targetId="6ec3-de4b-9966-8ca0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="267b-fa34-7e9e-7f67" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="a233-fc19-3599-7bbb" name="Agrianian Javelinmen" hidden="false" collective="false" import="true" targetId="4688-6a6a-df50-b86f" type="selectionEntry"/>
+    <entryLink id="1048-fd12-08bc-6363" name="Cretan Archers" hidden="false" collective="false" import="true" targetId="88d2-56a3-0275-34a5" type="selectionEntry"/>
+    <entryLink id="3f44-adc9-e334-fee8" name="Greek Cities Ruses" hidden="false" collective="false" import="true" targetId="b735-e672-42d7-9485" type="selectionEntry"/>
+    <entryLink id="7f39-9cf0-9dd6-7064" name="Illyrians" hidden="false" collective="false" import="true" targetId="ef51-16ba-076d-f287" type="selectionEntry"/>
+    <entryLink id="0c35-d911-9751-59c0" name="Psiloi" hidden="false" collective="false" import="true" targetId="3890-2633-c38b-80f3" type="selectionEntry"/>
+    <entryLink id="68fa-8d42-05ec-9d49" name="Rhodian Slingers" hidden="false" collective="false" import="true" targetId="40aa-f1b9-4eaf-9d65" type="selectionEntry"/>
+    <entryLink id="fe86-4cfc-dac0-2db0" name="Tarentine Cavalry" hidden="false" collective="false" import="true" targetId="bc96-92c3-d82d-6df7" type="selectionEntry"/>
+    <entryLink id="ed96-86c2-37d7-138b" name="Thessalian Cavalry" hidden="false" collective="false" import="true" targetId="fff9-b7b8-470d-0829" type="selectionEntry"/>
+    <entryLink id="7be3-6b08-b731-98c2" name="Thorakitai" hidden="false" collective="false" import="true" targetId="e4fd-19ea-cc8a-ef25" type="selectionEntry"/>
+    <entryLink id="df69-b069-6331-f3dc" name="Thracian Mercenaries" hidden="false" collective="false" import="true" targetId="a123-1ade-77bb-b780" type="selectionEntry"/>
+    <entryLink id="9ab5-267f-7f32-6e68" name="Thureophoroi" hidden="false" collective="false" import="true" targetId="bf1a-58b4-ebf9-b380" type="selectionEntry"/>
+  </entryLinks>
+  <sharedRules>
+    <rule id="0883-b240-8df5-d45e" name="Thessalian Cavalry" publicationId="03cf-6e37-8804-8b98" page="24" hidden="false">
+      <description>When your Thessalian warband totals a Line of Battle, you can count your units with the Mount (Horse) special rule as well as your infantry. Mounted units in a Line of Battle can be seperated by up to *S* instead of *VS*.
+Keep in mind that a unit of infantry and a mounted unit can&apos;t be seperated by more than *VS* if they are both to count as part of the same Line of Battle.
+As long as they are generating a Saga die, units with Thessalian Cavalry count as *Phalanxes* in relation to Saga abilities on the Greek Cities battle board.</description>
+    </rule>
+  </sharedRules>
+  <catalogueLinks>
+    <catalogueLink id="2020-8d1e-6410-cffd" name="Age of Ancients" targetId="952b-66d2-440b-5912" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

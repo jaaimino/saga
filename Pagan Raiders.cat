@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a4ea-639b-57bf-4776" name="Pagan Raiders" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="35ec-01bd-440e-e102" name="Warlord" hidden="false" collective="false" import="true" targetId="0be0-86c6-b804-06ea" type="selectionEntry"/>
+    <entryLink id="03b2-9bfb-bc4c-9e50" name="Hearthguards" hidden="false" collective="false" import="true" targetId="2edd-6158-0f42-85e1" type="selectionEntry"/>
+    <entryLink id="6729-c16a-7649-312a" name="Warriors" hidden="false" collective="false" import="true" targetId="b0bb-2239-a8b8-1ec2" type="selectionEntry"/>
+    <entryLink id="32c8-834e-e70b-b14b" name="Sailors" hidden="false" collective="false" import="true" targetId="f1ed-ce00-41a6-d72b" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="c178-fba6-22ed-3490" value="-1.0"/>
+      </modifiers>
+      <rules>
+        <rule id="0d61-5e28-04e3-b4c0" name="Loyal" publicationId="f5d0-f240-53ee-4975" page="71" hidden="false">
+          <description>The sailors may use the advanced Saga abilities on their warband&apos;s Battle Board. They are considered a standard member of the warband in all respects.</description>
+        </rule>
+      </rules>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="0be0-86c6-b804-06ea" name="Warlord" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="986c-95d5-f4a9-89b1" name="Warlord" publicationId="f5d0-f240-53ee-4975" page="64" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Warlord</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6b47-90cf-804b-c0c3" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+        <infoLink id="f3ec-ed3c-93e2-2c54" name="Heavy Weapons" hidden="false" targetId="3c91-bb2c-a704-497e" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="15a7-7d76-3a5b-261b" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="e2d8-665c-6cd1-7ef8" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="93d9-8cab-5c80-ab3b" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7ac7-fd0a-0b1b-5bbe" name="Equipment Options" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="fbd3-7f52-f042-d564" name="War Banner" hidden="false" collective="false" import="true" targetId="c073-e881-4a2f-46b3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2edd-6158-0f42-85e1" name="Hearthguards" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="df5e-edbb-1e89-876a" name="Hearthguards" publicationId="f5d0-f240-53ee-4975" page="64" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">2</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fa8e-343f-38bb-98dd" name="Heavy Weapons" hidden="false" targetId="3c91-bb2c-a704-497e" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4e90-867b-59a0-c74a" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+        <categoryLink id="8315-e783-293b-12a0" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2646-dcb9-fc46-fa2c" name="Equipment Options" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8912-0546-178d-139e" name="War Banner" hidden="false" collective="false" import="true" targetId="c073-e881-4a2f-46b3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5993-9871-f0bc-bede" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="d8d2-39ac-bb3e-a5fb" name="Hearthguard" hidden="false" collective="false" import="true" targetId="124e-28c6-d2bb-6048" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f45a-1b29-c8d8-4d1e" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffec-ba1e-b905-dfbb" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="eba7-1bfd-a2b1-688e" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b0bb-2239-a8b8-1ec2" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8684-cd2f-9037-63d0" name="Warriors" publicationId="f5d0-f240-53ee-4975" page="64" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d9be-5468-0ab6-aa73" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="fe85-49a8-8f97-f8cf" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+        <categoryLink id="4236-ebd8-e806-ff81" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8f7f-fdf8-6379-08da" name="Equipment Options" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5b10-b7c8-230c-e909" name="War Banner" hidden="false" collective="false" import="true" targetId="c073-e881-4a2f-46b3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="cbfa-b4bf-45ba-211f" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="9dfc-62f4-b891-40d8" name="Warrior" hidden="false" collective="false" import="true" targetId="d558-4bb2-dca5-6e81" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61f1-0e28-89d6-e9d5" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e98a-1e31-1e4b-5f7d" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="83c1-5356-b2f7-1249" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="ef1e-7ecf-6fd1-3aea" name="Age of Crusades" targetId="b6a3-52ab-a0a7-3a56" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="a102-ea68-f68d-91d5" name="Successor Kingdoms - Asia" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="3b82-f98e-e545-30e9" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="0a2f-6c25-4249-330d" name="Bows and Slings" hidden="false" collective="false" import="true" targetId="ea4e-4463-8f31-3306" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec34-7be3-ceb9-e8ec" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4213-8416-df0a-ac97" name="Antiochus III The Great" hidden="false" collective="false" import="true" targetId="4d42-84e0-7f69-7e5f" type="selectionEntry"/>
+    <entryLink id="a455-a670-fcc4-549a" name="Mithridates VI Eupator, Enemy of Rome" hidden="false" collective="false" import="true" targetId="f1cf-5668-6df2-3db2" type="selectionEntry"/>
+    <entryLink id="11ea-7746-b79d-1c2f" name="Cretan Archers" hidden="false" collective="false" import="true" targetId="88d2-56a3-0275-34a5" type="selectionEntry"/>
+    <entryLink id="3952-ebfc-ebfa-3750" name="Cappadocians" hidden="false" collective="false" import="true" targetId="acf4-2308-52e6-1426" type="selectionEntry"/>
+    <entryLink id="1c02-c8e7-53b7-8fd0" name="Scythian and Bactrian Horsemen" hidden="false" collective="false" import="true" targetId="1ee4-4e25-d478-7120" type="selectionEntry"/>
+    <entryLink id="bae3-e7cb-63e4-c8fc" name="Camel Riders" hidden="false" collective="false" import="true" targetId="e5af-ef79-de28-7ea8" type="selectionEntry"/>
+    <entryLink id="9765-7720-3ce9-f379" name="Galatians" hidden="false" collective="false" import="true" targetId="fb5f-719b-f65c-8b84" type="selectionEntry"/>
+    <entryLink id="dff9-f1d2-d5d6-f21b" name="Agrianian Javelinmen" hidden="false" collective="false" import="true" targetId="4688-6a6a-df50-b86f" type="selectionEntry"/>
+    <entryLink id="8bc4-1165-3c29-484c" name="Thracian Mercenaries" hidden="false" collective="false" import="true" targetId="a123-1ade-77bb-b780" type="selectionEntry"/>
+    <entryLink id="4481-e86f-de1f-4fc7" name="Psiloi" hidden="false" collective="false" import="true" targetId="3890-2633-c38b-80f3" type="selectionEntry"/>
+    <entryLink id="340e-757b-8a6d-6898" name="Thorakitai" hidden="false" collective="false" import="true" targetId="e4fd-19ea-cc8a-ef25" type="selectionEntry"/>
+    <entryLink id="42a5-32f6-63ba-7120" name="Thureophoroi" hidden="false" collective="false" import="true" targetId="bf1a-58b4-ebf9-b380" type="selectionEntry"/>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="65ce-9147-bd9a-1b20" name="Successor Kingdoms" targetId="4b3b-8909-9524-9ae8" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

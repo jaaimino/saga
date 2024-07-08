@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f5d6-e112-c370-0383" name="Franks" revision="2" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="3e07-8980-e453-c4a6" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="89c1-e498-7048-8d5d" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="feaf-734c-f6c5-1c4f" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="31ab-b0a7-15cc-6a6a" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="cff0-8fdf-3e4f-842b" name="Warriors" hidden="false" collective="false" import="true" targetId="1897-8e1b-ec24-4c58" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="dd78-eb49-b084-792e" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="c2d7-0f42-fd83-f688" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="c37f-b4b5-b53c-34d5" name="Bows and Slings" hidden="false" collective="false" import="true" targetId="ea4e-4463-8f31-3306" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75ac-4e3d-3bcf-2ca1" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4dff-48ac-2d42-ea7e" name="Clovis I" hidden="false" collective="false" import="true" targetId="974f-be14-36ed-9761" type="selectionEntry"/>
+    <entryLink id="f009-9ed8-a639-473e" name="Foederati" hidden="false" collective="false" import="true" targetId="a58e-c21c-0e8e-9d72" type="selectionEntry"/>
+    <entryLink id="fd9b-567c-0c64-e268" name="Mounted Foederati" hidden="false" collective="false" import="true" targetId="3924-fe7d-58c5-63ea" type="selectionEntry"/>
+    <entryLink id="8e00-9d8f-7e27-c848" name="Sea Wolves" hidden="false" collective="false" import="true" targetId="b2b4-7527-34f8-c3ef" type="selectionEntry"/>
+    <entryLink id="11c5-d91a-931e-31ac" name="Vascones Scouts" hidden="false" collective="false" import="true" targetId="404c-0b79-85bf-7964" type="selectionEntry"/>
+    <entryLink id="0c0d-baed-b495-75ef" name="Deserters" hidden="false" collective="false" import="true" targetId="0129-0bb5-eae7-cd83" type="selectionEntry"/>
+    <entryLink id="984b-06c2-dacc-b2a3" name="Childeric" hidden="false" collective="false" import="true" targetId="1b60-a935-0938-e5c1" type="selectionEntry"/>
+    <entryLink id="136d-58ee-5f20-cd1d" name="Personal Champion" hidden="false" collective="false" import="true" targetId="2269-2d28-6fd4-d304" type="selectionEntry"/>
+    <entryLink id="73db-9f93-804f-06ba" name="Seer" hidden="false" collective="false" import="true" targetId="8af1-397d-bb2b-2780" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="0e9c-dd35-7697-cb45" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="974f-be14-36ed-9761" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43bc-2f72-1e64-e292" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0e9c-dd35-7697-cb45" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="88fc-77fd-c2a0-2a38" name="Bishop" hidden="false" collective="false" import="true" targetId="43bc-2f72-1e64-e292" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="bcd6-7ed7-5af7-b9d7" value="1.0">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="974f-be14-36ed-9761" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8af1-397d-bb2b-2780" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bcd6-7ed7-5af7-b9d7" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="7b92-12a2-eba7-2712" name="Nomadic Horsemen" hidden="false" collective="false" import="true" targetId="e0f4-0936-d541-011c" type="selectionEntry"/>
+    <entryLink id="769f-16cc-f90f-72d6" name="Guides" hidden="false" collective="false" import="true" targetId="a8fd-3d8a-a503-5d8e" type="selectionEntry"/>
+    <entryLink id="3120-2273-ed71-2b28" name="Molossians" hidden="false" collective="false" import="true" targetId="41de-03e9-2414-b80e" type="selectionEntry"/>
+  </entryLinks>
+  <rules>
+    <rule id="1319-b6d7-8f3e-ee04" name="Fransiscas" publicationId="90fb-5671-0e32-356b" page="53" hidden="false">
+      <description>Some of your units are equipped with *fransicas*. This keyword brings them no immediate bonus, but does give them access to abilities on the Frankish board.
+
+In regards to the Frankish board&apos;s Saga abilities, the following units count as being equipped with *franciscas*:
+- Heros
+- Hearthguards
+- Units of Warriors with at least 6 figures at the moment the ability is triggered.
+
+Mercenary units can never count as being equipped with *franciscas*.</description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry id="974f-be14-36ed-9761" name="Clovis I" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7fff-b3e2-936a-c851" name="Clovis I" publicationId="90fb-5671-0e32-356b" page="55" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determination, Presence, Pride, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6e7c-06ae-8b83-4f45" name="The Miracle" publicationId="90fb-5671-0e32-356b" page="55" hidden="false">
+          <description>Clovis warband MUST include a priest of the player&apos;s choice, either a Seer or a Bishop representing weither Clotilde or Bishop Remigius of Rheims. Once per game from turn 3 onwards, you can invoke a miracle at the start of your Orders phase if the priest is within *S* of Clovis. If you do so, place 3 markers on the Momentum ability. At the end of the turn, place 3 fatigues on Clovis and the priest.</description>
+        </rule>
+        <rule id="2bdf-49d8-3b6f-4906" name="Conqueror" publicationId="90fb-5671-0e32-356b" page="55" hidden="false">
+          <description>Clovis vanquished every one of the chiefs who rose against him, either in single combat, by assassination, or through open battle. The Armour of enemy Heros within *S* of Clovis is reduced by 1.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="70ee-624a-de93-66e1" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3613-9979-a42b-bea8" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="412d-fbb6-8ad4-3afc" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="8969-18b4-1b9c-2c12" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="300b-ab5a-a6bf-33e2" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1b60-a935-0938-e5c1" name="Childeric" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="983d-0862-917a-f983" name="Childeric" publicationId="90fb-5671-0e32-356b" page="54" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determination, Presence, Pride, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fd77-d396-0fa6-bfda" name="At Rome&apos;s Service" publicationId="90fb-5671-0e32-356b" page="54" hidden="false">
+          <description>Childeric owed some of his power to the influence of the Romans,who in turn counted on his help against other barbarian kingdoms. Having fought alongside them for so long, he had absorbed their culture to an extent - as proved by his grave goods - and had probably learned a Roman trick or two. Once per turn, Childeric can take a fatigue to trigger one of the following abilities:
+- Scuta: In Shooting/Reaction or Melee, re-roll up to 3 defence dice that didn&apos;t cancel hits.
+- Signe: In Activation, activate up to 2 units for a rest.
+- Foedus: In Orders/Reaction, choose an enemy unit; until the end of the turn , it suffers one additional fatigue at the end of each shooting or melee.
+- Tela &amp; Missilia: In Activation, activate an infatnry unit without ranged weapons fo a shooting attack with a range of *M* that cuses no fatigue.</description>
+        </rule>
+        <rule id="3a64-4d90-1728-9e25" name="Childeric&apos;s Treasure" publicationId="90fb-5671-0e32-356b" page="54" hidden="false">
+          <description>Discovered in the seventeenth century, Childeric&apos;s tomb contained a substantial treasure trove. In particular there were weapons and jewellery garnished with cloissoné garnets - a complex and therefore expensive technique that proves the wealth, authority, and prestige of their owner. As long as Childeric isn&apos;t exhasuted, friendly units within *S* can reroll any of their attack dice which roll a 1.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="06df-c843-043a-9bcd" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="92d9-a9c2-6741-f7f4" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="a8be-56a8-dfa0-e3b3" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="bd19-8e63-d21b-460b" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+        <categoryLink id="f85b-37f3-82ed-0d3b" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="d424-e36c-ca0c-6881" name="Age of Invasions" targetId="3188-29f4-c778-04ae" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

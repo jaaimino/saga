@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="bac3-e745-894c-d2f7" name="Macedonians" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="44d9-837a-e07b-5020" name="Warriors with Sarissas" hidden="false"/>
+    <categoryEntry id="3f13-9185-325f-345e" name="Warriors with Javelins" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="56f5-8042-ae96-4a9f" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="44d9-837a-e07b-5020" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="56f5-8042-ae96-4a9f" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="a4b5-d388-9fee-47b2" name="Phalanx" hidden="false">
+      <modifiers>
+        <modifier type="set" field="bb99-bfc7-4a13-f620" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="961a-fd40-af80-7621" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bb99-bfc7-4a13-f620" type="min"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="f894-ec50-ac14-fcd0" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e3e2-bd54-9a2d-20a4" name="Options" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="476c-7cf3-a2be-eb57" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="64ac-101c-2199-d6fc" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="73bb-595f-8e4b-9ee7" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bba1-f018-b5c2-6a75" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="5286-a2bc-5254-729f">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c65-b4a4-3d29-9188" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da31-dbe1-f843-0733" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="556f-0bfb-4288-7fc4" name="Javelins" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d036-19f4-d507-8a41" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b9f-98f6-d215-6935" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0ef8-c3c5-acd4-90e6" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="a6ae-dc0a-1406-7766" name="Javelins" hidden="false" collective="false" import="true" targetId="6ec3-de4b-9966-8ca0" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4629-4649-8aec-0b50" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="5286-a2bc-5254-729f" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry"/>
+            <entryLink id="6755-2d34-e105-9949" name="Hypaspist - Sarissas" hidden="false" collective="false" import="true" targetId="60a9-7f71-bd33-0a5b" type="selectionEntry"/>
+            <entryLink id="27fb-f59f-815b-3b78" name="Hypaspists - No Special Equipment" hidden="false" collective="false" import="true" targetId="0624-762e-66cb-a5b4" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="226b-2991-edb5-1be9" name="Warriors" hidden="false" collective="false" import="true" targetId="2b45-c992-74a8-6f66" type="selectionEntry"/>
+    <entryLink id="cb17-0cc9-dff6-7395" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dd96-b6e8-f284-c067" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="bca6-33eb-00b0-59ae">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ecf-e68a-b68f-c9fa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b67-eac0-2b43-b4be" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a65f-faa1-9b1a-d19d" name="Sarissa" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="961a-fd40-af80-7621" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3d6-7212-28c4-ec50" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8239-3bf9-1ab7-fdcf" name="Sarissa" hidden="false" targetId="c24b-12d5-65ce-5f50" type="infoGroup"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="a386-2f78-f817-75b8" name="Phalanx" hidden="false" targetId="a4b5-d388-9fee-47b2" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="bca6-33eb-00b0-59ae" name="Bows and Slings" hidden="false" collective="false" import="true" targetId="ea4e-4463-8f31-3306" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="6b0d-c17a-cad7-0400" name="Alexander the Great" hidden="false" collective="false" import="true" targetId="9f8d-42d9-65f8-6829" type="selectionEntry"/>
+    <entryLink id="bcc4-c663-28ec-09e5" name="Philip II" hidden="false" collective="false" import="true" targetId="8595-990d-492e-abec" type="selectionEntry"/>
+    <entryLink id="c47e-3754-d380-9b23" name="Macedonian Ruses" hidden="false" collective="false" import="true" targetId="8cf2-c953-d385-e1b7" type="selectionEntry"/>
+    <entryLink id="d27a-c648-1a45-baa9" name="Cretan Archers" hidden="false" collective="false" import="true" targetId="88d2-56a3-0275-34a5" type="selectionEntry"/>
+    <entryLink id="7fd3-d77a-853f-c6d2" name="Scythian and Bactrian Horsemen" hidden="false" collective="false" import="true" targetId="1ee4-4e25-d478-7120" type="selectionEntry"/>
+    <entryLink id="acb1-bf88-6613-96e8" name="Tarentine Cavalry" hidden="false" collective="false" import="true" targetId="bc96-92c3-d82d-6df7" type="selectionEntry"/>
+    <entryLink id="eab2-78e9-0117-a22e" name="Thessalian Cavalry" hidden="false" collective="false" import="true" targetId="fff9-b7b8-470d-0829" type="selectionEntry"/>
+    <entryLink id="a10f-0297-ec27-de93" name="Rhodian Slingers" hidden="false" collective="false" import="true" targetId="40aa-f1b9-4eaf-9d65" type="selectionEntry"/>
+    <entryLink id="e300-4ff9-8c08-aebd" name="Illyrians" hidden="false" collective="false" import="true" targetId="ef51-16ba-076d-f287" type="selectionEntry"/>
+    <entryLink id="a763-b15d-47e1-8d5b" name="Agrianian Javelinmen" hidden="false" collective="false" import="true" targetId="4688-6a6a-df50-b86f" type="selectionEntry"/>
+    <entryLink id="396d-910f-81b5-4137" name="Greek Mercenaries" hidden="false" collective="false" import="true" targetId="2e6d-d0d8-9d1b-0b28" type="selectionEntry"/>
+    <entryLink id="94ac-bc06-2979-7045" name="Thracian Mercenaries" hidden="false" collective="false" import="true" targetId="a123-1ade-77bb-b780" type="selectionEntry"/>
+    <entryLink id="ac66-28d5-6941-e3cc" name="Psiloi" hidden="false" collective="false" import="true" targetId="3890-2633-c38b-80f3" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="2b45-c992-74a8-6f66" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="2b45-c992-74a8-6f66" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab2b-9d87-6da9-0c20" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+            <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <infoLinks>
+        <infoLink id="0533-1e8c-b05e-2a7e" name="Warriors" hidden="false" targetId="fcb1-e114-22d3-9e03" type="profile">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="4 (3)">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="2b45-c992-74a8-6f66" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab2b-9d87-6da9-0c20" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="7962-d121-6270-ec08" value="3 (3)">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="2b45-c992-74a8-6f66" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea4e-4463-8f31-3306" type="equalTo"/>
+                    <condition field="selections" scope="2b45-c992-74a8-6f66" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="df95-ee58-6771-4916" type="equalTo"/>
+                    <condition field="selections" scope="2b45-c992-74a8-6f66" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="edcc-440b-0bf9-7169" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="2b45-c992-74a8-6f66" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ab2b-9d87-6da9-0c20" type="equalTo"/>
+                        <condition field="selections" scope="2b45-c992-74a8-6f66" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d5c4-d2fe-e853-40a4" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="7962-d121-6270-ec08" value="3 (4)">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="2b45-c992-74a8-6f66" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="30fa-a6e6-d6aa-3c88" type="equalTo"/>
+                    <condition field="selections" scope="2b45-c992-74a8-6f66" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6ec3-de4b-9966-8ca0" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7f2f-a0a6-feb7-b4d6" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="6c24-663f-2189-7937" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="aa69-96b1-0432-7bd8" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d787-2c61-4c56-8a99" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="c53f-e9dd-6ede-e4d0">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05d3-acaf-a867-f40e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edc0-2e15-aac5-38f1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c53f-e9dd-6ede-e4d0" name="Sarissa" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13d3-5251-454a-60ef" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0e51-2f56-2225-bbbc" name="Sarissa" hidden="false" targetId="c24b-12d5-65ce-5f50" type="infoGroup"/>
+                <infoLink id="19a6-b3d2-4235-e5e6" name="Phalanx" hidden="false" targetId="dc9f-b2af-22d6-44ef" type="infoGroup"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="247d-6797-4fe7-0ff2" name="Phalanx" hidden="false" targetId="a4b5-d388-9fee-47b2" primary="false"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry id="e57e-c96f-8c34-250c" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae0-d2f8-6707-3ec8" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6375-5fe1-b6e4-3f31" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="0c81-2855-d8b9-2745" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca74-64b5-c003-fa42" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="f36f-9abf-80bc-2767" name="Javelins" hidden="false" collective="false" import="true" targetId="6ec3-de4b-9966-8ca0" type="selectionEntry"/>
+            <entryLink id="166d-3bc1-b5e5-1701" name="Horse, Javelins" hidden="false" collective="false" import="true" targetId="edcc-440b-0bf9-7169" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="961a-fd40-af80-7621" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e7d5-4058-6a32-b6c1" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d448-0d69-8cdf-24dd" name="Warrior" hidden="false" collective="false" import="true" targetId="d558-4bb2-dca5-6e81" type="selectionEntry">
+          <modifiers>
+            <modifier type="add" field="category" value="44d9-837a-e07b-5020">
+              <conditions>
+                <condition field="selections" scope="2b45-c992-74a8-6f66" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c53f-e9dd-6ede-e4d0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="3f13-9185-325f-345e">
+              <conditions>
+                <condition field="selections" scope="2b45-c992-74a8-6f66" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f36f-9abf-80bc-2767" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9ea-259c-0b9e-8596" type="min"/>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5af-d3c2-f400-613e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9f8d-42d9-65f8-6829" name="Alexander the Great" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f06d-9e63-e042-9cf1" name="Alexander the Great" publicationId="03cf-6e37-8804-8b98" page="48" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5(4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determination, Mount (Horse), Presence, Pride, Resilience (1), we Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="fc91-6fe7-bfc6-29f4" name="Unparalelled Charisma" publicationId="03cf-6e37-8804-8b98" page="48" hidden="false">
+          <description>When he uses his We Obey special rule, Alexander can activate any number of friendly units within *S* of him instead of just one.</description>
+        </rule>
+        <rule id="3c13-a500-a44b-58f3" name="Worshipped by his Men" publicationId="03cf-6e37-8804-8b98" page="48" hidden="false">
+          <description>Alexander can target *Warrior* figures using his Bodyguards special rule. However, if he does this he must remove two *Warrior* figures to cancel each hit he suffers.</description>
+        </rule>
+        <rule id="25cb-4075-2223-1566" name="Legendary Strategos" publicationId="03cf-6e37-8804-8b98" page="48" hidden="false">
+          <description>Alexander had an instinct for reading battles that has never been equalled. Once per game during an enemy activation phase, Alexander may take a fatigue to choose a friendly unit within *M* of him. The unit chosen this way is then activated to move, shoot, or charge.</description>
+        </rule>
+        <rule id="7c2d-021d-bba2-e1df" name="Bucephalus" publicationId="03cf-6e37-8804-8b98" page="48" hidden="false">
+          <description>Alexander&apos;s legendary horse only died during the Indian campaign, accompanying his master for the majority of his Saga. When your opponent uses one of Alexander&apos;s fatigues to reduce his movement, his movement is reduced to *M* instead of *S*.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7f2a-daa1-6c4a-0920" name="Bodyguards" hidden="false" targetId="0ec9-efe5-7da3-39f1" type="rule"/>
+        <infoLink id="5610-4834-0100-6b4a" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="632c-36dd-d1bd-7a6f" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="737c-86af-5987-9341" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+        <categoryLink id="2777-5a97-53bc-e83b" name="Mounts: x" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+        <categoryLink id="3fc3-71dd-34a9-131c" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="93b8-d4a4-8aa7-f77d" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bab3-aa59-4545-f9c0" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8595-990d-492e-abec" name="Philip II" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="f1e2-20ba-3993-6742" name="Philip II" publicationId="03cf-6e37-8804-8b98" page="49" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5(4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determination, Mount (Horse), Presence, Pride, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="991c-c360-e613-8e96" name="Intensive Training" publicationId="03cf-6e37-8804-8b98" page="49" hidden="false">
+          <description>Philip II imposed training on his army that made it the best of its era, able to manoeuvre like no other of its time. At the end of the enemy Orders Phase but before the start of their Activation Phase, you can move all friendly units located within *M* of Philip II up to *VS*. This movement doesn&apos;t count as an activation, and therefore can&apos;t trigger any enemy Activation/Reaction abilities.</description>
+        </rule>
+        <rule id="45f7-ca5c-709a-081d" name="Vanquisher of Hoplites" publicationId="03cf-6e37-8804-8b98" page="49" hidden="false">
+          <description>When your Hearthguard units or units with the *Phalanx* special rule generate their attack dice during a melee, gain bonus attack dice equal to the number of fatigues on the enemy unit or bonus defence dice equal to the number of fatigues on your unit.</description>
+        </rule>
+        <rule id="7011-698a-2e56-79b1" name="Clemency to Conquest" publicationId="03cf-6e37-8804-8b98" page="49" hidden="false">
+          <description>At the start of your Orders Phase, you can choose one enemy unit within *M* of Philip II which no longer generates any Saga dice. the figures in this unit are removed from the table, but you get no points for destroying them or their unit. they are not considered destroyed in any way.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b777-b09e-beb8-711b" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8ef0-7e07-878e-29c5" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="966f-a3d9-0b78-8135" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+        <categoryLink id="ddd3-b30a-eb50-c2f6" name="Mounts: x" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+        <categoryLink id="3f15-3211-e58a-b901" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="5887-d9d9-6ae2-a787" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbec-d0f4-1944-6cf4" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8cf2-c953-d385-e1b7" name="Macedonian Ruses" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4e6-afcd-6776-1a26" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="287b-a79d-7b43-5038" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8a99-405e-5276-3809" name="Macedonian Ruses" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="76af-5af9-184e-bf6d" name="Recruitment Ruses" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bced-7d02-7e85-61d4" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="d036-19f4-d507-8a41" name="Agrianian Peltasts" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0c6-0b6c-5875-adfd" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="a919-0569-3dde-137c" name="Agrianian Peltasts" publicationId="03cf-6e37-8804-8b98" page="53" hidden="false">
+                      <description>When recruiting your warband, you can choose to equip a single non-Mercenary unit of *Hearthguards* on foot with javelins.
+
+This unit ignores movement penalties linked to uneven terrain, but not those from dangerous terrain.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="1ff9-fbee-fd45-f122" name="Recuitment" hidden="false" targetId="34cf-5dfd-4b10-9a3a" primary="false"/>
+                    <categoryLink id="c121-c4aa-8ea6-81e1" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="961a-fd40-af80-7621" name="Army of Asia" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8d9-2f10-2c19-6233" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="3928-3bd5-b797-4ff5" name="Army of Asia" publicationId="03cf-6e37-8804-8b98" page="53" hidden="false">
+                      <description>Your unit must contain at least one unit with the *Phalanx* special rule.
+
+To represent Persian troops recruited by Alexander and equipped in the Macedonian style,  you can equip your *Levies* with sarissas. These units do not have the *Phalanx* special rule.
+
+In addition, one of your *Warrior* units can be mounted and equipped with javelins. This is in addition to the unit of mounted *Warriors* you are normally entitled to.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="fdd9-27dc-2b4a-48c9" name="Recuitment" hidden="false" targetId="34cf-5dfd-4b10-9a3a" primary="false"/>
+                    <categoryLink id="b76f-7f61-54a8-e18a" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="20a5-b80c-958e-7a8b" name="Preparation Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="5ebc-b918-e5ee-53ac" name="Adapt to the Opponent" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6770-0748-9724-a89d" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="c83a-f7bb-401a-e4da" name="Adapt to the Opponent" publicationId="03cf-6e37-8804-8b98" page="53" hidden="false">
+                      <description>After the warbands have been deployed but before the first turn of the game , you can remove up to two of your units present on the table and re-deploy them in accordance with the rules on deployment.
+
+Once re-deployed, these units must be more than *S* away from all friendly units.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="342c-eb3b-e6c3-15c9" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+                    <categoryLink id="8420-97c0-058d-d93d" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="b429-0d91-fef1-6644" name="Veterans Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="9baf-7864-e669-0e16" name="Companions" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89d2-414b-1375-97af" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="3360-92b3-0231-5605" name="Companions" publicationId="03cf-6e37-8804-8b98" page="53" hidden="false">
+                      <description>Hearthguards and Phalanxes only.
+
+This unit immediately discards the first fatigue it receives each turn, no matter its source.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="0062-b1d3-ba75-24ae" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="d974-09b8-5053-b055" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7d0f-59bc-0862-be87" name="Stratagem Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="3993-f75b-d7cb-830f" name="Storm the Gap" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d182-b6d5-39fe-0e82" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="29dc-b997-2381-5792" name="Storm the Gap" publicationId="03cf-6e37-8804-8b98" page="53" hidden="false">
+                      <description>Use this ruse after an enemy unit has finished its movement or shooting activation within *S* of one of your *Hearthguard* units, or a unit with the *Phalanx* special rule.
+
+Activet this unit to move or charge.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="696b-3258-580d-2a9e" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="b02b-1e7d-ef3e-e080" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4fbc-bb29-94d4-147b" name="Just a Little Farther" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4966-bb7e-6399-7e8f" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="a562-1cb8-9533-d446" name="Just a Little Farther" publicationId="03cf-6e37-8804-8b98" page="53" hidden="false">
+                      <description>Use this ruse ata moment when your *Warlord* uses hi We Obey special rule.
+
+Your *Warlord* can activate an additional friendly unit within *S*.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="9f0d-9ca8-18a5-d638" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="91f1-bbeb-812f-5fca" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="60a9-7f71-bd33-0a5b" name="Hypaspist - Sarissas" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0624-762e-66cb-a5b4" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46f1-13aa-91ee-d35d" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2199-c070-2e8d-27a1" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="8e20-c4d3-fb25-3e2b" name="Sarissa" hidden="false" targetId="c24b-12d5-65ce-5f50" type="infoGroup"/>
+        <infoLink id="8e04-77ea-4f08-3b1b" name="Phalanx" hidden="false" targetId="dc9f-b2af-22d6-44ef" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8889-f251-3b0a-0948" name="Phalanx" hidden="false" targetId="a4b5-d388-9fee-47b2" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry id="0624-762e-66cb-a5b4" name="Hypaspists - No Special Equipment" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="60a9-7f71-bd33-0a5b" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1392-5229-ecb1-14bc" type="max"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="377b-2d0f-e72f-ea13" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="2969-322e-31a0-de47" name="Phalanx" hidden="false" targetId="dc9f-b2af-22d6-44ef" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6521-8757-a51e-28c9" name="Phalanx" hidden="false" targetId="a4b5-d388-9fee-47b2" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="5d82-a4eb-e638-28a2" name="Age of Ancients" targetId="952b-66d2-440b-5912" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8284-cc9c-f52e-3c20" name="Art Clut &amp; Mannaw Gododdin" revision="2" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="7574-b57c-88ef-3e0e" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="693c-3b1d-5faa-435e" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="134f-2306-1a96-3628" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="aaed-ba0b-d1b7-8b1a" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="4d92-0f22-9c7c-6574" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="d923-cfff-a5bd-7a59" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="383e-1e84-651a-6481" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="50c7-4b68-bda2-6b36" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="c17e-aa60-8dbf-5645" name="Warriors" hidden="false" collective="false" import="true" targetId="1897-8e1b-ec24-4c58" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f11e-cf88-05df-d70a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="0675-529b-901c-cd10" name="Horse, Javelins" hidden="false" collective="false" import="true" targetId="edcc-440b-0bf9-7169" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbdc-59c4-69e5-9bf6" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="891a-b6bc-1f4f-df5f" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9b37-bab9-93d7-47d7" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f11e-cf88-05df-d70a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <entryLinks>
+        <entryLink id="4f74-3fb0-ed00-1af7" name="Javelins" hidden="false" collective="false" import="true" targetId="6ec3-de4b-9966-8ca0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88ed-8d6c-e8f5-0e5c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="fccc-089f-b8c3-6a4a" name="Sea Wolves" hidden="false" collective="false" import="true" targetId="b2b4-7527-34f8-c3ef" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f11e-cf88-05df-d70a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="4b0e-0871-2b88-d681" name="Deserters" hidden="false" collective="false" import="true" targetId="0129-0bb5-eae7-cd83" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f11e-cf88-05df-d70a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="b213-5b8b-e3e8-f238" name="Mynydogg Mwynfawr" hidden="false" collective="false" import="true" targetId="f11e-cf88-05df-d70a" type="selectionEntry"/>
+    <entryLink id="d2ad-10c2-39f8-1fcc" name="Molossians" hidden="false" collective="false" import="true" targetId="41de-03e9-2414-b80e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f11e-cf88-05df-d70a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="92f9-0162-ef8b-92be" name="Guides" hidden="false" collective="false" import="true" targetId="a8fd-3d8a-a503-5d8e" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f11e-cf88-05df-d70a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="4a3a-a8e2-29cb-7fcf" name="Seer" hidden="false" collective="false" import="true" targetId="8af1-397d-bb2b-2780" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="1a12-42d2-e6e1-5bd7" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f11e-cf88-05df-d70a" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1a12-42d2-e6e1-5bd7" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="ba47-2ea7-da12-9638" name="Personal Champion" hidden="false" collective="false" import="true" targetId="2269-2d28-6fd4-d304" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="f11e-cf88-05df-d70a" name="Mynydogg Mwynfawr" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="226c-4612-77c1-d72b" name="Mynydogg Mwynfawr" publicationId="90fb-5671-0e32-356b" page="71" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determinatio, Presence, Pride, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="84aa-e359-1e0a-d5b4" name="Aneirin" publicationId="90fb-5671-0e32-356b" page="71" hidden="false">
+          <description>Mynydogg&apos;s warband must contain a Seer, representing the bard Aneirin. Aneiring cannot be the target of any shooting attacks, or eliminated via any game effect: the only way to eliminate him is to slay him in melee. This also means that he can&apos;t be sacrificed to the Warlord&apos;s Bodyguards special rule.</description>
+        </rule>
+        <rule id="48e0-9ae6-c668-0e9a" name="Heros of Catraeth" publicationId="90fb-5671-0e32-356b" page="61" hidden="false">
+          <description>Mynydogg&apos;s warband can only contain Hearthguards. You can trigger the Wild Charge ability with your Warlord and your Hearth guard units, even though they aren&apos;t equipped with javelins. The figures shooting Aggression is 1 for the Hearthguards and 4 for the Warlord when you apply the ability&apos;s effect.
+
+Each time a unit in your warband is eliminated, all the remaining units in your warband can remove all their fatigues.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e482-2fb4-70fd-c6a5" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+        <infoLink id="dfab-462d-e635-f888" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f419-99ee-9df2-8353" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="554c-e7ac-bdd6-5566" name="Mounts (Horses)" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+        <categoryLink id="34a2-3b3b-cd89-a5f6" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="a218-7743-9bdc-1d04" name="Age of Invasions" targetId="3188-29f4-c778-04ae" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

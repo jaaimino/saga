@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5938-f8a9-f502-5b89" name="Graeculi" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="true" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="592d-ae52-5df6-991a" name="Italiotes" hidden="false"/>
+    <categoryEntry id="cb14-f1b7-24fe-7160" name="Epirus" hidden="false"/>
+    <categoryEntry id="18fc-7667-bdc6-928e" name="Syracuse" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="ef43-10b6-ae9c-5279" name="Graeculi Ruses" hidden="false" collective="false" import="true" targetId="b6a4-6f72-d9d6-28f2" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="b6a4-6f72-d9d6-28f2" name="Graeculi Ruses" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="0dce-0b32-0a79-7b41" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c33a-cfa6-85b8-b738" name="Graeculi Ruses" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="5638-fbc6-7c9d-d935" name="Recruitment Ruses" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51eb-db73-0a57-ba02" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="4f62-4a69-1719-568d" name="Army of Tarentum" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="592d-ae52-5df6-991a" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbee-ff13-8565-0ded" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="b63f-3eaa-91f5-6ae7" name="Army of Tarentum" publicationId="0ebe-a140-cc89-7de6" page="49" hidden="false">
+                      <description>ITALIOTES ONLY
+When recruiting your warband, you can spend a single point to recruit a unit of allied Carthaginians, comprised either of 8 Warriors with no equipment options, or 4 mounted Hearthguards.This unit has the Mercenary and Determination special rules, and can re-roll 1s and 2s rolled on its attack and defence dice during every melee</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="c1eb-19bb-802d-49b4" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="4669-d93e-e267-966d" name="Recuitment" hidden="false" targetId="34cf-5dfd-4b10-9a3a" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8631-d9a4-d12f-d920" name="Roman Alliance" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="18fc-7667-bdc6-928e" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ab4-e8f0-55db-2f3d" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="0a12-29a0-c2d2-6101" name="Roman Alliance" publicationId="0ebe-a140-cc89-7de6" page="49" hidden="false">
+                      <description>SYRACUSE ONLY
+During the recruitment of your warband, you can spend a single point to recruit a unit of allied Romans, comprised of 8 Warriors with no equipment options. This unit has the Mercenary and
+Determination special rules. At the start of each melee, this unit gains 3 bonus dice. These are attack dice if they are the attacker, or defence diceif they are the defender.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="4ece-c4b5-2014-b9d5" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="6270-9ded-f105-49b7" name="Recuitment" hidden="false" targetId="34cf-5dfd-4b10-9a3a" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="1e6e-8d11-6636-8983" name="Preparation Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="c0fc-42b4-21bc-8f9b" name="Tight Formation" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b06-d76e-3447-10e4" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="22ca-68c5-10f0-4eb7" name="Tight Formation" publicationId="0ebe-a140-cc89-7de6" page="49" hidden="false">
+                      <description>Use this card during your first turn of the game. During the next enemy turn, all your infantry units gain 2 bonus defence dice during every melee.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="98c0-4892-b751-b2cc" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+                    <categoryLink id="6982-4a83-f805-ab3f" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="18b5-f8d0-6153-f347" name="Veterans Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="1426-82b8-f5c0-25dc" name="Wall of Shields" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3699-306c-39cc-356d" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="4530-a050-0453-ee0a" name="Wall of Shields" publicationId="0ebe-a140-cc89-7de6" page="49" hidden="false">
+                      <description>INFANTRY ONLY
+This unit gets a bonus defence die during every melee as long as it is within *S* of at least one friendly unit containing at least 6 figures.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="3634-3def-fc41-0cf7" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="eea6-935f-c01f-aefd" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7359-01e1-4deb-1fff" name="Stratagem Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="daa1-b4dc-26d2-0609" name="Pressure" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d719-26c9-0b38-bfce" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="d236-8c10-02a4-7c16" name="Pressure" publicationId="0ebe-a140-cc89-7de6" page="49" hidden="false">
+                      <description>Use this card when you use an enemy fatigue during a melee. Both reduce your opponent’s Armour
+AND increase your own by 1.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="2bf4-c87b-f243-7577" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="acc5-0384-8a10-edaa" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="a1ec-1f10-615a-e43b" name="Hypaspists" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee22-433d-f21e-0527" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="2c53-31c0-8063-38d6" name="Hypaspists" publicationId="0ebe-a140-cc89-7de6" page="49" hidden="false">
+                      <description>PHALANX ONLY
+Use this card when one of your units decides to close ranks. Your opponent must discard as many attack dice as you discarded in order to close ranks
+.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="3859-6abb-e91e-db37" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="754c-bce2-a22a-7c06" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="e17e-eed7-0c32-07b3" name="Phalanx" publicationId="5ac9-5960-c5be-2c66" page="45" hidden="false">
+      <description>Despite the many changes it underwent, the phalanx remained the organisational model for the infantry in Hellenistic armies, whether they were Greek or Macedonian. Some of your units have the *Phalanx* special rule, which allows them to use certain advanced abilities on the Battle Board, or alters their effects.
+A unit no longer benefits from its *Phalanx* rule is:
+- It no loner generates any Saga dice. Yes, a single Hearthguard is a *Phalanx* by themselves, but aren&apos;t we talking about the descendents of the heroes of the Persian Wars and the conquests of Alezander..?
+- If it finds itself, even partly, in a building, uneven terrain or dangerous terrain.</description>
+    </rule>
+  </sharedRules>
+  <catalogueLinks>
+    <catalogueLink id="90cf-0530-eefc-9bfa" name="Age of Hannibal" targetId="952b-66d2-440b-5912" type="catalogue" importRootEntries="false"/>
+  </catalogueLinks>
+</catalogue>

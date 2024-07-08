@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="cf5c-29f6-6ed4-f007" name="Skrælings" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="5914-ce4f-1830-28df" name="Warlord" hidden="false" collective="false" import="true" targetId="5221-0170-75b8-35f2" type="selectionEntry"/>
+    <entryLink id="4f48-2140-9f59-1c84" name="Warriors" hidden="false" collective="false" import="true" targetId="9046-8b06-7094-42fb" type="selectionEntry"/>
+    <entryLink id="b169-199a-4724-bc15" name="Levies" hidden="false" collective="false" import="true" targetId="41aa-b6af-1f86-d9f8" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="5221-0170-75b8-35f2" name="Warlord" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cff5-2245-a014-e50e" name="Warlord" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Warlord</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="898d-e9e5-bae6-0c24" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b87d-7d02-67f0-bab6" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="e787-ed6c-f65c-9143" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="415a-2a97-f55b-43d9" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9046-8b06-7094-42fb" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="81bc-2866-b900-1426" name="Warriors" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7796-a750-3cc8-771f" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="aa31-f12e-d058-5486" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="9c5b-7804-2b3f-63c5" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aabc-86fd-f474-9e58" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8003-a4b3-0bc7-8328" name="Warrior" hidden="false" collective="false" import="true" targetId="d558-4bb2-dca5-6e81" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e237-639e-3665-e8c8" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab71-4f4a-7ff4-5137" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="ec79-9aa2-62fd-0c74" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="41aa-b6af-1f86-d9f8" name="Levies" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a866-10b7-6312-3d8c" name="Levies" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (3)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1/3 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="84eb-57ef-939d-b790" name="Bows and Slings" hidden="false" targetId="c95d-a936-7455-93ce" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a8ac-e86f-e03a-6e45" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="a8cc-1c48-862e-c699" name="Levies" hidden="false" targetId="1b85-ce22-49b2-db2a" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c6c0-16b5-a3c5-3502" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="7334-0df7-172d-cf13" name="Levy" hidden="false" collective="false" import="true" targetId="cb8a-baa9-25c2-2e45" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="084f-5f1d-d906-78b3" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e3d-74d8-ed3d-d68a" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="2c9f-67d3-0389-c206" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>

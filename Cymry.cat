@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5371-5998-8d8f-f30e" name="Cymry" revision="2" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="9373-51ca-683d-b821" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="c1b0-5931-d1f2-5e07" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="5f42-150f-4ed2-2a39" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="d51c-3e2f-b737-f0d4" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+        <entryLink id="5e52-7bc9-5bdc-aa7d" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7662-be0a-c2ee-8d28" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="dd65-0070-d19a-869b" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7662-be0a-c2ee-8d28" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd65-0070-d19a-869b" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="9f8a-c898-0996-72ac" name="Warriors" hidden="false" collective="false" import="true" targetId="1897-8e1b-ec24-4c58" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="fa7f-4138-591d-0aeb" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+        <entryLink id="7799-d3c8-26b0-c45a" name="Javelins" hidden="false" collective="false" import="true" targetId="6ec3-de4b-9966-8ca0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b6f-b8ef-d735-1d53" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="a873-8071-ea67-e34d" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fd54-7891-7b8a-b73f" name="Equipment Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="8ad0-91e1-7ec5-8151">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7cc-74a5-9666-a098" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70b3-2b40-3344-cc1c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8ad0-91e1-7ec5-8151" name="Bows and Slings" hidden="false" collective="false" import="true" targetId="ea4e-4463-8f31-3306" type="selectionEntry"/>
+            <entryLink id="c390-2095-98da-6295" name="Javelins" hidden="false" collective="false" import="true" targetId="6ec3-de4b-9966-8ca0" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="a7df-7066-820f-354e" name="Cunedd ap Edern" hidden="false" collective="false" import="true" targetId="7662-be0a-c2ee-8d28" type="selectionEntry"/>
+    <entryLink id="8200-629c-128c-f39c" name="Sea Wolves" hidden="false" collective="false" import="true" targetId="b2b4-7527-34f8-c3ef" type="selectionEntry"/>
+    <entryLink id="a073-9dfe-52d4-e6ea" name="Deserters" hidden="false" collective="false" import="true" targetId="0129-0bb5-eae7-cd83" type="selectionEntry"/>
+    <entryLink id="848a-b81e-ce76-988c" name="Molossians" hidden="false" collective="false" import="true" targetId="41de-03e9-2414-b80e" type="selectionEntry"/>
+    <entryLink id="4b89-9403-c6fa-dc03" name="Guides" hidden="false" collective="false" import="true" targetId="a8fd-3d8a-a503-5d8e" type="selectionEntry"/>
+    <entryLink id="d81b-99fc-7668-ca16" name="Seer" hidden="false" collective="false" import="true" targetId="8af1-397d-bb2b-2780" type="selectionEntry"/>
+    <entryLink id="8a41-a280-61b4-836b" name="Personal Champion" hidden="false" collective="false" import="true" targetId="2269-2d28-6fd4-d304" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="7662-be0a-c2ee-8d28" name="Cunedda ap Edern" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="7662-be0a-c2ee-8d28" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fa9-77ac-6178-389a" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+            <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <profiles>
+        <profile id="01ce-08ab-06eb-81dd" name="Cunedda ap Edern" publicationId="90fb-5671-0e32-356b" page="72" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="7662-be0a-c2ee-8d28" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5fa9-77ac-6178-389a" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7962-d121-6270-ec08" value="4 (4)"/>
+                <modifier type="set" field="2d00-2f2d-9e87-57da" value="Warlord, Mount (Horse)"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determination, Presence, Pride, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="223a-2b22-eca1-d841" name="The Votadini People" publicationId="90fb-5671-0e32-356b" page="72" hidden="false">
+          <description>Originally from from Manaw Gododdin near Strathclyde, Cunedda&apos;s men went to battle mounted. All Hearthguards in his warband *must* be mounted.</description>
+        </rule>
+        <rule id="f357-94bd-52d3-15f3" name="The Road to Gwynedd" publicationId="90fb-5671-0e32-356b" page="71" hidden="false">
+          <description>At the start of the game, after both warbnds have deployed but before the start of the first turn, all the units in Cunedda&apos;s warband can be activated a move. If several players have access to this kind of post-deployment move, roll a die to decide which player makes theirs first.</description>
+        </rule>
+        <rule id="f0cb-f94b-e0c2-f945" name="Scourge of the Scotti" publicationId="90fb-5671-0e32-356b" page="71" hidden="false">
+          <description>When the units of Cunedda&apos;s warband activate for a charge, they get 2 bonus attack dice. This effect doesn&apos;t apply to mercenary units unless they have the Loyal rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="52a2-4d60-5aea-a45b" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+        <infoLink id="ffe4-99d9-e371-641f" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="413f-9463-9a94-b4c8" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="07df-1530-917c-2933" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="312e-3322-33bc-bc09" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+        <categoryLink id="f34d-1075-fff9-a278" name="Mounts (Horses)" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="6592-424e-5125-1de9" name="Age of Invasions" targetId="3188-29f4-c778-04ae" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

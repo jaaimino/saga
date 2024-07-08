@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8c9d-30ff-4cb4-e345" name="Saxons" revision="2" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="3093-a1a9-1bff-5f9b" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="b1c6-0c6a-44e0-e9e8" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="7f3e-e2fa-b9a9-204d" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="25c1-350d-50f3-6558" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e6dd-63ae-24db-6fd9" name="Warriors" hidden="false" collective="false" import="true" targetId="1897-8e1b-ec24-4c58" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="d942-ffa2-c308-d642" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="1f96-bd4c-475a-abc2" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="f232-8f36-cd1c-d5a5" name="Bows and Slings" hidden="false" collective="false" import="true" targetId="ea4e-4463-8f31-3306" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a95c-4d1f-1123-5c2a" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="808c-0268-a7ff-5705" name="Hengist and Horsa" hidden="false" collective="false" import="true" targetId="9d64-b930-0023-7bae" type="selectionEntry"/>
+    <entryLink id="3f75-a91a-7c1f-aced" name="Ælle, the First Bretwalda" hidden="false" collective="false" import="true" targetId="1db8-1dc9-e107-df69" type="selectionEntry"/>
+    <entryLink id="d601-db87-c102-7e44" name="Foederati" hidden="false" collective="false" import="true" targetId="a58e-c21c-0e8e-9d72" type="selectionEntry"/>
+    <entryLink id="e778-6d8a-0330-5da4" name="Sea Wolves" hidden="false" collective="false" import="true" targetId="b2b4-7527-34f8-c3ef" type="selectionEntry"/>
+    <entryLink id="5c7c-7109-3c63-4aa0" name="Deserters" hidden="false" collective="false" import="true" targetId="0129-0bb5-eae7-cd83" type="selectionEntry"/>
+    <entryLink id="636d-9f04-ba48-56ee" name="Personal Champion" hidden="false" collective="false" import="true" targetId="2269-2d28-6fd4-d304" type="selectionEntry"/>
+    <entryLink id="cafc-60f7-b11e-7b22" name="Seer" hidden="false" collective="false" import="true" targetId="8af1-397d-bb2b-2780" type="selectionEntry"/>
+    <entryLink id="09e9-0f79-0287-0c45" name="Guides" hidden="false" collective="false" import="true" targetId="a8fd-3d8a-a503-5d8e" type="selectionEntry"/>
+    <entryLink id="fa23-a87b-5638-bb77" name="Molossians" hidden="false" collective="false" import="true" targetId="41de-03e9-2414-b80e" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9d64-b930-0023-7bae" name="Hengist and Horsa" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7051-40d5-6c45-98e3" name="Hengist" publicationId="90fb-5671-0e32-356b" page="42" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguard, Determination, Presence, Pride, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="00dd-2ba3-76ec-427a" name="Horsa" publicationId="90fb-5671-0e32-356b" page="42" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguard, Determination, Presence, Pride, Resilience (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bad7-550b-ddfa-e0cf" name="Bond of Brothers" publicationId="90fb-5671-0e32-356b" page="43" hidden="false">
+          <description>At the end of your Activation phase, you can remove a fatigue from Hengist OR Horsa (but not both).</description>
+        </rule>
+        <rule id="1561-8f48-88d5-e2cf" name="Hengist" publicationId="90fb-5671-0e32-356b" page="45" hidden="false">
+          <description>When it comes to a scenario&apos;s victory conditions, Hengist counts as your warband&apos;s only Warlord in all respects. Therfore, if the enemy needs to kill your Warlord to win the scenario, they fail if Hengist survives and succeed if he dies, regardless of what happens to Horsa.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0552-299b-4866-cf22" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3f33-7e4b-8f8a-36e5" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="3b0d-de91-0ef6-828d" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="ce86-c202-72fc-5381" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="1fa6-188b-8112-eb91" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1db8-1dc9-e107-df69" name="Ælle, the First Bretwalda" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="0e45-0242-9fca-6fba" name="Ælle, the First Bretwalda" publicationId="90fb-5671-0e32-356b" page="43" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">6 (6)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguard, Determination, Presence, Pride, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="cb59-59fa-a3a2-5a74" name="Without Pity" publicationId="90fb-5671-0e32-356b" page="43" hidden="false">
+          <description>At the start of each of the Saxon player&apos;s Orders phase, all enemy units within *S* of Ælle take one fatigue.</description>
+        </rule>
+        <rule id="f290-8343-e809-e6c0" name="Bretwalda" publicationId="90fb-5671-0e32-356b" page="43" hidden="false">
+          <description>Ælle has an Armour of 6 both in melee and against shooting attacks.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="91ba-a550-e38e-a706" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4bd2-32e5-02ab-e65c" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="b4ea-fb92-0e8d-6c39" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="d1a7-5771-8412-d13a" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="19e1-1c23-db10-11ff" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="d8d2-a77c-ad2d-d7ec" name="Age of Invasions" targetId="3188-29f4-c778-04ae" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

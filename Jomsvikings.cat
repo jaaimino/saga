@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="d6e9-0f9c-f863-de86" name="Jomsvikings" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="cf5c-fb8a-4265-4a47" name="Warlord" hidden="false" collective="false" import="true" targetId="8c58-8fc2-8b29-2998" type="selectionEntry"/>
+    <entryLink id="b5c4-d386-f163-1567" name="Hearthguards" hidden="false" collective="false" import="true" targetId="20ab-099d-e113-2220" type="selectionEntry"/>
+    <entryLink id="528a-7a93-8217-b3ba" name="Warriors" hidden="false" collective="false" import="true" targetId="2128-bc2c-a2a5-4f0d" type="selectionEntry"/>
+    <entryLink id="e330-acd2-5306-105d" name="Sigvaldi Stru-Haraldsson, Lord of Jomsborg" hidden="false" collective="false" import="true" targetId="b743-4a12-47df-2644" type="selectionEntry"/>
+    <entryLink id="86aa-c6aa-701b-c0d0" name="Vagn Akesson, The Fearless Brother" hidden="false" collective="false" import="true" targetId="2422-4931-239f-1f3c" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="8c58-8fc2-8b29-2998" name="Warlord" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="32a7-a88f-107e-29f8" name="Warlord" publicationId="e94a-099d-1894-1a52" page="56" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="4 (5)">
+              <conditions>
+                <condition field="selections" scope="8c58-8fc2-8b29-2998" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0e68-a4d6-646c-b809" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Warlord</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b3a3-517a-50e1-7647" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3932-a3fa-ee8c-1f77" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="26c2-08ab-564d-4d09" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="0ce3-2970-bfe4-ef52" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4bbb-5a06-5c85-ab68" name="Equipment Options" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="0e68-a4d6-646c-b809" name="Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4afa-389e-5597-a943" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ee82-4afe-6f7e-6a1e" name="Heavy Weapons" hidden="false" targetId="3c91-bb2c-a704-497e" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="c4b8-f028-8da8-a4bc" name="War Banner" hidden="false" collective="false" import="true" targetId="f6a4-e845-bbc2-bdf5" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="5353-e48c-fc16-62cd" name="Relics and Artefacts" hidden="false" collective="false" import="true" targetId="c441-7e6f-ccaa-626e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="20ab-099d-e113-2220" name="Hearthguards" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8441-daa9-ca46-4d91" name="Hearthguards" publicationId="e94a-099d-1894-1a52" page="56" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="4 (5)">
+              <conditions>
+                <condition field="selections" scope="20ab-099d-e113-2220" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d41f-032d-d04c-524b" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">2</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="f131-79ea-311a-4ba4" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+        <categoryLink id="ee72-744e-adfa-299e" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="502c-4ff0-05f9-a082" name="Equipment Options" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="d41f-032d-d04c-524b" name="Heavy Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78eb-6ebb-5ebf-845d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="13b7-cad3-e438-7578" name="Heavy Weapons" hidden="false" targetId="3c91-bb2c-a704-497e" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="3e46-75cb-c581-fdce" name="War Banner" hidden="false" collective="false" import="true" targetId="f6a4-e845-bbc2-bdf5" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d1a2-9c85-f810-e80a" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="b7cd-732c-c5f4-30a9" name="Hearthguard" hidden="false" collective="false" import="true" targetId="124e-28c6-d2bb-6048" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2160-3f87-1c8d-cf90" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9979-71c3-a85c-6102" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="925a-5712-ecb2-5f77" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2778-ff52-a714-c16e" name="Relics and Artefacts" hidden="false" collective="false" import="true" targetId="c441-7e6f-ccaa-626e" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2128-bc2c-a2a5-4f0d" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b743-4a12-47df-2644" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="2ccf-be4e-77d6-7758" name="Warriors" publicationId="e94a-099d-1894-1a52" page="56" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="3 (4)">
+              <conditions>
+                <condition field="selections" scope="2128-bc2c-a2a5-4f0d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c418-d39b-f526-b4fb" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="994f-a01c-870f-6d69" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="347a-76ce-93df-db88" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1beb-3a3c-0960-ab47" name="Equipment Options" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="c418-d39b-f526-b4fb" name="Heavy Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aca-56d2-ec78-b8ab" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="de54-716d-8d5e-2e69" name="Heavy Weapons" hidden="false" targetId="3c91-bb2c-a704-497e" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="0d91-0ba3-30d4-f7aa" name="War Banner" hidden="false" collective="false" import="true" targetId="f6a4-e845-bbc2-bdf5" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3aba-cb57-6ceb-b532" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="633f-ee67-4e0c-4e0b" name="Warrior" hidden="false" collective="false" import="true" targetId="d558-4bb2-dca5-6e81" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="076f-23a4-ea3a-f827" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07d6-d9d6-6dae-b4d2" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="ff54-13c3-fc20-c5b3" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b743-4a12-47df-2644" name="Sigvaldi Stru-Haraldsson, Lord of Jomsborg" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="6e47-ae07-10d9-bfc9" name="Sigvaldi Strut-Haraldsson" publicationId="e94a-099d-1894-1a52" page="56" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (6)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">4</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determination, Presence, Resilience (2), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="8c8c-7259-f017-a1a6" name="Sly" publicationId="e94a-099d-1894-1a52" page="56" hidden="false">
+          <description>When you trigger a Saga ability which allows your opponent to choose between resolving the abilities effect or gaining Wrath tokens, you may shoose to gain the Wrath tokens instead of resolving the abilites effect. If you decide not to use this special rule, your opponent may still choose between resolving the ability&apos;s effect or giving you wrath tokens.</description>
+        </rule>
+        <rule id="ae19-19fd-a81f-4596" name="Coward" publicationId="e94a-099d-1894-1a52" page="56" hidden="false">
+          <description>When an enemy unit triggers an advanced melee Saga ability while fighting Sigvaldi, roll a D6 after the dice have been discarded, but before the ability is resolved. If you roll lower than your available wrath tokens, the ability&apos;s effects are cancelled.</description>
+        </rule>
+        <rule id="4e4f-3ee0-ce5d-fa00" name="The Elite" publicationId="e94a-099d-1894-1a52" page="56" hidden="false">
+          <description>Sigvaldi is surrounded by only the best of his Jomsvikings. His warband may only include Hearthguards and all his Hearthguards have an armour of 6 when being shot at.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="f0c3-3af4-982a-14f5" name="Bodyguards" hidden="false" targetId="0ec9-efe5-7da3-39f1" type="rule"/>
+        <infoLink id="46b2-51b7-5d3b-374b" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="ee90-a902-8cc6-16bb" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="4296-acd3-5cdb-fc03" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8118-cd70-10a2-ce46" name="We Obey" hidden="false" targetId="9d6a-1c55-95d2-cd3c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7c40-b707-310f-a19c" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="8352-c628-e32b-d301" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="6a45-91ba-4fea-0f1c" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="b158-b053-a7fb-451b" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2422-4931-239f-1f3c" name="Vagn Akesson, The Fearless Brother" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c4bf-4138-ad77-8b4b" name="Vagn Akesson" publicationId="e94a-099d-1894-1a52" page="56" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (6)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">12</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determination, Presence, Pride, Resilience (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ffe7-9869-3356-8302" name="Living Legend" publicationId="e94a-099d-1894-1a52" page="56" hidden="false">
+          <description>Vagn was certainly the greatest of all Jomsviking warriors. His martial prowess was legendary. Instead of taking a fatigue marker to cancel hits with Vagn&apos;s Resilience special rule, you can discard a Wrath token to cancel the hit.</description>
+        </rule>
+        <rule id="90c6-40e7-dfee-8e5a" name="Jomsborg" publicationId="e94a-099d-1894-1a52" page="56" hidden="false">
+          <description>You can spend a Wrath token during the activation phase to activate a Jomsviking unit for a free movement or charge which does not generate fatigue.</description>
+        </rule>
+        <rule id="b9e3-3fcb-feb0-d8eb" name="The Code" publicationId="e94a-099d-1894-1a52" page="56" hidden="false">
+          <description>Vagn and his men never retreat and never give in to fear, however perilous the situation. Units in a warband lead by Vagn may only rest if they have at least two fatigue markers.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5add-0840-0e62-1a38" name="Bodyguards" hidden="false" targetId="0ec9-efe5-7da3-39f1" type="rule"/>
+        <infoLink id="d7e5-54c1-c5a4-5918" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="e05a-e6be-2afc-c9a2" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="6099-02b0-48e4-2d83" name="Pride" hidden="false" targetId="9f00-d195-875d-2387" type="rule"/>
+        <infoLink id="4ba8-1cc8-4ba7-cf8b" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ea20-2f07-3d59-67bf" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="1b34-8a69-6c92-6d8f" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="ab0f-05e4-f049-34a0" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="b0b4-ae48-2d9a-9d32" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="c441-7e6f-ccaa-626e" name="Relics and Artefacts" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c911-efcb-284a-712a" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="e5e1-2e9e-c79e-00fe" name="Sacred Banner" hidden="false" collective="false" import="true" targetId="d1ef-2b5f-9b7e-0875" type="selectionEntry"/>
+        <entryLink id="f354-6d99-4137-3d48" name="Ancestral Sword" hidden="false" collective="false" import="true" targetId="00d3-23e9-c0df-1760" type="selectionEntry"/>
+        <entryLink id="2c28-4977-beec-1a58" name="Heirloom Armour" hidden="false" collective="false" import="true" targetId="5056-4d56-c990-b4c6" type="selectionEntry"/>
+        <entryLink id="a256-baf4-e686-f462" name="Legitimate Heir" hidden="false" collective="false" import="true" targetId="0c30-20bc-8155-3028" type="selectionEntry"/>
+        <entryLink id="d177-59a9-2594-b2be" name="Famous Steed" hidden="false" collective="false" import="true" targetId="b361-d5da-6c94-8190" type="selectionEntry"/>
+        <entryLink id="7332-3c50-789f-f8a0" name="Marvellous Cloak" hidden="false" collective="false" import="true" targetId="7a33-8940-bb53-f5c7" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink id="966f-ddeb-53f3-142e" name="Age of Vikings" targetId="abd0-9950-bcf3-db2e" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

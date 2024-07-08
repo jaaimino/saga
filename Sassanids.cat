@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1e4d-0a85-e6b2-6f23" name="Sassanids" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="1496-be57-8e41-b814" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="36b3-47ec-f1d3-8f92" name="Cataphracts" hidden="false" collective="false" import="true" targetId="6e79-3959-cf64-342b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f99c-cb35-d3c6-d396" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3d23-3afd-0675-f49e" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="c4f1-6472-1fc5-2c48" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="907a-6bde-5742-51df" name="Cataphracts" hidden="false" collective="false" import="true" targetId="6e79-3959-cf64-342b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22da-9f49-dfd1-3cd8" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="72e4-3dd4-4c19-c81e" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="536c-f607-15fe-65f2" name="Warriors" hidden="false" collective="false" import="true" targetId="1897-8e1b-ec24-4c58" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b56d-a5cb-f2d4-5ac0" name="Equipment Options" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="6e1c-d577-b4e6-ec23" name="Composite Bows" hidden="false" collective="false" import="true" targetId="d5c4-d2fe-e853-40a4" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a8bf-37ad-bd25-16ad" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1cf-d5ca-6f94-9576" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1c97-4cb7-f76d-08dd" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="6f45-5e53-2d66-566b" name="1 Elephant" hidden="false" collective="false" import="true" targetId="c2d4-1626-6fd2-034a" type="selectionEntry"/>
+    <entryLink id="d388-24df-5255-51df" name="Elephants" hidden="false" collective="false" import="true" targetId="0c5f-2bf9-8d14-a42a" type="selectionEntry"/>
+    <entryLink id="afda-2189-1033-a737" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7f6b-8936-15a7-6321" name="Equipment Options" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c76f-0a1d-213e-0c9e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1162-c56f-d0f1-81ea" name="Bows and Slings" hidden="false" collective="false" import="true" targetId="ea4e-4463-8f31-3306" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="fb26-77b8-3763-6d63" name="Derafsh Kaviani, The Imperial Banner" hidden="false" collective="false" import="true" targetId="4a54-0d29-7085-0ae8" type="selectionEntry"/>
+    <entryLink id="f3a2-ee05-c9a1-92a1" name="Pushtigban" hidden="false" collective="false" import="true" targetId="c9a2-ec32-82f8-1bb9" type="selectionEntry"/>
+    <entryLink id="27bf-6405-47c8-b6e2" name="Nomadic Horsemen" hidden="false" collective="false" import="true" targetId="e0f4-0936-d541-011c" type="selectionEntry"/>
+    <entryLink id="527a-425e-4b1e-cfd9" name="Personal Champion" hidden="false" collective="false" import="true" targetId="2269-2d28-6fd4-d304" type="selectionEntry"/>
+    <entryLink id="f833-1b85-7595-0fc2" name="Deserters" hidden="false" collective="false" import="true" targetId="0129-0bb5-eae7-cd83" type="selectionEntry"/>
+    <entryLink id="d471-e3a8-dc63-329d" name="Seer" hidden="false" collective="false" import="true" targetId="8af1-397d-bb2b-2780" type="selectionEntry"/>
+    <entryLink id="9e32-1651-b8c3-f622" name="Foederati" hidden="false" collective="false" import="true" targetId="a58e-c21c-0e8e-9d72" type="selectionEntry"/>
+    <entryLink id="0fe7-3096-a1b2-0214" name="Mounted Foederati" hidden="false" collective="false" import="true" targetId="3924-fe7d-58c5-63ea" type="selectionEntry"/>
+    <entryLink id="9dac-b817-05b1-8dd7" name="Guides" hidden="false" collective="false" import="true" targetId="a8fd-3d8a-a503-5d8e" type="selectionEntry"/>
+    <entryLink id="5c89-934d-0c1b-b11f" name="Molossians" hidden="false" collective="false" import="true" targetId="41de-03e9-2414-b80e" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="4a54-0d29-7085-0ae8" name="Derafsh Kaviani, The Imperial Banner" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b13f-91d1-9fc5-2f18" name="Derafsh Kaviani, The Imperial Banner" publicationId="90fb-5671-0e32-356b" page="60" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Cataphracts, Determination, Presence, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bad7-deec-5ff2-30b7" name="The Emperor&apos;s Throne" publicationId="90fb-5671-0e32-356b" page="60" hidden="false">
+          <description>The Warlord commands his troops from his seat, above which floats the Imperial banner. He can therefore never use his Determination special rule to activate for a charge.</description>
+        </rule>
+        <rule id="4f66-5ea4-e4bc-767d" name="The Wisdom of the Persians" publicationId="90fb-5671-0e32-356b" page="60" hidden="false">
+          <description>During the Orders phase, immediately after having rolled your Saga dice,  you can choose an inactive Saga die and turn it to show the face of your choice.</description>
+        </rule>
+        <rule id="edf6-d2b0-2689-12e4" name="Under the Emperor&apos;s Gaze" publicationId="90fb-5671-0e32-356b" page="60" hidden="false">
+          <description>The range of your Warlord&apos;s We Obey rule is increased to *L*. In addition, you can remove a fatigue from a unit of Hearthguards or Elephants within *L* of your Warlord during your Orders Phase.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="75c2-95ce-4365-aafe" name="Bodyguards" hidden="false" targetId="0ec9-efe5-7da3-39f1" type="rule"/>
+        <infoLink id="1e32-8769-c0b9-6cc5" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="e750-67d5-272e-432a" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="5c0a-14ff-ad67-467c" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c36a-cfd8-d410-fd3e" name="We Obey" hidden="false" targetId="9d6a-1c55-95d2-cd3c" type="rule"/>
+        <infoLink id="f074-5bad-e7b7-2f32" name="Cataphracts" hidden="false" targetId="a83e-180b-eb81-5992" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8de6-f6c0-6eb4-927c" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="e986-549c-6fff-884a" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+        <categoryLink id="aef1-0d6a-5c93-011e" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="4597-f062-c864-6da0" name="Mounts: x" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c9a2-ec32-82f8-1bb9" name="Pushtigban" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="c54c-210a-e72c-58b6" name="Pushtigban" publicationId="90fb-5671-0e32-356b" page="60" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">2 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Mounts (Horses), Cataphracts, Determination, Resilience (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="bc6e-8cdf-c7da-66cb" name="Flowers of the Aristocracy" publicationId="90fb-5671-0e32-356b" page="60" hidden="false">
+          <description>The unit gains the Determination and Resilience (1) special rules. In addition, you can activate them for free once per turn for a shooting attack with a range of *L* that generates no fatigue. Figures in the unit have a shooting Aggression of 1/2, but can&apos;t be activated to shoot in any other way.</description>
+        </rule>
+        <rule id="8db0-9796-68c3-9742" name="Noble Sacrifice" publicationId="90fb-5671-0e32-356b" page="60" hidden="false">
+          <description>Some elite horsemen bore the title of gyan-avspar. &quot;those [who are] ready to sacrifice their lives&quot;, in honour of their devotion to the emperor. As long as the unit of Pushtigban is within *M* or your Warlord, either the unit of Pushtigban OR your Warlord can use their Resilience special rule to cancel a casualty without taking a fatigue once per turn.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a12d-efe4-59b7-ebac" name="Cataphracts" hidden="false" targetId="a83e-180b-eb81-5992" type="infoGroup"/>
+        <infoLink id="92cc-be95-85ed-31c7" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+        <infoLink id="3f14-e51d-e33c-4a88" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="4dac-5d96-57bd-78a7" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d77f-3be6-17af-9756" name="New CategoryLink" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="true"/>
+        <categoryLink id="6054-44d8-cb42-2acd" name="Units" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="false"/>
+        <categoryLink id="a53d-7e0a-901b-487a" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4c37-7918-9122-363f" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="84b2-90cc-be46-cc99" name="Hearthguard" hidden="false" collective="false" import="true" targetId="124e-28c6-d2bb-6048" type="selectionEntry">
+              <modifiers>
+                <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+                <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+                <modifier type="set" field="name" value="Pushtigban"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18a3-fe8f-bf92-c3d1" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e6e-7900-f429-3247" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="ccdb-a6d0-1ca2-37b4" name="Age of Invasions" targetId="3188-29f4-c778-04ae" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="904a-b348-6486-4b38" name="Greek Cities - Lacedaemonians" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="7ab7-a744-9aed-0cc8" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="ed2f-8b35-08f8-c42f" name="Spartan" hidden="false" targetId="eae1-b7ab-e837-7ebc" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="0435-a467-e9e8-e650" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="7d9d-5bde-afa3-1ec1" name="Phalanx" hidden="false" targetId="dc9f-b2af-22d6-44ef" type="infoGroup"/>
+        <infoLink id="c2b7-3f16-fb14-9709" name="Spartan" hidden="false" targetId="eae1-b7ab-e837-7ebc" type="rule"/>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="b7b8-6018-9775-b128" name="Warriors" hidden="false" collective="false" import="true" targetId="1897-8e1b-ec24-4c58" type="selectionEntry">
+      <infoLinks>
+        <infoLink id="811b-b216-7839-3df0" name="Phalanx" hidden="false" targetId="dc9f-b2af-22d6-44ef" type="infoGroup"/>
+        <infoLink id="7a4d-376c-48b1-8845" name="Spartan" hidden="false" targetId="eae1-b7ab-e837-7ebc" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </entryLink>
+    <entryLink id="32a5-5ea7-4b49-020a" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d2af-8cf8-8c46-870c" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="6a83-d5cb-d61f-d0af">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc99-d6d9-8f6f-cb34" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb81-4e6a-0227-32ea" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8e29-e7e3-4905-638e" name="Horse, Javelins" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3217-5795-8735-8beb" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="b92a-825d-aa15-c698" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="318d-5d13-0b62-a847" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="8a53-ab7d-7ce9-4280" name="Javelins" hidden="false" collective="false" import="true" targetId="6ec3-de4b-9966-8ca0" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82b0-cc18-19a2-1726" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="6a83-d5cb-d61f-d0af" name="Javelins" hidden="false" collective="false" import="true" targetId="6ec3-de4b-9966-8ca0" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="2d3e-1c05-7275-480c" name="Greek Cities Ruses" hidden="false" collective="false" import="true" targetId="b735-e672-42d7-9485" type="selectionEntry"/>
+    <entryLink id="bb6c-284c-4885-0380" name="Agrianian Javelinmen" hidden="false" collective="false" import="true" targetId="4688-6a6a-df50-b86f" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="b5b2-deea-274a-1d81" name="Cretan Archers" hidden="false" collective="false" import="true" targetId="88d2-56a3-0275-34a5" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="2421-0407-6062-d27f" name="Illyrians" hidden="false" collective="false" import="true" targetId="ef51-16ba-076d-f287" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="3a9f-383b-dd2b-f54f" name="Psiloi" hidden="false" collective="false" import="true" targetId="3890-2633-c38b-80f3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="693b-135c-f553-7001" name="Rhodian Slingers" hidden="false" collective="false" import="true" targetId="40aa-f1b9-4eaf-9d65" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="4bcc-a6fe-27bc-8398" name="Tarentine Cavalry" hidden="false" collective="false" import="true" targetId="bc96-92c3-d82d-6df7" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="b032-0400-c2b9-a683" name="Thessalian Cavalry" hidden="false" collective="false" import="true" targetId="fff9-b7b8-470d-0829" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="a13a-b26e-6bf0-2a5c" name="Thorakitai" hidden="false" collective="false" import="true" targetId="e4fd-19ea-cc8a-ef25" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="30a5-f1ca-2539-e858" name="Thracian Mercenaries" hidden="false" collective="false" import="true" targetId="a123-1ade-77bb-b780" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="3e11-cce3-1d4a-65d4" name="Thureophoroi" hidden="false" collective="false" import="true" targetId="bf1a-58b4-ebf9-b380" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="89ec-3059-bd96-2913" name="4 Hearthguards" hidden="false" collective="false" import="true" targetId="012a-0a34-c69d-3795" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="95e2-edb1-af45-8eb1" value="33.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="167f-beda-ee78-1133" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="67d0-6d3a-a0de-3174" scope="force" value="0.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="false" id="95e2-edb1-af45-8eb1" type="min"/>
+      </constraints>
+    </entryLink>
+    <entryLink id="bbe4-4a12-086a-cbff" name="Leonidas, King of Sparta" hidden="false" collective="false" import="true" targetId="167f-beda-ee78-1133" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="167f-beda-ee78-1133" name="Leonidas, King of Sparta" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="4ce2-ec37-2dc9-e117" name="Leonidas, King of Sparta" publicationId="03cf-6e37-8804-8b98" page="26" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">9</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determination, Presence, Pride, Resilience (2), Spartan, We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="586c-af51-1749-e423" name="The Three Hundred" publicationId="03cf-6e37-8804-8b98" page="26" hidden="false">
+          <description>The warband can&apos;t contain any *Levies* or Mercenaries. Your units of *Warriors* have the Spartan special rule. When assembling your warband, you must spend at least a third of your points on recruiting *Hearthguards*.</description>
+        </rule>
+        <rule id="6d95-e05b-e303-e1e5" name="A Thousand to One" publicationId="03cf-6e37-8804-8b98" page="26" hidden="false">
+          <description>When you form a Line of Battle, it counts as including an extra unit when checking Saga abilities. However, this rule doesn&apos;t let you form a Line of Battle using just one unit: the Line of Battle must already have been formed for this bonus to apply.</description>
+        </rule>
+        <rule id="0aa7-231f-fb55-815f" name="Go tell the Spartans, passer-by, that here by Spartan law we lie" publicationId="03cf-6e37-8804-8b98" page="26" hidden="false">
+          <description>If you&apos;re the defender then once per melee phase you can inflict an immediate loss on your unit instead of triggering a Saga ability. You gain 3 attack dice, defence dice, or a mix of the two (or 5 dice if your unit is made up of Hearthguards), and you can ignore all penalties due to being exhausted during this melee.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="c342-9b1c-8c79-726f" name="Bodyguards" hidden="false" targetId="0ec9-efe5-7da3-39f1" type="rule"/>
+        <infoLink id="10fd-d991-be63-0901" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="f624-d093-221f-4576" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="2b1c-1b88-744a-6fc1" name="Pride" hidden="false" targetId="9f00-d195-875d-2387" type="rule"/>
+        <infoLink id="1994-05d2-5a82-ac0e" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a8ff-293b-29ab-4009" name="Spartan" hidden="false" targetId="eae1-b7ab-e837-7ebc" type="rule"/>
+        <infoLink id="2874-7519-278d-191e" name="We Obey" hidden="false" targetId="9d6a-1c55-95d2-cd3c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e922-ba2d-2658-17ad" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="5e54-adbe-341f-b06e" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="4d64-323b-740b-ad1e" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+        <categoryLink id="916f-5b03-a9de-5da3" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="eae1-b7ab-e837-7ebc" name="Spartan" publicationId="03cf-6e37-8804-8b98" page="23" hidden="false">
+      <description>Units with the Spartan special rule never withdraw from melee when they are the defenders. If they should withdraw when they&apos;re defending, they instead take an additional fatigue after the melee has been resolved and the opponent has withdrawn. When an attacking enemy unit withdraws from melee with a unit that has the Spartan special rule, it suffers an additional fatigue at the end of its withdrawl.</description>
+    </rule>
+  </sharedRules>
+  <catalogueLinks>
+    <catalogueLink id="714a-9eaf-6d81-7839" name="Age of Ancients" targetId="952b-66d2-440b-5912" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="403f-0735-297f-0e70" name="Pagan Peoples" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="2ca8-ef62-c42d-fa6d" name="Warlord" hidden="false" collective="false" import="true" targetId="9a5f-2b54-5510-15ed" type="selectionEntry"/>
+    <entryLink id="e760-5c78-db99-a3fb" name="Hearthguards" hidden="false" collective="false" import="true" targetId="d93d-2c2a-5712-e2af" type="selectionEntry"/>
+    <entryLink id="e0ba-f3e8-56fc-7e3f" name="Warriors" hidden="false" collective="false" import="true" targetId="dad4-2e13-3d07-8a9d" type="selectionEntry"/>
+    <entryLink id="2b2f-7743-2962-b299" name="Levies" hidden="false" collective="false" import="true" targetId="2507-61c1-fb28-ebd3" type="selectionEntry"/>
+    <entryLink id="d4d6-c525-0fcb-3c02" name="Vanem Lembitu" hidden="false" collective="false" import="true" targetId="ba9d-1779-c0df-d69f" type="selectionEntry"/>
+    <entryLink id="9ed7-02cc-19b4-00bb" name="Niklot, Last Knes of the Obodrites" hidden="false" collective="false" import="true" targetId="0df3-32c4-95ac-8075" type="selectionEntry"/>
+    <entryLink id="850e-376b-5fbd-3a69" name="Tribal Hunters" hidden="false" collective="false" import="true" targetId="e203-f7ed-0ceb-3b3e" type="selectionEntry"/>
+    <entryLink id="8d5c-6deb-555e-b41b" name="Priest" hidden="false" collective="false" import="true" targetId="ccb5-0e10-5097-9a80" type="selectionEntry"/>
+    <entryLink id="d81a-eadf-0ed4-6524" name="Borderers" hidden="false" collective="false" import="true" targetId="ffe4-457d-6d9d-c559" type="selectionEntry"/>
+    <entryLink id="6c3a-5c85-a297-065b" name="Scouts" hidden="false" collective="false" import="true" targetId="b3aa-fc82-871e-80f2" type="selectionEntry"/>
+    <entryLink id="c12c-a6ee-377b-789e" name="Sailors" hidden="false" collective="false" import="true" targetId="f1ed-ce00-41a6-d72b" type="selectionEntry"/>
+    <entryLink id="69db-cafd-b949-ba8d" name="Troubador" hidden="false" collective="false" import="true" targetId="8ec4-454e-c6d0-ce82" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="9a5f-2b54-5510-15ed" name="Warlord" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="9a5f-2b54-5510-15ed" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d254-9606-dbc4-6631" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+            <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <profiles>
+        <profile id="4217-e00e-40d7-005c" name="Warlord" publicationId="f5d0-f240-53ee-4975" page="38" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="9a5f-2b54-5510-15ed" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d254-9606-dbc4-6631" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7962-d121-6270-ec08" value="4 (4)"/>
+                <modifier type="set" field="6680-c929-0405-8a4f" value="8 (4)"/>
+                <modifier type="set" field="2d00-2f2d-9e87-57da" value="Warlord, Mount: Horse"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Warlord</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f24c-3aa9-29d8-b83e" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="30d9-834c-0b05-34a2" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="5c8e-04d1-21ca-be03" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="2ff9-52e7-079d-1022" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="07e2-be7d-38be-7816" name="Equipment Options" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="d254-9606-dbc4-6631" name="Horse, Javelins" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80b2-6f66-7831-e2a3" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="35d8-8a46-92bc-c134" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+                <infoLink id="e038-6184-f2be-4248" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="b51a-9247-38a3-bc59" name="War Banner" hidden="false" collective="false" import="true" targetId="c073-e881-4a2f-46b3" type="selectionEntry"/>
+            <entryLink id="db03-ae79-c184-1aaf" name="Lifeguard" hidden="false" collective="false" import="true" targetId="9090-6d86-0370-7452" type="selectionEntry">
+              <profiles>
+                <profile id="c196-ba8f-6951-de73" name="Lifeguard" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+                  <modifierGroups>
+                    <modifierGroup>
+                      <conditions>
+                        <condition field="selections" scope="9a5f-2b54-5510-15ed" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d254-9606-dbc4-6631" type="equalTo"/>
+                      </conditions>
+                      <modifiers>
+                        <modifier type="set" field="7962-d121-6270-ec08" value="4 (4)"/>
+                        <modifier type="set" field="6680-c929-0405-8a4f" value="2 (1)"/>
+                        <modifier type="set" field="2d00-2f2d-9e87-57da" value="Heoric Unit, Mounts: Horses"/>
+                      </modifiers>
+                    </modifierGroup>
+                  </modifierGroups>
+                  <characteristics>
+                    <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">0</characteristic>
+                    <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+                    <characteristic name="Agression" typeId="6680-c929-0405-8a4f">2</characteristic>
+                    <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Heroic Unit</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d93d-2c2a-5712-e2af" name="Hearthguards" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="a042-0e4c-3ab1-e6a3" name="Hearthguards" publicationId="f5d0-f240-53ee-4975" page="38" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="4 (5)">
+              <conditions>
+                <condition field="selections" scope="d93d-2c2a-5712-e2af" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2714-369f-86a9-8280" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="d93d-2c2a-5712-e2af" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="48d6-1b4e-e8f3-085c" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7962-d121-6270-ec08" value="4 (4)"/>
+                <modifier type="set" field="6680-c929-0405-8a4f" value="2 (1)"/>
+                <modifier type="set" field="2d00-2f2d-9e87-57da" value="Mounts: Horses"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">2</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="756c-68cb-fac0-b8ff" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+        <categoryLink id="d908-e0a4-716c-0f54" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0532-b105-f7c5-e5b5" name="Equipment Options" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="bff3-946a-38c4-17f2" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="48d6-1b4e-e8f3-085c">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d6d-a6c6-2d3b-30e0" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77b8-0ba3-fd35-295d" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="48d6-1b4e-e8f3-085c" name="Horse, Javelins" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cd0-a424-908a-ce34" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="3421-ee34-c90d-67b7" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+                    <infoLink id="836c-70dc-817d-a854" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2714-369f-86a9-8280" name="Heavy Weapons" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2f4b-4ccb-d6da-aa83" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="9a31-618a-1a23-56c3" name="Heavy Weapons" hidden="false" targetId="3c91-bb2c-a704-497e" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="3e93-b424-7ccf-d9c0" name="War Banner" hidden="false" collective="false" import="true" targetId="c073-e881-4a2f-46b3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7325-4c62-de70-9d7e" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="febc-a09f-818d-1cee" name="Hearthguard" hidden="false" collective="false" import="true" targetId="124e-28c6-d2bb-6048" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="d93d-2c2a-5712-e2af" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="48d6-1b4e-e8f3-085c" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+                    <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46a3-a592-77d0-a38c" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf1f-be05-0925-d051" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="d223-e46d-418b-180c" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dad4-2e13-3d07-8a9d" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="bf67-f472-cdeb-01c4" name="Warriors" publicationId="f5d0-f240-53ee-4975" page="38" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="dad4-2e13-3d07-8a9d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2245-a6b9-71e7-48f9" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7962-d121-6270-ec08" value="3 (3)"/>
+                <modifier type="set" field="6680-c929-0405-8a4f" value="1 (1/2)"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="59d4-5f18-8a5f-7478" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="53e6-48df-6e6c-5c04" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d70d-a608-1a52-1fd0" name="Equipment Options" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="2245-a6b9-71e7-48f9" name="Bows" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2061-77ff-97fd-2f96" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="58d6-91f3-6886-4694" name="Bows and Slings" hidden="false" targetId="c95d-a936-7455-93ce" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="51ba-0582-99af-c70d" name="War Banner" hidden="false" collective="false" import="true" targetId="c073-e881-4a2f-46b3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e567-59e4-a22a-fd9d" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="d423-c998-b9e7-215f" name="Warrior" hidden="false" collective="false" import="true" targetId="d558-4bb2-dca5-6e81" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c62a-1bf8-511a-d4aa" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="702e-3224-f1f2-29ed" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="5ba0-9b99-1d53-5fff" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2507-61c1-fb28-ebd3" name="Levies" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="7217-8642-27a3-611d" name="Levies" publicationId="f5d0-f240-53ee-4975" page="38" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1/3 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="884d-b2dd-1d06-8557" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2482-5f76-27f9-17ba" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="f13e-58f7-c8aa-73fc" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ad70-1dd9-4110-6ad5" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4ce5-817c-a299-d010" name="Levy" hidden="false" collective="false" import="true" targetId="cb8a-baa9-25c2-2e45" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2056-4add-8867-764b" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0314-afbb-83c8-4b3a" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="a561-3498-1275-6cdf" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ba9d-1779-c0df-d69f" name="Vanem Lembitu" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="ba9d-1779-c0df-d69f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="40c0-0135-6379-0689" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+            <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <profiles>
+        <profile id="b437-7312-0f01-5636" name="Vanem Lembitu" publicationId="f5d0-f240-53ee-4975" page="38" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="ba9d-1779-c0df-d69f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="40c0-0135-6379-0689" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7962-d121-6270-ec08" value="5 (4)"/>
+                <modifier type="set" field="2d00-2f2d-9e87-57da" value="Warlord, Mount: Horse"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Warlord</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="62da-661a-e528-6901" name="Guerilla" publicationId="f5d0-f240-53ee-4975" page="38" hidden="false">
+          <description>While Vanem Lembitu is on the table, your units gain 3 bonus attack dice instead of 2 when you trigger the Taara Avita ability.</description>
+        </rule>
+        <rule id="42ae-e0de-3658-5065" name="The Main Attack" publicationId="f5d0-f240-53ee-4975" page="38" hidden="false">
+          <description>Once per game, you may use this ability during one of your Activation phases. All you units activate immediately without discarding any Saga dice. This activation does not generate fatigue. Also, if it hasn&apos;t been triggered so far this turn, you may immediately trigger the Taara Avita ability without discardin any dice.</description>
+        </rule>
+        <rule id="c79e-0516-4897-1b33" name="Aid Came Too Late" publicationId="f5d0-f240-53ee-4975" page="38" hidden="false">
+          <description>If Lembitu is removed as a casualty at the end of a melee or shooting attack, immediately deploy a unit of 4 mounted Hearthguards with javelins within *VS* of your table&apos;s edge, and at least *VS* from any enemy figures. They may be activated from your next Activation phase onwards.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0bbe-e78f-f973-c271" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3a8e-f5ba-92b5-c8f1" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="a3e5-5803-32d1-d3ea" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="132f-025a-0ae2-a2b9" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="08df-c165-54ef-afcd" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="17e4-642b-3d45-a07c" name="Equipment Options" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="40c0-0135-6379-0689" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e83e-85ff-a7ba-be6a" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6b0b-9ce7-da71-30e0" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0df3-32c4-95ac-8075" name="Niklot, Last Knes of the Obodrites" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="0df3-32c4-95ac-8075" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="60bf-5d32-f84d-2929" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+            <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <profiles>
+        <profile id="b43f-7940-4f93-5a07" name="Niklot" publicationId="f5d0-f240-53ee-4975" page="38" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="0df3-32c4-95ac-8075" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="60bf-5d32-f84d-2929" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7962-d121-6270-ec08" value="5 (4)"/>
+                <modifier type="set" field="2d00-2f2d-9e87-57da" value="Warlord, Mount: Horse"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Warlord</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3191-eb79-71b5-d316" name="Stubborn Resistance" publicationId="f5d0-f240-53ee-4975" page="38" hidden="false">
+          <description>As long as they are more than *L* away from any other friendly figures, units in Niklot&apos;s warband do not suffer fatigue at the end of a melee.</description>
+        </rule>
+        <rule id="ba69-ed90-6677-b521" name="Game of Alliances" publicationId="f5d0-f240-53ee-4975" page="38" hidden="false">
+          <description>At the start of each of your Activation phases, you may choose an enemy unit and a friendly unit containing at least as many figures. Neither of these units may be activated to charge or shoot before your next Activation phase.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="1f03-cdf3-7d14-1b1d" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6280-0dd6-067a-f2c3" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="46f2-b932-32bc-c1d4" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="6421-f0e2-9ee4-1692" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="f811-bff1-e243-f693" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e4a6-6036-1936-7be2" name="Equipment Options" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="60bf-5d32-f84d-2929" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09e8-5c50-3c80-59f9" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b32d-b8fa-3fa8-9390" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="bb8e-4010-0244-a7c2" name="Age of Crusades" targetId="b6a3-52ab-a0a7-3a56" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

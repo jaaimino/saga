@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="9a5e-c4f5-00f4-d842" name="Indians" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="59cd-46d3-019b-41ad" name="Light Chariot Model" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="d7df-8e34-23a3-1684" value="2.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b8d-0d58-bca9-2a4e" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ae2c-01e4-2ef0-f682" repeats="2" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d7df-8e34-23a3-1684" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="8023-0b78-4166-ccd3" name="Resilience" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="9fdd-39b6-7776-3712" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="747b-acb0-9c2d-9f9e" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9fdd-39b6-7776-3712" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="ad62-ef83-a58e-72f3" name="Heavy Chariot Model" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="3c15-e787-4691-cac3" value="2.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7e7c-167c-7044-ca4f" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3c15-e787-4691-cac3" type="max"/>
+      </constraints>
+    </categoryEntry>
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="ae2c-01e4-2ef0-f682" name="4 Light Chariots" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="0b9c-683c-9086-0ec7" name="New CategoryLink" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="26c5-3640-ee06-982a" name="8 Warriors" hidden="false" collective="false" import="true" targetId="118f-49ee-5977-cb6f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41d1-5e07-d04d-11fd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b7d-d62b-37af-624d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="603f-f44c-b926-b7c6" name="4 Warriors" hidden="false" collective="false" import="true" targetId="a15c-a8c6-36d5-4cdb" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2ff9-e50d-f304-95c1" value="2.0"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4860-8a19-9741-4766" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b8d-0d58-bca9-2a4e" name="2 Light Chariots and 4 Warriors" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a236-9048-7d5f-1fee" name="New CategoryLink" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="b097-cd1d-8d73-334e" name="8 Warriors" hidden="false" collective="false" import="true" targetId="118f-49ee-5977-cb6f" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e749-32b5-7495-ca00" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d67-739d-492a-1b79" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2e2b-b00d-278b-b90a" name="4 Warriors" hidden="false" collective="false" import="true" targetId="a15c-a8c6-36d5-4cdb" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="282f-adc9-c65b-f10a" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7e7c-167c-7044-ca4f" name="2 Heavy Chariots" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="3362-3164-2ef1-18d3" name="New CategoryLink" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="c23c-034e-59da-c628" name="4 Hearthguards" hidden="false" collective="false" import="true" targetId="012a-0a34-c69d-3795" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff0e-d689-c3b1-935c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b970-12ff-295a-b543" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8aa0-5d51-b14f-a3d5" name="2 Hearthguards" hidden="false" collective="false" import="true" targetId="58e4-b097-011c-94b3" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="9649-3318-78ee-3c8a" value="2.0"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe77-a125-529f-cfb5" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="968e-b7e1-8e2f-d6b5" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry"/>
+    <entryLink id="c34c-8425-740d-a741" name="Raja on Heavy Chariot" hidden="false" collective="false" import="true" targetId="9b6d-d076-429d-0ba9" type="selectionEntry"/>
+    <entryLink id="a600-a375-f3f3-b78d" name="Raja on Elephant" hidden="false" collective="false" import="true" targetId="e709-c373-6f49-92a1" type="selectionEntry"/>
+    <entryLink id="4495-373a-ebcf-7eb9" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="ba8a-22c4-89ec-eae8" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ba8a-22c4-89ec-eae8" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c6e9-7297-7699-a646" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="e060-e12e-6732-b005">
+          <modifiers>
+            <modifier type="set" field="98ee-40fa-a3e0-6612" value="0.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98ee-40fa-a3e0-6612" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21c0-36b9-f669-2762" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e060-e12e-6732-b005" name="Heavy Weapons" hidden="false" collective="false" import="true" targetId="30fa-a6e6-d6aa-3c88" type="selectionEntry"/>
+            <entryLink id="3000-3ed4-e441-374b" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="3ced-2a39-679f-468d" name="Heavy Chariots" hidden="false" collective="false" import="true" targetId="320b-0e41-2154-7cd8" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="5196-ee2b-ea87-4f8b" name="1 Elephant" hidden="false" collective="false" import="true" targetId="3db8-4ba8-85f9-f78c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="b7f6-50c4-110d-f83e" name="Elephants" hidden="false" collective="false" import="true" targetId="fabf-5262-c2f9-4495" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="1510-152f-e715-e1e4" name="Resilience" hidden="false" targetId="8023-0b78-4166-ccd3" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="884f-46dc-95f1-e8c2" name="Warriors" hidden="false" collective="false" import="true" targetId="1897-8e1b-ec24-4c58" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="3e79-c9de-ed48-0213" value="-1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e79-c9de-ed48-0213" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4f63-3b28-6eab-f1fc" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="c077-bdb6-02a2-db3d">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edd9-b924-5f2f-2a7a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0cb1-02a6-66f6-a777" name="Javelins" hidden="false" collective="false" import="true" targetId="6ec3-de4b-9966-8ca0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="c077-bdb6-02a2-db3d" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="set" field="b7fd-f3fd-7b61-220d" value="0.0"/>
+                    <modifier type="set" field="hidden" value="true"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7fd-f3fd-7b61-220d" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="41a9-0ec5-b00b-c312" name="Light Chariots" hidden="false" collective="false" import="true" targetId="0dd2-c414-38df-436c" type="selectionEntry"/>
+    <entryLink id="f854-e994-ed50-1630" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="43dc-0a29-f350-8021" name="Options" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="e499-b5e9-4926-f1fb" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6010-5280-124c-3ebe" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e499-b5e9-4926-f1fb" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="3dd9-47b3-07a4-937f" name="Bows and Slings" hidden="false" collective="false" import="true" targetId="ea4e-4463-8f31-3306" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="b0ad-e28c-ff77-fcc8" name="Porus" hidden="false" collective="false" import="true" targetId="588d-c0dd-3bfa-42a2" type="selectionEntry"/>
+    <entryLink id="3617-370b-8560-372a" name="Chandragupta Maurya, The First Emperor" hidden="false" collective="false" import="true" targetId="279e-39b7-a8b0-ccd7" type="selectionEntry"/>
+    <entryLink id="f731-2e1e-c945-e7b1" name="Indian Ruses" hidden="false" collective="false" import="true" targetId="cf5c-e390-ce5e-f95e" type="selectionEntry"/>
+    <entryLink id="9689-197f-cd53-0eb5" name="Camel Riders" hidden="false" collective="false" import="true" targetId="e5af-ef79-de28-7ea8" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf88-295a-8d87-b968" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="4856-550c-50cd-25fd" name="Mercenary Hoplites" hidden="false" collective="false" import="true" targetId="c11e-10a3-fa1e-60bf" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf88-295a-8d87-b968" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="669d-7e6f-2e1a-58a6" name="Psiloi" hidden="false" collective="false" import="true" targetId="3890-2633-c38b-80f3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf88-295a-8d87-b968" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="04d7-4715-49cd-24d0" name="Thureophoroi" hidden="false" collective="false" import="true" targetId="bf1a-58b4-ebf9-b380" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf88-295a-8d87-b968" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="e569-ed77-45bd-7450" name="Thorakitai" hidden="false" collective="false" import="true" targetId="e4fd-19ea-cc8a-ef25" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf88-295a-8d87-b968" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+    </entryLink>
+    <entryLink id="d4fd-db3a-b5c3-3226" name="Scythian and Bactrian Horsemen" hidden="false" collective="false" import="true" targetId="1ee4-4e25-d478-7120" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="8a2c-1c51-9f95-2561" name="Indian Light Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="3242-6876-4947-e26a" name="Indian Light Chariot" publicationId="03cf-6e37-8804-8b98" page="13" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3(4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Chariot, Mount (Horse) Resilience (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="81a8-a236-5646-607e" name="Chariot" publicationId="03cf-6e37-8804-8b98" page="13" hidden="false">
+          <description>A Light Chariot tretas unven terrain and dangerous terrain as impassable. Note that Light Chariots don&apos;t have the Presence rule.
+
+Each light chariot figure counts as 2 Warrior figures when calculating victory points.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2836-4568-922d-33de" name="Composite Bows" hidden="false" targetId="7376-dfda-5b9f-7cb3" type="infoGroup"/>
+        <infoLink id="84ab-73e8-9f0e-b73c" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+        <infoLink id="03c6-983b-a634-93fb" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a31e-b786-ad25-f1ff" name="Light Chariot Model" hidden="false" targetId="59cd-46d3-019b-41ad" primary="false"/>
+        <categoryLink id="87d2-4829-cd82-dacf" name="Mounts: x" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0837-ad1c-d95c-3910" name="Indian Heavy Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="cb91-e585-92e1-2ae0" name="Indian Heavy Chariot" publicationId="03cf-6e37-8804-8b98" page="13" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">6/2 (0)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Heavy Chariot, Impact, Mount (Horse), Presence, Resilience (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5c59-4f6a-8e77-8149" name="Heavy Chariot" publicationId="03cf-6e37-8804-8b98" page="13" hidden="false">
+          <description>A heavy chariot treats uneven and dangerous terrain as impassable.</description>
+        </rule>
+        <rule id="4d7e-dc0c-b06d-59ba" name="Impact" publicationId="03cf-6e37-8804-8b98" page="13" hidden="false">
+          <description>A heavy chariots Aggression is 6 when it is the attacker during a melee, and 2 if it&apos;s the defender. If the chariot unit charged, each chariot in the unit inflicts 1 automatic hit on the enemy unit. These hits are added to those scored with their attack dice.
+
+Each chariot counts as 2 Hearthguard figures when calculating victory points.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d450-2e3c-612d-0a24" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+        <infoLink id="d4b0-9743-1d2e-5384" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="9c89-e454-6ea2-f8ed" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a0cc-3c7d-b929-17ea" name="Heavy Chariot Model" hidden="false" targetId="ad62-ef83-a58e-72f3" primary="false"/>
+        <categoryLink id="c2e8-47d8-c0bb-6efd" name="Mounts: x" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b6d-d076-429d-0ba9" name="Raja on Heavy Chariot" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="54e4-83bb-54ae-2624" name="Raja on Heavy Chariot" publicationId="03cf-6e37-8804-8b98" page="56" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">12 / 4</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Chariot, Mount (Horse), Impact</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="4bcb-5ff2-e1a9-c22d" name="Raja on Heavy Chariot" publicationId="03cf-6e37-8804-8b98" page="56" hidden="false">
+          <description>When recruiting your warband, you cna choose to equip your Warlord with a heavy chariot, giving him the following advantages and disadvantages:
+- He gains the Mount (Horse) special rule.
+- He loses the Bodyguards special rule.
+- A Raja with a chariot counts uneven and dangerous terrain as impassable.
+- The Aggression of a Raja on a chariot is 12 when he&apos;s the attacker in a melee, or 4 if he&apos;s the defender. When a Raja on a chariot charges, he inflicts 1 additional hit on the enemy. This hit is added to those scored on the attack dice.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9b3d-e8ea-aca6-2a80" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="000e-3e42-5699-9548" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="ed31-d421-5db3-bed2" name="Pride" hidden="false" targetId="9f00-d195-875d-2387" type="rule"/>
+        <infoLink id="662a-ce2e-a7dc-c759" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1b61-a0f4-730c-3499" name="We Obey" hidden="false" targetId="9d6a-1c55-95d2-cd3c" type="rule"/>
+        <infoLink id="6d9b-449c-76d6-e908" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="033e-0979-de19-5eb4" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="13f7-7a65-ebde-4fb6" name="Mounts: x" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+        <categoryLink id="f44c-e086-c937-2b29" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e709-c373-6f49-92a1" name="Raja on Elephant" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="8fe1-7272-ed2c-20ea" name="Raja on Elephant" publicationId="03cf-6e37-8804-8b98" page="56" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">10 (3)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Resilience (3), Presence, Determination, Pride, Elephant, Prestigious</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="28ef-8b87-accd-9817" name="Animal Terror" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>Units with the Mounts (x) rule suffer a -1 penalty to their attack dice while they are engaged in melee against an Elephant.</description>
+        </rule>
+        <rule id="e542-a610-41fc-c7e9" name="Mad with Pain" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>If an Elephant is removed as a casualty following a Shooting activation, every unit (friend or foe) within *S* of the Elephant must roll a die. On a result of 5 or 6, the unit suffers a casualty.</description>
+        </rule>
+        <rule id="673d-45c9-634d-59c5" name="Massive" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>An Elephant counts as an infantry unit. Its first move or charge activation each turn is made with a movement distance of *M*, but all activations after the first in a turn are made with a movement distance of *S*. An Elephant cannot close ranks or benefit from any cover whatsoever.</description>
+        </rule>
+        <rule id="c883-32f9-8303-fa46" name="Shooting" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>The warriors who ride Elephants often have a variety of ranged weapons, like javelins or short bows. Elephants count as being armed with composite bows, but given the animal&apos;s mass and the protection offered by its howdahs, the reduction in armour the weapon usually brings does not apply.</description>
+        </rule>
+        <rule id="8bff-0438-b62f-a610" name="Trampling" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>An Elephant is a terrifying opponent. When it is in melee combat, the Elephant adds 2 automatic hits to any hits scored by its attack dice (or 4 automatic hits if their opponent has closed ranks or has the Mounts (x) rule).</description>
+        </rule>
+        <rule id="0a8b-6856-269d-51cd" name="Prestigious" publicationId="03cf-6e37-8804-8b98" page="56" hidden="false">
+          <description>This unit counts as a unit of 2 heros when calculating victory points.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="722a-b77f-be87-30d8" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="4823-0241-5bd8-3842" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="2be0-2f99-93b5-58a2" name="Pride" hidden="false" targetId="9f00-d195-875d-2387" type="rule"/>
+        <infoLink id="4b8f-9ac3-1795-ec8a" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (3)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="252f-059a-802f-6e3c" name="Composite Bows" hidden="false" targetId="7376-dfda-5b9f-7cb3" type="infoGroup"/>
+        <infoLink id="57c4-f4e0-d2b2-53b1" name="We Obey" hidden="false" targetId="9d6a-1c55-95d2-cd3c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5b4b-5e09-253e-db7d" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="b9bf-9e8b-be70-4e04" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="7e75-81ca-a62b-9ec7" name="Elephants" hidden="false" targetId="ba72-73dd-462d-416d" primary="false"/>
+        <categoryLink id="7fa5-5edb-3969-6f45" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="320b-0e41-2154-7cd8" name="Heavy Chariots" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="3042-2db1-9425-c503" name="New CategoryLink" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+        <categoryLink id="385f-9272-22a9-da41" name="Resilience" hidden="false" targetId="8023-0b78-4166-ccd3" primary="false"/>
+        <categoryLink id="85e5-0d55-1de5-3385" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="dbd4-90ea-8a6c-3ed5" name="Indian Heavy Chariot" hidden="false" collective="false" import="true" targetId="0837-ad1c-d95c-3910" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83dc-be83-4833-98d3" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f696-304e-2305-4953" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0dd2-c414-38df-436c" name="Light Chariots" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c190-4352-29ca-7068" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a99d-bb6a-dad2-5963" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="5b3e-c2de-38cd-6020" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+        <categoryLink id="21d8-bdd8-39b5-ac01" name="Resilience" hidden="false" targetId="8023-0b78-4166-ccd3" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="d2e1-545d-fcd7-b023" name="Indian Light Chariot" hidden="false" collective="false" import="true" targetId="8a2c-1c51-9f95-2561" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02b9-d3f8-3639-3623" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0368-9794-53ee-a753" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="588d-c0dd-3bfa-42a2" name="Porus" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="fc3f-557d-4a4a-703b" name="Porus" publicationId="03cf-6e37-8804-8b98" page="58" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">12 (4)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Determination, elephant, Resilience (3), Presence, Prestigious, Pride, We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d21c-2564-cadf-8d7f" name="Animal Terror" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>Units with the Mounts (x) rule suffer a -1 penalty to their attack dice while they are engaged in melee against an Elephant.</description>
+        </rule>
+        <rule id="27c0-c1e7-d303-78b2" name="Mad with Pain" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>If an Elephant is removed as a casualty following a Shooting activation, every unit (friend or foe) within *S* of the Elephant must roll a die. On a result of 5 or 6, the unit suffers a casualty.</description>
+        </rule>
+        <rule id="a252-a1c8-5edb-a645" name="Massive" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>An Elephant counts as an infantry unit. Its first move or charge activation each turn is made with a movement distance of *M*, but all activations after the first in a turn are made with a movement distance of *S*. An Elephant cannot close ranks or benefit from any cover whatsoever.</description>
+        </rule>
+        <rule id="9c27-6c62-1fb7-5b8d" name="Prestigious" publicationId="03cf-6e37-8804-8b98" page="56" hidden="false">
+          <description>This unit counts as a unit of 2 heros when calculating victory points.</description>
+        </rule>
+        <rule id="45c5-d851-7893-e499" name="Shooting" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>The warriors who ride Elephants often have a variety of ranged weapons, like javelins or short bows. Elephants count as being armed with composite bows, but given the animal&apos;s mass and the protection offered by its howdahs, the reduction in armour the weapon usually brings does not apply.</description>
+        </rule>
+        <rule id="75b5-6e52-2d34-92c2" name="Trampling" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>An Elephant is a terrifying opponent. When it is in melee combat, the Elephant adds 2 automatic hits to any hits scored by its attack dice (or 4 automatic hits if their opponent has closed ranks or has the Mounts (x) rule).</description>
+        </rule>
+        <rule id="fca9-0e23-d87f-0fca" name="Treat Me as a King" publicationId="03cf-6e37-8804-8b98" page="58" hidden="false">
+          <description>At the end of the battle of the Hydaspes, Alexander was brought the wounded and defeated Purs and asked him: &quot;How should I treat you?&quot; The indombitable Indian sovreign answered &quot;As a King.&quot; showing he didn&apos;t consider himself a prisoner but his conqueror&apos;s equal.
+
+The first time Porus should be removed as a casualty, give him enough fatigue to become exhausted and ignore any other damage suffered until the end of the current activation.</description>
+        </rule>
+        <rule id="69b9-980c-697d-de8f" name="Exceptional Warrior" publicationId="03cf-6e37-8804-8b98" page="58" hidden="false">
+          <description>Many Greek sources emphasise the King of the Paurava&apos;s battle-prowess. Porus never suffers penalties for being exhausted in melee and can never have his armour reduced to less than 4 against either melee or shooting attacks. Ignore all game affects and Saga abilities that would reduce his armour to less than 4.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="aa5b-973d-d584-e6d3" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="aa12-b1fb-fd07-899b" name="Pride" hidden="false" targetId="9f00-d195-875d-2387" type="rule"/>
+        <infoLink id="41c4-2a90-3874-f725" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (3)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8bf1-ce2a-bc10-da31" name="We Obey" hidden="false" targetId="9d6a-1c55-95d2-cd3c" type="rule"/>
+        <infoLink id="0d4e-0e25-7398-caa9" name="Composite Bows" hidden="false" targetId="7376-dfda-5b9f-7cb3" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="da1c-a5b8-ee6f-263b" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="c188-7c1e-a9aa-3e96" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="0fd7-8993-0183-fccc" name="Elephants" hidden="false" targetId="ba72-73dd-462d-416d" primary="false"/>
+        <categoryLink id="246b-9792-cc6d-bdc3" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="0287-7bfe-4e9e-b8ab" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="2.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="279e-39b7-a8b0-ccd7" name="Chandragupta Maurya, The First Emperor" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="420e-06db-df62-4bc2" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="ca13-15fc-e777-a12f" name="Chandragupta Maurya" publicationId="03cf-6e37-8804-8b98" page="58" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">12 / 4</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Cahriot, Determination, Impact, Mount (Horse), Presence, Pride, Resilience (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6996-b27e-082e-818c" name="Raja on Heavy Chariot" publicationId="03cf-6e37-8804-8b98" page="56" hidden="false">
+          <description>When recruiting your warband, you cna choose to equip your Warlord with a heavy chariot, giving him the following advantages and disadvantages:
+- He gains the Mount (Horse) special rule.
+- He loses the Bodyguards special rule.
+- A Raja with a chariot counts uneven and dangerous terrain as impassable.
+- The Aggression of a Raja on a chariot is 12 when he&apos;s the attacker in a melee, or 4 if he&apos;s the defender. When a Raja on a chariot charges, he inflicts 1 additional hit on the enemy. This hit is added to those scored on the attack dice.</description>
+        </rule>
+        <rule id="8b00-f646-2350-0a11" name="Vanquisher of Phalanxes" publicationId="03cf-6e37-8804-8b98" page="58" hidden="false">
+          <description>When a warband is led by Chandragupt, all its units gain 2 bonus attack dice during a melee if their opponent chooses to close ranks in step 1.</description>
+        </rule>
+        <rule id="6e96-a506-bbd5-cc29" name="Kutayuddha" publicationId="03cf-6e37-8804-8b98" page="58" hidden="false">
+          <description>While Chandragupta is present on the battlefiled, roll one of your available Saga dice at the start of your Orders Phase, before anything ele happens. Check its face below to see what happens:
+- Common: Nothing happens.
+- Uncommon: Inflict 1 fatigue on an enemy unit.
+- Rare: Inflict 1 fatigue on two different enemy units.
+Put the dice you used back in your pool of available Saga dice.</description>
+        </rule>
+        <rule id="8732-cdbf-19bd-504c" name="First Emperor" publicationId="03cf-6e37-8804-8b98" page="58" hidden="false">
+          <description>Once per turn, when you target Chandragupta with one of the following Saga abilities, change the face of the dice used to a Rare: Great Size, Reinforce Armour, Dynasties of the Raja.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d6bb-5085-3c3d-f20d" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="569c-c8ae-d304-6e06" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="efb0-53a1-cb7a-2308" name="Pride" hidden="false" targetId="9f00-d195-875d-2387" type="rule"/>
+        <infoLink id="0a99-77e1-f835-5981" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9753-83d2-92bb-c6cf" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b366-8c02-e3f7-8667" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="c76b-7d1e-3ed7-265a" name="Mounts: x" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+        <categoryLink id="06fc-765e-cbf8-db08" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="a662-8942-ac4c-1b0b" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf5c-e390-ce5e-f95e" name="Indian Ruses" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="89ca-2baf-0c46-a25e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3e05-a3be-b493-592f" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6443-c782-5f41-15a1" name="Indian Ruses" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="4f8c-2b14-b923-af2a" name="Recruitment Ruses" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="587e-55f3-a16a-7496" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="420e-06db-df62-4bc2" name="Mountain Rajas" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d65f-da92-d950-056c" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="6cc4-f21d-104d-1ca1" name="Mountain Rajas" publicationId="03cf-6e37-8804-8b98" page="61" hidden="false">
+                      <description>Ignore the faction rules entriely. Your warband can&apos;t include any elephants or units with the Mount (X) special rule.
+
+Your *Warlord* must be on foot without equipment, and your *Levies* can only be equipped with bows.
+
+You can recruit *Warriors* and *Hearthguards* without equipment, and ignore the euipment restrictions on your *Hearthguard* models. Your Warriors on foot can alternatively be equipped with javelins.
+
+Your infantry units ignore movement penalties from uneven (but not dangerous) terrain during move activations, and get a bonus movement of *VS* when moving or charging.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="d58a-5530-d0e2-9e0d" name="Recuitment" hidden="false" targetId="34cf-5dfd-4b10-9a3a" primary="false"/>
+                    <categoryLink id="aa8b-0ea3-1856-ecfa" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                  </categoryLinks>
+                  <entryLinks>
+                    <entryLink id="090a-141e-58c8-4c2b" name="Mountain Rajas" hidden="false" collective="false" import="true" targetId="d90e-876c-f417-3414" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="665e-6f5a-0692-05b3" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3490-98a2-a202-d982" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="cf88-295a-8d87-b968" name="Mauryan Empire" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bda2-7b1a-1e68-dcf8" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="e3ba-40d7-fff8-0047" name="Mauryan Empire" publicationId="03cf-6e37-8804-8b98" page="61" hidden="false">
+                      <description>Your warband can now recruit up to 2 units of each of the following Mercenary units: Camel Riders, Mercenary Hoplites, Psioloi, Thureophoroi, and Thorakitai.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="b9cb-1320-942b-ce4a" name="Recuitment" hidden="false" targetId="34cf-5dfd-4b10-9a3a" primary="false"/>
+                    <categoryLink id="67e6-0dfb-a492-c921" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="82d3-6af9-59bb-0599" name="Preparation Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="d6e0-c004-5076-f3a9" name="Sattra" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8600-531a-1b39-9f82" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="42e6-832d-5a64-f856" name="Sattra" publicationId="03cf-6e37-8804-8b98" page="61" hidden="false">
+                      <description>Use this ruse after the warbands have been deployed but before the first turn of the game.
+
+Select a unit in your warband equipped with ranged weapons and redeploy it within *S* of a piece of uneven terrain but more than *L* from any enemy units.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="5f41-05ae-efc6-e1e8" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="6d65-b89e-2b17-d836" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="52af-7718-623a-1f22" name="Veterans Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="4c4a-24c0-4dd5-0df7" name="Maiden Guard" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c1-821e-a891-dcf2" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="e7e9-6469-64a5-9d68" name="Maiden Guard" publicationId="03cf-6e37-8804-8b98" page="61" hidden="false">
+                      <description>Hearthguards on foot or horse.
+
+Your unit ignores the first casualty inflicted each turn, no matter its origin. Your unit also gains the Resilience (1) special rule.
+
+When you Warlord targets this unit with their Bodyguards special rule, the rnage of their rule is *M* instead of *S*.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="3dfa-06fb-f286-2abb" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="cd5b-64d6-2e34-a586" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="2483-0a4c-8ccc-91b6" name="Stratagems Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="d57d-72b7-e784-299a" name="Brahman Oration" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cd4-a8f2-94af-ffc1" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="5363-865a-4c44-f1ae" name="Brahman Oration" publicationId="03cf-6e37-8804-8b98" page="61" hidden="false">
+                      <description>Use this ruse instead of using a Saga ability during step 4 of a melee.
+
+You can re-roll a number of attack dice that don&apos;t score hits equal to your opponents Armour.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="78e8-49fb-dd79-1a2b" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="94fb-7468-5ef5-1204" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="d4bd-2862-d5b9-7a1a" name="Indian Elephants" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcb6-f8e3-f9e6-0e1a" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="e0ee-c794-282e-cfba" name="Indian Elephants" publicationId="03cf-6e37-8804-8b98" page="61" hidden="false">
+                      <description>Play this card during a melee involving a friendly *Elephant* instead of playing a Saga ability.
+
+If the enemy unit is an *Elephant* or has the Mount (Horse) special rule, inflict a fatigue on it.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="6296-bd12-c044-a556" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                    <categoryLink id="3036-084f-1c5b-f5f2" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="bad4-e926-6661-1052" name="Age of Ancients" targetId="952b-66d2-440b-5912" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

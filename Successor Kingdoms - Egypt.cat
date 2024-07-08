@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="5bea-459b-b625-edca" name="Successor Kingdoms - Egypt" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="545d-31a6-07bf-99fc" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b1ce-d1ec-13eb-d519" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="4dd3-121f-4550-c519">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30b4-38c8-2c59-4447" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b32-4669-5664-c0a0" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="abf9-279a-170a-0172" name="Sarissas" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e9f-cb15-3e55-dac3" type="max"/>
+                <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="acb8-378e-edc7-a713" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="2b1a-0d7d-c366-2131" name="Sarissa" hidden="false" targetId="c24b-12d5-65ce-5f50" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="4dd3-121f-4550-c519" name="Bows and Slings" hidden="false" collective="false" import="true" targetId="ea4e-4463-8f31-3306" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </entryLink>
+    <entryLink id="565b-e38d-e0ec-0358" name="Ptolemy II Philadelphus, The Pharoah King" page="" hidden="false" collective="false" import="true" targetId="ff61-60d8-905f-d2b3" type="selectionEntry"/>
+    <entryLink id="2fc1-4e97-ed60-2a8d" name="Cretan Archers" hidden="false" collective="false" import="true" targetId="88d2-56a3-0275-34a5" type="selectionEntry"/>
+    <entryLink id="58b4-ec23-a6b7-769e" name="Tarentine Cavalry" hidden="false" collective="false" import="true" targetId="bc96-92c3-d82d-6df7" type="selectionEntry"/>
+    <entryLink id="1d4b-6948-177f-6a2d" name="Camel Riders" hidden="false" collective="false" import="true" targetId="e5af-ef79-de28-7ea8" type="selectionEntry"/>
+    <entryLink id="6f15-bbed-bdf3-4e4c" name="Galatians" hidden="false" collective="false" import="true" targetId="fb5f-719b-f65c-8b84" type="selectionEntry"/>
+    <entryLink id="59e4-438e-2944-8985" name="Thracian Mercenaries" hidden="false" collective="false" import="true" targetId="a123-1ade-77bb-b780" type="selectionEntry"/>
+    <entryLink id="04a5-4255-eb2d-5919" name="Psiloi" hidden="false" collective="false" import="true" targetId="3890-2633-c38b-80f3" type="selectionEntry"/>
+    <entryLink id="569d-8b0b-ec8e-5957" name="Thureophoroi" hidden="false" collective="false" import="true" targetId="bf1a-58b4-ebf9-b380" type="selectionEntry"/>
+    <entryLink id="3348-647a-5db1-4b2f" name="Thorakitai" hidden="false" collective="false" import="true" targetId="e4fd-19ea-cc8a-ef25" type="selectionEntry"/>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="3094-bd13-cd06-154b" name="Successor Kingdoms" targetId="4b3b-8909-9524-9ae8" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

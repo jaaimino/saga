@@ -1,0 +1,2603 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="952b-66d2-440b-5912" name="Age of Ancients" revision="5" battleScribeVersion="2.03" authorName="Jono Firth" library="true" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="0ebe-a140-cc89-7de6" name="Saga: Age of Hannibal" shortName="Age of Alexander" publisher="Studio Tomahawk" publicationDate="2022"/>
+    <publication id="03cf-6e37-8804-8b98" name="Saga: Age of Alexander"/>
+  </publications>
+  <costTypes>
+    <costType id="bd59-3330-754e-785d" name=" Ruse Points" defaultCostLimit="-1.0" hidden="false"/>
+  </costTypes>
+  <categoryEntries>
+    <categoryEntry id="92cb-7d0e-a764-2c1f" name="Elephant Model" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="aa6e-266c-ee58-53db" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3db8-4ba8-85f9-f78c" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="cf92-2968-83aa-97f9" type="min"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="aa6e-266c-ee58-53db" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="ba72-73dd-462d-416d" name="Elephants" hidden="false"/>
+    <categoryEntry id="f1d3-19fb-8dd7-e629" name="Ruses" hidden="false"/>
+    <categoryEntry id="34cf-5dfd-4b10-9a3a" name="Recuitment" hidden="false"/>
+    <categoryEntry id="fbdb-316c-e845-1b9b" name="Preparation" hidden="false"/>
+    <categoryEntry id="ded4-672f-6d73-1134" name="Veterans" hidden="false"/>
+    <categoryEntry id="8823-0694-1586-acc3" name="Stratagem" hidden="false"/>
+    <categoryEntry id="721e-2391-94d0-af53" name="Scythed Chariot Model" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="212f-0529-ce4d-c7d3" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8b82-4aaa-150f-cc31" repeats="1" roundUp="false"/>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7f6c-2eff-5e57-13e9" repeats="2" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="212f-0529-ce4d-c7d3" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="1736-3250-3818-45b2" name="Scythed Chariot" hidden="false"/>
+  </categoryEntries>
+  <forceEntries>
+    <forceEntry id="3c00-65b0-ed2b-c10e" name="Saga Warband with Ruses" hidden="false">
+      <categoryLinks>
+        <categoryLink id="3e1b-0652-14a5-b451" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="f556-f147-9e59-96fa" name="Warlord" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09d6-1421-5a18-14f6" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c2-0676-14ec-c406" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="7079-fd9f-afd7-6b7d" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5904-465d-d284-98c3" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="e6dd-d4c6-34ff-5fac" name="Units" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="false"/>
+        <categoryLink id="f489-6cd7-707b-73c5" name="Mercenaries" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="false">
+          <constraints>
+            <constraint field="limit::67d0-6d3a-a0de-3174" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="false" id="d48c-4880-9583-da38" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="eea4-7d94-b6e0-e2dc" name="Models" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="false"/>
+        <categoryLink id="7000-23d4-9c21-691a" name="Ruses" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false">
+          <modifiers>
+            <modifier type="increment" field="fb5f-e40e-af96-2fc7" value="1.0">
+              <repeats>
+                <repeat field="67d0-6d3a-a0de-3174" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="bd59-3330-754e-785d" scope="f1d3-19fb-8dd7-e629" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb5f-e40e-af96-2fc7" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="970c-9587-a0c6-fe5d" name="Generic Preperation Ruses" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="676d-40d1-ab5e-9022" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4406-87e3-b632-5419" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+        <categoryLink id="286a-f8b7-15a3-9848" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="aede-a3a8-14f2-f912" name="Generic Preperation Ruses" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="31d2-f502-4e2e-e4ae" name="Audacity" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67cf-7d11-62ea-ae76" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="192d-c235-5d8c-0b46" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3a60-547f-78be-37cf" name="Audacity" hidden="false">
+                  <description>Use this card at the start of the game before rolling the die to decide who will be the first player. Roll two dice and use the result of your choice to choose the first player. If both players have this Ruse, they cancel each other’s effects.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="03d2-9927-781f-0fb9" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="7f60-a30b-eaad-9399" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3f9d-e854-b4d4-1307" name="Reconnaissance" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ca2-7422-563d-78f7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4421-a75d-4e97-5355" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="2e9f-425a-872c-836a" name="Reconnaissance" hidden="false">
+                  <description>Use this card after the terrain has been set up, but before the first unit is deployed. Move a piece of terrain that hasn’t already been moved up to *S*. This cannot move it within *S* of any other terrain pieces.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="7652-2121-fd1b-b128" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="23c8-fb3d-90a9-2833" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b90c-abd0-807a-6904" name="Envelopement" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71fe-ef87-da9f-772f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1212-a6d4-d18c-8de3" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e919-6031-4e15-9932" name="Envelopement" hidden="false">
+                  <description>Use this card once deployment is finished. Choose one of your units with 6 figures or less and remove it from the table. During your first turn, this unit can enter play using a free movement activation, measured from any point on either table edge that hasn’t been assigned to a player.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="4a51-0997-8afc-2462" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="4607-67e0-8f8f-3fbf" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ee35-0cd9-9516-bf3a" name="Refused Flank" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc11-c096-effa-609f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f64-c5bc-6f34-2789" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="2460-671d-f44a-d27b" name="Refused Flank" hidden="false">
+                  <description>Use this card once both warbands have completely finished deploying, but before the start of the first turn. Redeploy up to two of your units within your deployment area.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="d902-ee8a-8186-1c00" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="5f15-e371-18a9-a957" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7e93-52cd-8b93-6a7c" name="Knowledge of the Land" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4afa-5d26-4ff5-f178" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7623-1080-f809-4db6" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="e862-44d7-0fb3-388e" name="Knowledge of the Land" hidden="false">
+                  <description>Use this card after the terrain has been set up but before the first unit is deployed. Place a small area of low uneven terrain offering light cover.  It must be outside the enemy deployment area and more than *S* from any other piece of terrain.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="8db7-fced-1fb3-eee3" name="New CategoryLink" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+                <categoryLink id="f00a-ede0-625a-abe2" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5407-1d3d-b718-dc08" name="Change of Formation" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95fc-6bc2-4a32-5652" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="855d-9b9b-16ed-0333" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="eefc-ae59-da01-5d5b" name="Change of Formation" hidden="false">
+                  <description>Use this card at the start of your first turn. Choose up to two friendly units. Their first activation of the turn is free.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="3a14-f07d-b76e-fbb7" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="2891-d5b6-e851-a54c" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9b17-6a8f-4a83-58dd" name="Preparation" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27d8-8f9d-ef61-0282" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8325-43a4-81eb-ff19" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="689a-c1ca-901f-0b3a" name="Preparation" hidden="false">
+                  <description>Use this card at the start of your first turn. Roll one more Saga die than you would normally roll. This bonus ignores scenario restrictions and special rules.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="b554-4d34-0559-17a3" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+                <categoryLink id="6ee8-db54-0e51-5242" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="705b-e460-8897-e918" name="Deceit" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8fa-66eb-fd2a-e46c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c446-35d7-1968-abf7" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="0e83-aa20-3f91-428d" name="Deceit" hidden="false">
+                  <description>Use this Ruse after deployment. Your opponent rolls one less Saga die than they generate at the start of their first turn of the game, and they cannot roll additional Saga dice during their first Orders phase of the game.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="509a-eeb9-cb5a-7b49" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="0e7c-3b55-bfb9-b326" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c6f8-7de1-283d-16d2" name="Generic Veterans Ruses" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9020-d9c5-6c7e-7beb" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4dfe-ddd8-21f4-9c54" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="true"/>
+        <categoryLink id="30ff-be0a-0245-9959" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0847-d312-241c-214d" name="Generic Veterans Ruses" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="f8c8-003f-aba4-6353" name="Charismatic General" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df2b-6687-0746-e2d4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94d8-8c40-d25e-442a" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="fea5-d536-412c-35b5" name="Charismatic General" hidden="false">
+                  <description>At the start of your turn, before generating your Saga dice, your Warlord can take a fatigue if they are not exhausted to choose a friendly unit within M. This unit can be activated for free for a move or a rest.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="7bb9-0abb-8bf2-e495" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="0493-dc1d-9a95-5099" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8b07-7013-8fb7-40a7" name="Faithful" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d67d-ddb6-21e8-4730" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51ad-ab80-8213-c817" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="9dcc-bf7c-38d3-b6dc" name="Faithful" hidden="false">
+                  <description>Hearthguards only
+If this unit is within S of your Warlord at the start of your Activation phase, they can remove one of their fatigues. This does not count as a rest activation.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="5ab1-95f4-eb5f-7a41" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="156c-0806-e26f-c334" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3fb5-d345-b906-facc" name="Stoic" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b8f-33d3-7b62-7077" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3677-5f25-9cc4-b438" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="eb27-9b1b-be65-9f07" name="Stoic" hidden="false">
+                  <description>This unit suffers no fatigue when friendly units are eliminated.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="2cca-e090-dd9c-0a1b" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="7dfe-aee3-8eff-ae62" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e6cf-d273-be36-3d8e" name="Training" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="233f-766a-3fdf-b06a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7169-009b-bb78-59e1" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="c80f-fbc7-86a6-7fb7" name="Training" hidden="false">
+                  <description>When this unit fights in melee, it can re-roll a single defence die.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="42b5-4c7d-d9ad-446a" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="0df5-b345-448f-e31a" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="55e8-e2c2-5f12-59c6" name="Loyal" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="132a-f2d1-4bfc-fc1e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04a5-cdf1-8fd0-e0e7" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="d603-64e6-bd27-6657" name="Loyal" hidden="false">
+                  <description>Can be assigned to a unit of Mercenaries.
+If this unit is within *VS* of your Warlord at the start of your Activation phase, it gains the Determination special rule.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="cba5-5f56-1dfe-ca70" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="3961-1e8f-1631-e528" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c05f-69dc-a3f6-df7a" name="Brothers in Arms" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fdd-aabf-f8f7-7d6b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd2-9838-78dd-f7ad" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="68f6-110c-d601-2363" name="Brothers in Arms" hidden="false">
+                  <description>Infantry only
+If the number of other friendly figures within *S* exceeds the number of figures in this unit, this unit counts as being  in solid cover during those melees in which they are the defender.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="dd3c-1e8b-4161-ae8b" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="959f-a9c7-7160-ab2c" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e93d-3456-9137-c39d" name="Raiders" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b827-9c81-79bd-0bb3" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b714-cb75-d968-8aa5" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="5d1d-37f7-8a2b-1dab" name="Raiders" hidden="false">
+                  <description>Warriors or Levies only
+When this unit wins a melee as the attacker and has suffered less than 3 casualties, it takes no fatigue in step 7 but cannot be activated again that turn.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="3ee5-347c-deac-76d1" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="4eae-5776-348d-9990" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e0e1-751f-c4dc-b8d5" name="Paragon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0944-0745-4849-f364" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61de-1477-2d0b-5522" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="ae94-6902-a0bb-de0a" name="Paragon" hidden="false">
+                  <description>Cannot be assigned to a unit of Levies
+When this unit eliminates an enemy unit during a melee, remove one fatigue from every other friendly unit that is within M at the end of the melee.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="9d12-5c2b-6011-8ea5" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="f6f6-8567-8694-e10f" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c743-7d92-10f4-2f27" name="Generic Stratagem Ruses" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ee3f-8cf7-e1e5-479f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3048-0d69-066f-9764" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="true"/>
+        <categoryLink id="53b1-5718-29ca-36b5" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a953-4a2f-4b8d-ae2a" name="Generic Stratagem Ruses" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="f637-06c3-3a36-d98d" name="Another Push" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="042e-7037-5e39-1531" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f3a-e79b-f609-1dea" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a969-73df-4af2-6ac5" name="Another Push" hidden="false">
+                  <description>Use this card during a melee, after using a Saga ability that grants you attack dice. Gain an additional attack die, or two if your unit is made up of Hearthguards.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="0145-be8e-0146-b48c" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="true"/>
+                <categoryLink id="5f60-17ec-669d-7dc6" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fed6-df16-d6e5-6923" name="Breakers of Shields" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16e1-12e8-6165-a306" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2602-7ba3-46b6-b8ee" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="5057-4208-0237-854d" name="Breakers of Shields" hidden="false">
+                  <description>Use this card during step 1 of a melee in which you are the attacker. If your opponent has closed ranks, gain three attack dice.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="70b5-c535-74b8-b831" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="5be7-d8d1-74be-d091" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bdf2-d42a-f70c-0d27" name="Forced March" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f57e-9d31-fb55-5310" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d8-67e0-6596-7cef" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="6fe2-00df-adf2-ab5e" name="Forced March" hidden="false">
+                  <description>Use this card after having activated one of your units for a move (including after a manoeuvre). This unit’s movement distance is increased by *S (or *M* if it is mounted), but it cannot be within *M* of an enemy unit at any point in its move.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="0b95-337c-12c7-2165" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="463f-02b6-009e-2829" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bd25-45f1-ca3d-5f1b" name="Reform" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0ea-9a40-3338-3f96" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d581-1c49-3f08-0a85" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="3d43-2e85-c005-9713" name="Reform" hidden="false">
+                  <description>Use this card after having activated one of your units for a rest. The unit discards two fatigues after their rest, but cannot be activated again this turn.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="2a62-3c69-bdab-b2e0" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="7cb9-239b-9374-5a71" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a897-0914-c2c2-8ab3" name="Using the Ground" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e65-6384-fced-cff4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df18-aa91-dfb9-e8d7" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="21e0-3b97-a6bc-eab4" name="Using the Ground" hidden="false">
+                  <description>Infantry only
+Use this card when one of your units is targeted by a shooting attack, but before the shooting attack is resolved. When this shooting attack is resolved, you can re-roll defence rolls of 1, or all your defence rolls if your unit is entirely situated within uneven terrain.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="df31-c9bb-1b41-7ebf" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="ac32-e6ba-c6c2-190e" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="46f5-d042-6bf6-2903" name="Ordered Retreat" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cde-9926-5ccf-39f7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2241-0f3c-f126-2106" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="ab9f-3e92-5232-fc19" name="Ordered Retreat" hidden="false">
+                  <description>Use this card when your unit has to withdraw following a melee. They suffer no fatigue after this melee.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="0777-7a6d-adf9-8475" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="ac60-aef6-0649-b4e3" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="6.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3a9d-8c1a-bb3e-62c9" name="Omen" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ec4-a252-463d-9895" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bd8-fe2b-9620-4bc7" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="b1d6-fd69-cf2b-0646" name="Omen" hidden="false">
+                  <description>Use this card at the start of one of your turns, after rolling your available Saga dice. You can re-roll one of your inactive Saga dice.  You can choose to inflict a fatigue on your Warlord in order to re-roll a second inactive Saga die.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="b3fb-11ae-259c-4b3f" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="a3b7-eb9d-6d0c-7395" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b0a7-4bfd-e992-9eaf" name="Flaming Projectiles" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abf1-7c0f-587d-f18c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea16-365a-26b5-6900" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="5e01-75f7-f42b-6d81" name="Flaming Projectiles" hidden="false">
+                  <description>Use this card at the start of your Activation phase. Choose an area of terrain offering light cover within M of one of your units with at least 8 figures. This area catches fire and until the end of the game counts as  high area of dangerous terrain that no longer offers cover. Any unit inside the terrain piece at the end of the turn suffers a casualty and a fatigue.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="f121-f873-a68a-1223" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="9f30-310a-6001-7787" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0e61-78ee-0bb1-423e" name="Offering to the Gods" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="420d-c5af-13dd-fdd1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0cf-7c0d-c623-3a7c" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a8f7-b2e8-e471-ea3a" name="Offering to the Gods" hidden="false">
+                  <description>Use this card at the start of your first turn, before rolling your Saga dice. Gain 3 Offering markers,
+and one additional Offering marker for each Saga die you could roll but choose not to, up to a maximum of 3 additional Offering markers. During the game, you can discard an Offering marker to re-roll a single attack or defence die.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="56c8-acae-c411-8df6" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="92bd-b6cf-c84c-ae8c" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="961b-7a12-8d83-0579" name="Deluge" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19fe-c22b-d151-4cd8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c471-4715-6592-5786" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="71ff-fbe6-94b5-5769" name="Deluge" hidden="false">
+                  <description>Use this card during your Activation phase to activate a unit that hasn’t charged this turn for a move. This activation generates no fatigue. Once this movement ends, the unit cannot be activated
+again during this turn.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="afec-ceac-249c-e742" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="3912-d5f7-5944-078a" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5efb-3226-b26b-4cfc" name="Drive in their Lines" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c92e-032d-3ca6-9fa6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36a8-25c8-fc48-40f9" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="a2af-769b-96a3-f438" name="Drive in their Lines" hidden="false">
+                  <description>Unit without ranged weapons only (except for Elephants)
+Use this card when one of your units is activated for a charge. The enemy unit cannot close ranks
+during this melee. If your unit is mounted or an Elephant, your opponent generates two fewer attack dice, to a minimum of one die.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="a9c8-6c42-1126-9ce7" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="12bd-8cc3-fcf1-e709" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0b28-32e5-645f-744e" name="Ultimate Sacrifice" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb79-9eb4-ede4-d9e4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6af5-89fe-154f-e348" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="1393-678c-9ebf-5698" name="Ultimate Sacrifice" hidden="false">
+                  <description>Use this card at the start of an enemy Activation phase. Choose one of your units which no longer generates Saga dice and is within *M* of an enemy unit. Remove all the figures in said unit as casualties, then roll half that many Saga dice and place them on your Battle Board.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="6dfd-13a6-f4a3-ffbb" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="17e7-9f80-ffc4-4d45" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8a88-c8e3-1f1c-f4f2" name="Last Ditch" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d959-47fb-f50b-2376" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd05-7493-786e-4471" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="c7f1-1f62-74d8-47a7" name="Last Ditch" hidden="false">
+                  <description>Use this card when one of your exhausted units is charged. Increase their Armour by 1 during the ensuing melee.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="a640-a24a-4861-4ee4" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="c33d-40b0-a2d0-b8f9" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4829-0c52-2761-b627" name="Spy" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2ac-e913-44e3-5061" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6c5-d830-d325-8037" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="fd9b-97f8-155c-c302" name="Spy" hidden="false">
+                  <description>Use this card when your opponent uses a Preparation or Stratagem Ruse card. Roll one die for each Ruse point that your opponent’s card cost. If you get at least one result of 5+, your opponent’s Ruse is exposed. It counts in all respects as having been used, but its effect is not applied.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="efc5-1803-e7d2-bf3e" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="5a4d-fb35-6e93-a876" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2c46-437e-98e5-6023" name="Loyal only to Gold" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccac-91e5-41fd-25d1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="724b-3186-d870-c42b" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="cdf6-0dcb-9a98-528f" name="Loyal only to Gold" hidden="false">
+                  <description>Use this card when your opponent activates a Levy or Mercenary unit, but before the activation is resolved. Your opponent must choose between inflicting a fatigue on their unit or cancelling its activation. In either case, the unit cannot be activated again that turn.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="b3f2-819a-ed27-58f5" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="9dba-0899-9ff8-d118" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6638-0efb-13e2-638f" name="Slave Bodyguards" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e79-c3ae-c284-e534" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af45-f7a4-44cd-6e5a" type="max"/>
+              </constraints>
+              <rules>
+                <rule id="423f-db77-43c5-bffa" name="Slave Bodyguards" hidden="false">
+                  <description>Use this card before rolling your Warlord’s defence dice. You gain a +2 bonus to all your defence rolls during this
+melee or shooting attack. Then give this card to your opponent. It counts as a Hero slain in melee when calculating victory points.</description>
+                </rule>
+              </rules>
+              <categoryLinks>
+                <categoryLink id="a099-4089-40ca-092e" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="false"/>
+                <categoryLink id="ecd2-115f-d1d5-2409" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="3db8-4ba8-85f9-f78c" name="1 Elephant" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="limit::67d0-6d3a-a0de-3174" scope="roster" value="50.0" percentValue="true" shared="true" includeChildSelections="true" includeChildForces="false" id="23b8-8b35-e833-64d7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a457-b7b7-3f04-95d2" name="New CategoryLink" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fabf-5262-c2f9-4495" name="Elephants" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="673e-1c7b-db0c-a448" name="Elephant" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="5 (5)">
+              <conditions>
+                <condition field="selections" scope="fabf-5262-c2f9-4495" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3c95-fd95-6aaa-54a0" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">5 (2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Animal terror, Mad with Pain, Massive, Presence, Resilience (2), Shooting, Trampling</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a183-f8cb-49bd-ec68" name="Animal Terror" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>Units with the Mounts (x) rule suffer a -1 penalty to their attack dice while they are engaged in melee against an Elephant.</description>
+        </rule>
+        <rule id="a0d1-6ca2-b69d-a975" name="Mad with Pain" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>If an Elephant is removed as a casualty following a Shooting activation, every unit (friend or foe) within *S* of the Elephant must roll a die. On a result of 5 or 6, the unit suffers a casualty.</description>
+        </rule>
+        <rule id="357d-7b38-0ae6-3b27" name="Massive" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>An Elephant counts as an infantry unit. Its first move or charge activation each turn is made with a movement distance of *M*, but all activations after the first in a turn are made with a movement distance of *S*. An Elephant cannot close ranks or benefit from any cover whatsoever.</description>
+        </rule>
+        <rule id="4047-0e49-2f1c-d939" name="Shooting" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>The warriors who ride Elephants often have a variety of ranged weapons, like javelins or short bows. Elephants count as being armed with composite bows, but given the animal&apos;s mass and the protection offered by its howdahs, the reduction in armour the weapon usually brings does not apply.</description>
+        </rule>
+        <rule id="7b61-6351-96ed-451a" name="Trampling" publicationId="0ebe-a140-cc89-7de6" page="12" hidden="false">
+          <description>An Elephant is a terrifying opponent. When it is in melee combat, the Elephant adds 2 automatic hits to any hits scored by its attack dice (or 4 automatic hits if their opponent has closed ranks or has the Mounts (x) rule).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="2180-95da-f241-a72d" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="13f1-d53b-2ccf-ae0f" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bc0d-5f35-23ba-9c00" name="Composite Bows" hidden="false" targetId="7376-dfda-5b9f-7cb3" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8d74-b739-a543-1399" name="Elephants" hidden="false" targetId="ba72-73dd-462d-416d" primary="false"/>
+        <categoryLink id="6634-0ff0-16c6-eefe" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="12a2-950e-2e9a-52f7" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e3f4-25df-93b8-308d" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="7dc7-b9f9-8404-747c" name="Elephant" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4437-e8ec-8fed-4543" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e612-3bbd-b134-53c1" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="3bca-e543-851a-33e3" name="Elephant Model" hidden="false" targetId="92cb-7d0e-a764-2c1f" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d5fb-b476-128a-74c4" name="War Pigs" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="048e-49d6-f324-fe28" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="9277-b4b2-668a-4bde" name="War Pigs" publicationId="0ebe-a140-cc89-7de6" page="13" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">0</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (3)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1/3</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Pigs Run Wild, All-Terrain</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1010-f820-9f91-0597" name="Pigs Run Wild" publicationId="0ebe-a140-cc89-7de6" page="13" hidden="false">
+          <description>Once per turn, this unit can be activated for free for a Shooting attack that generates no fatigue. To do so, remove 2 pig figures from your unit, and choose an enemy unit within *M*. Resolve a shooting attack against this unit but roll no attack dice. You inflice 1 automatic hit if it is an infantry unit, 2 automatic hits if it is a mounted unit, and 3 automatic hits if it is a unit of Elephants. The enemy also suffers a fatigue after the shooting attack is resolved.</description>
+        </rule>
+        <rule id="5a66-f5f7-6df6-db29" name="All-Terrain" publicationId="0ebe-a140-cc89-7de6" page="13" hidden="false">
+          <description>This unit&apos;s movement is never reduced by uneven terrain. It suffers the usual penalties for dangerous terrain. This unit can never charge.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="630c-b6f5-f4df-44be" name="Unarmed" hidden="false" targetId="f23c-6307-7fd1-1aee" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1c3e-d0a1-e015-ea5d" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="9103-b878-0789-7fcf" name="Levies" hidden="false" targetId="1b85-ce22-49b2-db2a" primary="false"/>
+        <categoryLink id="10a4-93d4-c12d-da8b" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0e54-bb18-39b0-b869" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="eb8c-f3af-fa40-1747" name="Pig Keeper" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b45d-2026-e822-60fa" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="231b-ce4f-0bce-6267" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="1c57-3b0c-001c-f741" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3463-519d-62e5-8d61" name="Pigs" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10e6-eee2-dd59-8b9b" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45ce-c37c-8782-cb2f" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="d8ee-6fe3-8ea5-c02d" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88d2-56a3-0275-34a5" name="Cretan Archers" publicationId="0ebe-a140-cc89-7de6" page="67" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="08c7-7962-2841-8aea" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e1de-d44f-13a0-507f" name="Cretan Archers" publicationId="0ebe-a140-cc89-7de6" page="67" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1/2 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Peerless Shooters, Bronze Arrows, Shields</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="60c5-7eb2-5ded-f84f" name="Peerless Archers" publicationId="0ebe-a140-cc89-7de6" page="67" hidden="false">
+          <description>In each of their warband&apos;s Activation phases, Cretan Archers can be activated to shoot for free once. However, this free ability cannot be preceeded by any other activation like a move or a rest.</description>
+        </rule>
+        <rule id="c54c-9ac7-61e6-2650" name="Bronze Arrows" publicationId="0ebe-a140-cc89-7de6" page="67" hidden="false">
+          <description>If their first activation of the turn is a shooting activation, Cretan Archers get 2 bonus attack dice. If the targeted unit is also within *M* of the unit of Cretan Archers, they get an additional +1 to their attack dice. Only one figure in the target unit need be in range for this bonus to apply. However, Cretan Archers never gain additional attack dice by any means other than those mentioned here.</description>
+        </rule>
+        <rule id="fd2d-3d3b-31b9-ee40" name="Shields" publicationId="0ebe-a140-cc89-7de6" page="67" hidden="false">
+          <description>A unit of Cretan Archers has an Armour of 4 against shooting, but an Agression of 1/2 in melee.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4a34-552f-fee2-b9fd" name="Bows and Slings" hidden="false" targetId="c95d-a936-7455-93ce" type="infoGroup">
+          <modifiers>
+            <modifier type="set" field="name" value="Bows"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c4a7-b144-be1b-63d3" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="a201-af68-29f0-4e45" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a43a-ec5b-a4ec-a2bb" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9412-6403-6e69-1a12" name="Cretan Archers" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1677-9f85-c93e-3347" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6c5-18d5-3fdd-c6fd" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="f4ba-1dd8-6a22-ef88" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bc96-92c3-d82d-6df7" name="Tarentine Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9756-ce8a-052f-e635" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7c81-e7f9-70f1-e0a6" name="Tarentine Cavalry" publicationId="0ebe-a140-cc89-7de6" page="67" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (3)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Outriders, Lying in Wait, Mounts (Horses)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="aef5-603d-629b-1ae7" name="Outriders" publicationId="0ebe-a140-cc89-7de6" page="67" hidden="false">
+          <description>Each time an enemy unit is activated for a move or a charge within *M* of a unit of Tarentine Cavalry, the Tarentines must be activated for a free move that is resolved before the enemy unit’s activation can be resolved. This move can’t end within *S* of an enemy unit, and the activation is cancelled if this is impossible.
+No opponent can trigger an Activation/Reaction ability following this activation.</description>
+        </rule>
+        <rule id="085d-0c3d-1530-8274" name="Lying in Wait" publicationId="0ebe-a140-cc89-7de6" page="67" hidden="false">
+          <description>When an enemy unit is activated for a rest within *L* of a Tarentine unit with no fatigue that hasn&apos;t been activated during the current turn, the Tarentines can be activated for a free charge against the unit being activated to rest. This charge is resolved before the enemy unit&apos;s rest activation.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="747f-f38c-1689-cb3e" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+        <infoLink id="246e-abff-f26d-2ea6" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="aa33-5cc9-4bff-bef8" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="b5bf-01a8-4f73-6615" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6379-a9c9-a583-c291" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="15ef-de15-3330-4f9c" name="Tarentine Cavalry" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9f9-dba4-9053-8582" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc41-3e03-322a-a2dd" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="f277-2762-2f70-da6d" name="Mounts (Horses)" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a31-6b8c-b96d-eeb4" name="Balearic Slinges" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2cbd-ce12-ab86-8f4d" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="10ec-e489-8d1c-cde2" name="Balearic Slinges" publicationId="0ebe-a140-cc89-7de6" page="67" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (3)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Accuracy, Trained from Childhood</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="adbc-89a0-7b9e-45ad" name="Accuracy" publicationId="0ebe-a140-cc89-7de6" page="67" hidden="false">
+          <description>When they are activated to shoot, Balearic Slingers can reduce the range of their slings to *M* to increase their shooting Aggression to 1 instead of 1/2. Note that the whole unit must reduce the range of their slings, or none of them can. You can&apos;t reduce the range of some figures and not others.</description>
+        </rule>
+        <rule id="bda2-be04-f970-365c" name="Trained from Childhood" publicationId="0ebe-a140-cc89-7de6" page="67" hidden="false">
+          <description>To increase their armour when they are targeted by Balearic Slingers, their opponent must spend two of the Slingers&apos; fatigue instead of one.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7cde-34cf-876b-b20d" name="Bows and Slings" hidden="false" targetId="c95d-a936-7455-93ce" type="infoGroup">
+          <modifiers>
+            <modifier type="set" field="name" value="Slings"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6321-c58c-dc76-7ed1" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="17c0-e6aa-44f5-1431" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9cea-b327-32e2-1e2f" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="a120-4d5b-13a6-5620" name="Balearic Slingers" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b000-1ca3-8cba-a37f" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="135f-2351-876e-f8c1" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="8b56-55c3-4bd4-9be2" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c11e-10a3-fa1e-60bf" name="Mercenary Hoplites" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7011-c292-4e2e-7e72" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7507-c109-7a90-ba0b" name="Mercenary Hoplites" publicationId="0ebe-a140-cc89-7de6" page="68" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (6)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">2</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Greeks, Determination, Heart of the Line, Unshakeable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c3b4-0cd7-573b-a98a" name="Greeks" publicationId="0ebe-a140-cc89-7de6" page="68" hidden="false">
+          <description>Due to the quality of their equipment, their Armour against shooting is 6 and not 5 like it is for other Hoplites. When they are recruited by Graeculi, they count as &lt;b&gt;Phalanx&lt;/b&gt;.</description>
+        </rule>
+        <rule id="7ac1-f6c0-1b4a-768e" name="Heart of the Line" publicationId="0ebe-a140-cc89-7de6" page="68" hidden="false">
+          <description>Every other friendly infantry unit (except Levies and Elephants) within &lt;b&gt;M&lt;/b&gt; of a unit of Mercenary Hoplites gets 2 bonus defence dice during every melee.</description>
+        </rule>
+        <rule id="9942-1589-0106-4e07" name="Unshakeable" publicationId="0ebe-a140-cc89-7de6" page="68" hidden="false">
+          <description>If the Mercenary Hoplites have &lt;i&gt;closed ranks&lt;/i&gt;, they get an additional +1 bonus to their defence dice. However, when they charge, Mercenary Hoplites only have an Aggression of 1 instead of their usual 2.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e738-e4aa-a006-e5dc" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="39a0-ad0d-1fbc-943f" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+        <categoryLink id="370f-e6cf-6399-acee" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7fc7-7e72-9031-1e13" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="e0ff-29b1-0976-4cd2" name="Mercenary Hoplites" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74e6-2a56-ce40-d900" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a074-4747-0c45-05af" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="803b-ca21-a4e4-127a" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="2.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="189e-be01-badf-c5e8" name="Ligurians" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd6d-d104-0b44-775f" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0761-deb8-3533-47d6" name="Ligurians" publicationId="0ebe-a140-cc89-7de6" page="68" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Their Women have the Courage of Men, Their Men that of Wild Beast, Born Swordsmen</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a129-e115-6ed0-0f8c" name="Their Women have the Courage of Men, Their Men that of Wild Beast" publicationId="0ebe-a140-cc89-7de6" page="68" hidden="false">
+          <description>If an enemy unit is forced to withdraw from a unit of Ligurians, the Ligurians suffer no fatigue after the resolution of that melee.</description>
+        </rule>
+        <rule id="f337-f863-211e-0bfe" name="Born Swordsmen" publicationId="0ebe-a140-cc89-7de6" page="68" hidden="false">
+          <description>At the start of each melee, after the charge is resolved but before step 1, the Ligurians can choose to count as being armed with heavy weapons.
+If the Ligurians &lt;i&gt;closed ranks&lt;/i&gt;, they gain half as many defence dice as there are currently figures in their unit. Otherwise, they get half as many attack dice as there are currently figures in their unit.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0edf-fb72-3e3f-3e5a" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="6283-e6b5-8803-28e6" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="8c43-1c61-7f97-84a0" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="fd25-c10b-a664-95f2" name="Ligurians" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbcf-9015-6767-538c" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="704b-b605-2605-5fd2" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="3fa4-f8d3-4602-9cc3" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3890-2633-c38b-80f3" name="Psiloi" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d797-74fa-03b1-9236" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="15f9-000a-5282-227f" name="Psiloi" publicationId="0ebe-a140-cc89-7de6" page="69" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1/3 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Harassment, Disposable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6929-a268-51c6-3df5" name="Harassment" publicationId="0ebe-a140-cc89-7de6" page="69" hidden="false">
+          <description>This unit can never be activated to charge.
+Once during each of their warband&apos;s Activation phases, the unit can choose to either:
+- Be activated for a free shooting attack if the unit is within &lt;b&gt;M&lt;/b&gt; of an enemy unit.
+- Be activated for a free move if the unit is more than &lt;b&gt;M&lt;/b&gt; from any enemy units.</description>
+        </rule>
+        <rule id="698e-0080-6eae-5921" name="Disposable" publicationId="0ebe-a140-cc89-7de6" page="69" hidden="false">
+          <description>When it is eliminated, this unit does not inflice fatigue on friendly units within &lt;b&gt;S&lt;/b&gt;.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="43bd-f727-0890-7e4d" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="51fd-7aa8-4f0d-0ce3" name="Levies" hidden="false" targetId="1b85-ce22-49b2-db2a" primary="false"/>
+        <categoryLink id="b3a6-e24b-0745-5d96" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="49c9-3483-f286-fec0" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="421e-8302-8e70-f348" name="Psiloi" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a34-bc61-7ec5-a733" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="410f-2a1b-eb2a-2c8c" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="65cf-6f6f-4d84-2a0d" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="439d-4f26-50b2-63fd" name="Samnites" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="23ea-473e-2c75-7423" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a477-ea2f-c3bd-e932" name="Samnites" publicationId="0ebe-a140-cc89-7de6" page="69" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Determination, Across Woods, Rancour</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="3c79-632c-d9fe-0fe9" name="Across Woods" publicationId="0ebe-a140-cc89-7de6" page="69" hidden="false">
+          <description>Samnites ignore the movement penalty for uneven terrain, but not for dangerous terrain. When activated to move, if they did not shoot during this phase, they can add *S* to their movement distance. If they do, they will not be able to activate to shoot until the end of the phase. </description>
+        </rule>
+        <rule id="8cc1-7e29-9760-16a7" name="Rancour" publicationId="0ebe-a140-cc89-7de6" page="69" hidden="false">
+          <description>A charge activation by the Samnites against an enemy unit with at least one fatigue is a free activation. If the enemy unit has more fatigues than the Samnite unit at the start of the melee, the Samnites get 3 bonus dice. The Samnite player can choose between attack dice, defence dice, or a mix of the two.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e62f-b4ee-3554-c9f0" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+        <infoLink id="bf07-933c-94b6-1a66" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4640-daf7-3079-3816" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="ea8f-bdd8-6796-00bc" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6ac9-f884-7872-bb2e" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="80d6-3792-eb04-e915" name="Samnites" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3511-d786-3e8f-a75b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="307b-5386-07f7-8833" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="b9bd-4cad-f034-cad4" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf1a-58b4-ebf9-b380" name="Thureophoroi" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fb4e-fc3b-bacd-a585" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7845-5e3b-a8fc-a200" name="Thureophoroi" publicationId="0ebe-a140-cc89-7de6" page="69" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Thureos, Supporting the Line</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="725f-8eb3-979b-9722" name="Thureos" publicationId="0ebe-a140-cc89-7de6" page="69" hidden="false">
+          <description>The Thureophoroi have a melee Armour of 4 despite their javelins.</description>
+        </rule>
+        <rule id="8d8a-913c-e43e-f66f" name="Supporting the Line" publicationId="0ebe-a140-cc89-7de6" page="69" hidden="false">
+          <description>When a friendly infantry or Elephants is activated for a move or a charge within &lt;b&gt;M&lt;/b&gt; of the Thureophoroi, the Thureophoroi can be activated for a free move or charge. These two activations count as multiple activation.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="bde3-210b-51dd-154e" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="585b-2685-fea2-04b9" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="8cf4-c64b-2bc1-73e0" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9966-5e61-b0e3-da7a" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="5375-464a-a904-c1bc" name="Thureophoroi" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d7e-7217-0474-2f02" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2c1-b8cf-3ca4-14b9" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="d02a-ea8d-7744-558f" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="acf4-2308-52e6-1426" name="Cappadocians" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="147c-1a57-fce3-c45a" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="bd45-d2bd-c3c2-e3b3" name="Cappadocians" publicationId="03cf-6e37-8804-8b98" page="72" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Hillfolk, Support, Strong Constitution</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="375d-4d2a-9cb8-213e" name="Hillfolk" publicationId="03cf-6e37-8804-8b98" page="73" hidden="false">
+          <description>Cappadocians have the Determination special rule, If they have not fight in melee during their turn, their second movement activation of each of their own generates no fatigue.</description>
+        </rule>
+        <rule id="623f-ee76-10c5-2a47" name="Support" publicationId="03cf-6e37-8804-8b98" page="73" hidden="false">
+          <description>While the unit of Cappadocians contains at least 4 figures, all other friendly units fighting in melee within *S* of the Cappadocians gain the following advantages.
+• 1 bonus attack die or 1 bonus defence die
+• If they get at least a 6 on their attack dice, they inflict an additional automatic hit on their wnemy.
+• If they get at least a 6 on their defence dice, they cancel an additional hit.</description>
+        </rule>
+        <rule id="7fc7-f9c5-0e35-e6c3" name="Strong Constitution" publicationId="03cf-6e37-8804-8b98" page="73" hidden="false">
+          <description>Cappadocians always count as being in light cover against shooting attacks.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="10fa-438f-93de-39d0" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="623a-4916-ed72-1dbd" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="966a-e0af-0d56-cbb0" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="6e9f-dfd2-793a-2f50" name="Cappadocians" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="901f-3799-7cc3-4c99" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7da4-d46d-fa41-553b" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="d434-f756-ec45-6022" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1ee4-4e25-d478-7120" name="Scythian and Bactrian Horsemen" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="411e-1527-d6fd-139b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="f652-18bc-259a-4e97" name="Scythian and Bactrian Horsemen" publicationId="03cf-6e37-8804-8b98" page="73" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="3 (3)">
+              <conditions>
+                <condition field="selections" scope="1ee4-4e25-d478-7120" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="47db-7bf9-432a-3672" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">As Daring with the Bow as the Lance, Strength in Numbers, Skirmishers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="6c87-e71e-a606-76fb" name="As Daring with the Bow as the Lance" publicationId="03cf-6e37-8804-8b98" page="73" hidden="false">
+          <description>Although totally comfortable with kirmishing, the Scythians would suddenly charge their enemies to unnerve them before withdrawing rapidly.
+once in each of their Activation phases, this unit can declare a free charge activation. If the target of this charge has already taken caasualties this turn, this activation generates no fatigue.</description>
+        </rule>
+        <rule id="bc99-e729-75cb-9b3b" name="Strength in Numbers" publicationId="03cf-6e37-8804-8b98" page="73" hidden="false">
+          <description>While it generates a Saga dice, a unit of Scythian &amp; Bactrian Horsemen gets:
+- 1 bonus attack dice during its shooting activiations if its equipped with composite bows 
+OR
+- 2 bonus attack dice during melee if it doesn&apos;t have composite bows.</description>
+        </rule>
+        <rule id="252b-b06f-c0bb-280f" name="Skirmishers" publicationId="03cf-6e37-8804-8b98" page="73" hidden="false">
+          <description>Scythian and Bactrian Horsemen have a withdrawl move of *L*. You cna choose to withdraw at the end of any melee, even if the enemy was forced to do the same thing. A withdrawl by Scythian and Bactrian Horsemen always takes place after any movement by the enemy.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0d3e-2f6b-88f2-73ee" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a7c0-2ad0-3955-b34d" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="99c4-bd8a-91ed-f30e" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b48e-25ff-b60e-681c" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="47db-7bf9-432a-3672">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5592-b0ad-f1a6-247f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b89b-ec0b-cc69-1e5a" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="47db-7bf9-432a-3672" name="Horse and Composite Bow" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ab3-2f16-17ba-9187" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="642b-a110-93f8-3cd0" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52b1-9bdb-1a84-dacf" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="9cb2-a93a-8186-d6bd" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="17fe-cf5b-f8fe-9c9b" name="Scythian and Bactrian Horsemen" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ad0-db75-f39b-c312" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e55a-e4c7-ce16-941b" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="737b-75fb-ef0f-6bf9" name="Mounts: x" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fff9-b7b8-470d-0829" name="Thessalian Cavalry" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4c2-de47-4704-c87c" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a2f4-5395-d8be-c849" name="Thessalian Cavalry" publicationId="03cf-6e37-8804-8b98" page="74" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Heavy Armour, Diamond Formation</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c857-1927-3bc1-4672" name="Heavy Armour" publicationId="03cf-6e37-8804-8b98" page="74" hidden="false">
+          <description>Thessalian cavalry have an armour of 4 against shooting.</description>
+        </rule>
+        <rule id="e8a5-7011-9e33-a7a2" name="Diamond Formation" publicationId="03cf-6e37-8804-8b98" page="74" hidden="false">
+          <description>When they&apos;re th attackers in a melee, Thessalian Cavalry inflict 1 automatic hit for every 2 figures in their unit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="92f0-6873-ac2c-2500" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8b51-7d07-dc90-6413" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="5dfd-be7f-97f5-9ca9" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c7aa-a9bf-8741-246b" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="5f17-2f78-ed56-bb08" name="Thessalian Cavalry" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e922-3a26-64f7-8bae" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a120-3dc4-3d34-c392" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="d1be-43dc-d313-22b7" name="Mounts (Horses)" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e5af-ef79-de28-7ea8" name="Camel Riders" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7ee-1be4-e91f-1247" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="25b5-6c8f-7a8d-bbf2" name="Camel Riders" publicationId="03cf-6e37-8804-8b98" page="74" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Stable Platform, Scouts</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7af6-30e6-e4f8-0d57" name="Stable Platform" publicationId="03cf-6e37-8804-8b98" page="74" hidden="false">
+          <description>It seems that Camel Riders rode their mounts to battle in pairs: one fighter to direct the camel with a stick (the creature was trained to turn towards the side he struck), while the second riddles their enemies with arrows.
+As long as the unit cintains at least 4 figures, it gets 2 bonus attack dice during each melee and shooting attack. During a shooting attack, Camle Riders can re-roll any attack dice that don&apos;t score a hit.</description>
+        </rule>
+        <rule id="1073-7fe2-0361-0763" name="Scouts" publicationId="03cf-6e37-8804-8b98" page="74" hidden="false">
+          <description>This unit has the Determination special rule.
+Once all units have been deployed but before the start of the first turn, this unit can make a free manoeuvre. If two opponents both have units able to do this, alternate units starting with the first player.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="05c3-49e6-38af-e6f1" name="Mount (Camel)" hidden="false" targetId="fd5c-62b0-b961-5c26" type="infoGroup"/>
+        <infoLink id="f75e-fb0f-43c9-1cef" name="Composite Bows" hidden="false" targetId="7376-dfda-5b9f-7cb3" type="infoGroup"/>
+        <infoLink id="5856-804c-bae6-9c27" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="a9e5-91ad-9f44-5d4e" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="1920-433e-d1d1-d52b" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9999-6b16-fe8a-8c5a" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="8d65-2318-d876-c5d6" name="Cammel Riders" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5dcf-68aa-479c-ebce" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8a8-c5d0-191c-aaaf" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="7b81-f8a3-3c39-0883" name="Mounts (Horses)" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b82-4aaa-150f-cc31" name="1 Scythed Chariot" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="a927-57e9-7a8c-da54" name="New CategoryLink" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="46f7-bb71-ee37-4dab" name="Cost" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d515-7672-bd84-c38c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5df-da08-6ed8-84cd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e6e7-3c1d-1914-8dfc" name="2 Hearthguards" hidden="false" collective="false" import="true" targetId="58e4-b097-011c-94b3" type="selectionEntry"/>
+            <entryLink id="37b8-2b0f-625b-c79f" name="4 Warriors" hidden="false" collective="false" import="true" targetId="a15c-a8c6-36d5-4cdb" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7f6c-2eff-5e57-13e9" name="2 Scythed Chariots" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="4fb2-41fb-03cd-b94e" name="New CategoryLink" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8ba7-b129-9d69-7f8f" name="Scythed Chariot" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="8756-457c-32cc-164e" name="Scythed Chariot" publicationId="03cf-6e37-8804-8b98" page="12" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">0</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (6)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Chariot, Expendable, Mount (Horse), Presence, Resilience (1), Scythed, Uncontrollable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="affb-ba02-0354-80ca" name="Chariot" publicationId="03cf-6e37-8804-8b98" page="12" hidden="false">
+          <description>A scythed chariot treats uneven and dangerous terrain as impassable.</description>
+        </rule>
+        <rule id="1053-6a31-bab8-7c72" name="Expendable" publicationId="03cf-6e37-8804-8b98" page="12" hidden="false">
+          <description>A scythed chariot is automatically destroyed in step 7 of a melee.</description>
+        </rule>
+        <rule id="9c75-e552-f81f-22d4" name="Scythed" publicationId="03cf-6e37-8804-8b98" page="12" hidden="false">
+          <description>During step 1 of a melee in which a scythed chariot has no fatigue and has completed a charge activation to become the attacker, it inflicts automatic hits equal to the number of figuers persent in the enemy unit, or half as many if the figures have the Mount (X) rule.</description>
+        </rule>
+        <rule id="4e4d-cbbc-d524-116e" name="Uncontrollable" publicationId="03cf-6e37-8804-8b98" page="12" hidden="false">
+          <description>The usual way to use scythed chariots was to send them against the enemy&apos;s ranks en masse in the hopes that they would inflict terrible casualties, but a few other tactics were experimented with. They also follow the Mercenaries rules for the sake of Saga Abilities (but not for other rules, like victory points) but they don’t inflict fatigues on friendly units when they’re removed as casualties. </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="347e-c388-4ac4-9681" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="bf40-9039-5979-85af" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bd4b-dc0b-f8d9-e5eb" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d632-e2c5-c88d-2276" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="da46-9a24-56cb-32f5" name="Scythed Chariots" hidden="false" targetId="1736-3250-3818-45b2" primary="false"/>
+        <categoryLink id="8b4c-0bac-f530-ad4b" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+        <categoryLink id="dae8-30fc-bfdc-10ee" name="Mounts: x" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="568d-76ac-b9b4-7924" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="9256-c51a-4402-b679" name="Sythed Chariot" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9654-3108-c5c5-7e67" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ae4-2c17-89c8-8e64" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="17f4-3f68-7d00-b717" name="Scythed Chariot Model" hidden="false" targetId="721e-2391-94d0-af53" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="40aa-f1b9-4eaf-9d65" name="Rhodian Slingers" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f46-5292-2378-9a6b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="e9b5-76ae-7e78-c68a" name="Rhodian Slingers" publicationId="03cf-6e37-8804-8b98" page="74" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (3)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Marksmanship, Trained from Childhood</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f7bc-bfb1-4593-4532" name="Marksmanship" publicationId="03cf-6e37-8804-8b98" page="74" hidden="false">
+          <description>When they are activated to shoot, Rhodian Slingers can reduce the range of their slings to *M* to increase their shooting Aggression to 1 instead of 1/2. Note that the whole unit must reduce the range of their slings, or none of them can. You can&apos;t reduce the range of some figures and not others.</description>
+        </rule>
+        <rule id="2b4a-2883-ec77-382c" name="Trained from Childhood" publicationId="03cf-6e37-8804-8b98" page="74" hidden="false">
+          <description>Whe you ropponent wants to increase their Armour in response to being targeted by Rhodian Slingers, they must spend two of the Rhodian Slingers&apos; fatigue instead of one.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="b24d-011c-fce6-b0d5" name="Bows and Slings" hidden="false" targetId="c95d-a936-7455-93ce" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="9430-b3f6-027e-ee05" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="f77c-7658-13f2-902a" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="806a-49f4-464c-9145" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="5676-5d5b-bffc-973f" name="Rhodian Sliners" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a10-5974-c375-29db" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cac4-bf9a-8b31-a02e" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="eaf0-c7c4-f756-129d" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fb5f-719b-f65c-8b84" name="Galatians" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec58-4ad2-f0b0-8bba" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0f70-b573-f612-06b0" name="Galatians" publicationId="03cf-6e37-8804-8b98" page="75" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="4 (3)">
+              <conditions>
+                <condition field="selections" scope="fb5f-719b-f65c-8b84" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="153f-4167-2748-9a4d" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Fury, Kingmakers, Battle Oaths</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a77f-e104-8881-e7d3" name="Fury" publicationId="03cf-6e37-8804-8b98" page="75" hidden="false">
+          <description>During each of their player&apos;s turns, the Galatians&apos; first charge activation is a free activation.</description>
+        </rule>
+        <rule id="e606-1515-0616-f0f3" name="Kingmakers" publicationId="03cf-6e37-8804-8b98" page="75" hidden="false">
+          <description>The Galatians get 4 bonus attack dice in melee. After rolling their attack dice, they can re-roll a number of dice that didn&apos;t score hits. This number is equal to the enemy unit&apos;s melee Armour value.</description>
+        </rule>
+        <rule id="fbdc-bb26-6ed3-f330" name="Battle Oaths" publicationId="03cf-6e37-8804-8b98" page="75" hidden="false">
+          <description>Galatians cannot close ranks in melee, or gain defence dice. In melee, for each 1 on their attack dice, the Galatians opponent inflicts an extra automatic hit.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a594-d22e-881c-5940" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="6b42-da09-5297-faa3" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4b98-047d-47e7-30d9" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="2673-61bd-3256-6f73" name="Galatians" hidden="false" collective="false" import="true" type="upgrade">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="fb5f-719b-f65c-8b84" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="153f-4167-2748-9a4d" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+                    <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6a0-459f-8e71-38b5" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9fb2-d417-4fce-dfb6" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="83fe-118c-80aa-de01" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="50a9-1d4b-01c9-dab3" name="Options" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb7c-1af7-435c-d96b" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="153f-4167-2748-9a4d" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="563d-0422-85a9-e41d" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="be6e-243e-139f-3533" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef51-16ba-076d-f287" name="Illyrians" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efdf-43e5-4916-91fb" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="0b2a-f406-d53e-42e0" name="Illyrians" publicationId="03cf-6e37-8804-8b98" page="75" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Guerillas, Slave-Takers, Zeal</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="721a-a196-5dfa-07e1" name="Guerillas" publicationId="03cf-6e37-8804-8b98" page="75" hidden="false">
+          <description>Illyrians never reduce their move or charge distance due to terrain rules.
+In each of their owner&apos;s turns, the Illyrian&apos;s first move is made with a distance of *L* instead of *M*</description>
+        </rule>
+        <rule id="e6b9-ce54-ace8-a954" name="Slave-Takers" publicationId="03cf-6e37-8804-8b98" page="75" hidden="false">
+          <description>When an Illyrian shooting attack targets an enemy unit with an Armour against shooting of 3 or less, the Illyrians get the following advantages:
+- They can re-roll any number of attack dice.
+- Each attack dice that scores a 5 or more inflicts 2 hits instead of 1.</description>
+        </rule>
+        <rule id="4330-ba5e-50c5-dc3a" name="Zeal" publicationId="03cf-6e37-8804-8b98" page="75" hidden="false">
+          <description>If the Illyrians win a melee or eliminate at least 3 figures in a single shooting phase, they gain the Determination special rule until the end of the game. Winning additional melees or once again eliminating 3 or more figures after gaining the Determination special rule has no further effect.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="e7c8-9425-8afa-137c" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d55c-7edd-625f-26f1" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="8ec2-a14f-688e-2574" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="58f6-07f8-5457-5fc5" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="0c6e-387b-b07e-e0d1" name="Illyrians" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f43-413d-a9c5-08cb" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81b1-9cb5-3230-2278" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="4f70-5f24-f271-a782" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4688-6a6a-df50-b86f" name="Agrianian Javelinmen" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96db-5df4-82f2-15ad" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7921-3d75-6c7c-1578" name="Agrianian Javelinmen" publicationId="03cf-6e37-8804-8b98" page="76" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Speed, Attack the Weak Link, Place of Honour</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="c10e-49fe-f66d-ce94" name="Speed" publicationId="03cf-6e37-8804-8b98" page="76" hidden="false">
+          <description>Agrianian Javelinmen ignore the movement penalties associated with uneven (but not dangerous) terrain. Before resolving its first activation of the turn, this unit can announce that it won&apos;t activate to shoot until the end of the turn. If it does this, it adds a bonus of *S* to its movement distances until the end of the turn.</description>
+        </rule>
+        <rule id="f170-86cf-2501-20b8" name="Attack the Weak Link" publicationId="03cf-6e37-8804-8b98" page="76" hidden="false">
+          <description>If Agrianian Javelinmen charge a unit with at least one fatigue, the charge is a free activation. If the enemy unit has more fatigues than this unit at the start of the ensuing melee, the Agrianians get 3 bonus dice (attack dice, defence dice, or a mix of the two as the controlling player prefers) and the enemy cannot close ranks.</description>
+        </rule>
+        <rule id="746f-6ad1-38f7-de27" name="Place of Honour" publicationId="03cf-6e37-8804-8b98" page="76" hidden="false">
+          <description>When it&apos;s the defender in a melee, this unit counts as being in solid cover.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="4720-50f9-b48c-e6a7" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="413f-538a-f5da-607d" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="0d92-a7ad-04fe-6f79" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a1bb-2865-fa32-de3e" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="942e-2ec1-1547-df11" name="Agrianian Javelinmen" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c61f-4a3b-2d55-f4d4" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12c4-af8c-61b4-e510" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="4752-de0d-a1f3-9636" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e6d-d0d8-9d1b-0b28" name="Greek Mercenaries" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c846-540b-c342-b647" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="7b7c-2c6b-549e-827e" name="Greek Mercenaries" publicationId="03cf-6e37-8804-8b98" page="76" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (6)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">2 (1)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Intensive Training, Heart of the Line, Unshakeable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="dca3-4813-c5a6-23fb" name="Intensive Training" publicationId="03cf-6e37-8804-8b98" page="76" hidden="false">
+          <description>Greek Mercenaries have the Determination Special Ruler</description>
+        </rule>
+        <rule id="12e6-7f05-e64a-09a4" name="Heart of the Line" publicationId="03cf-6e37-8804-8b98" page="76" hidden="false">
+          <description>Other than Levies and Elephants, every other friendly infantry unit within *M* of Greek Mercenaries unit gets 2 bonus defence dice during each melee.</description>
+        </rule>
+        <rule id="79da-b44e-3952-04b1" name="Unshakeable" publicationId="03cf-6e37-8804-8b98" page="76" hidden="false">
+          <description>When Greek Mercenaries close ranks, they get anadditional +1 bonus to their defence rolls. However, when they charge, Greek Mercenaries only have an Aggression of 1 rather than the normal 2.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="27e3-cfa0-417e-f20a" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d8c7-7578-bec4-77ce" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="8c58-85f7-8bc5-9111" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3d77-49b9-e10f-eead" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="55eb-550b-5e92-ffbd" name="Greek Mercenaries" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca61-5977-b699-9c2f" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24ae-a0c7-01e6-eedd" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="fad7-7591-8946-5e3b" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="2.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a123-1ade-77bb-b780" name="Thracian Mercenaries" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec22-4c62-ddbb-620b" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="8950-44ee-a25c-1b8b" name="Thracian Mercenaries" publicationId="03cf-6e37-8804-8b98" page="76" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="3 (3)">
+              <conditions>
+                <condition field="selections" scope="a123-1ade-77bb-b780" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fbcd-f5a6-ebb6-700a" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Thirst for Loot, Hunters Prowl</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="f035-582d-a1e9-77cc" name="Thirst for Loot" publicationId="03cf-6e37-8804-8b98" page="76" hidden="false">
+          <description>When this unit fights in a melee against a unit that still generates a Saga die, it gains 4 bonus attack dice. Otherwise, it only gets 2.</description>
+        </rule>
+        <rule id="8a08-fa41-2b66-0a8f" name="Hunter&apos;s Prowl" publicationId="03cf-6e37-8804-8b98" page="76" hidden="false">
+          <description>When shot at, Thracian Mercenaries can re-roll any defence dice that cancelled no hits if at least one of the two conditions below apply:
+- They have light or solid cover against the shooting attack.
+- The distance seperating the Thracian Mercenaris from the unit targeting them is more than *M*.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8b37-f4b2-91fc-f77c" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="1946-7fb4-da8c-58d4" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7725-9ea5-617e-3b34" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="4dd9-23bf-5556-6351" name="Thracian Mercenaries" hidden="false" collective="false" import="true" type="upgrade">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="a123-1ade-77bb-b780" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fbcd-f5a6-ebb6-700a" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+                    <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdb2-459d-3f05-4e39" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7409-828d-c5ac-247d" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="1a0d-d280-cabb-3765" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="dd2c-1ad3-2fac-2aa8" name="Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="6181-583b-df5b-df59">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa23-97fb-bd23-f2fa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c437-fcda-f77a-783c" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6181-583b-df5b-df59" name="Heavy Weapons" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0727-4674-205a-6658" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="680c-c574-f160-722c" name="Heavy Weapons" hidden="false" targetId="3c91-bb2c-a704-497e" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0b1b-656c-6a69-3a4d" name="Javelins" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11ae-7b39-c95c-1f5b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="79c5-ff7f-fe74-499e" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fbcd-f5a6-ebb6-700a" name="Horse and Javelins" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="34b4-fc5c-7c94-f448" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fad6-e398-951d-55ca" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="b9f2-0bdf-f76b-5e98" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+                <infoLink id="0f6a-e608-5ffd-0215" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e4fd-19ea-cc8a-ef25" name="Thorakitai" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6355-997d-c492-2648" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="c96d-3be0-e39d-00fb" name="Thorakitai" publicationId="03cf-6e37-8804-8b98" page="77" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Loose Formation, Armour Bearers</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9388-98b2-feef-bc2c" name="Loose Formation" publicationId="03cf-6e37-8804-8b98" page="77" hidden="false">
+          <description>Once per turn, during your turn only, a unit of Thorakitai gets a free shooting activation generating no fatigue with a range of *M*. Note that except for the purpose of this ability, the unit doesn&apos;t count as being equipped with ranged weapons.</description>
+        </rule>
+        <rule id="a202-fc80-623a-2f0a" name="Armour Bearers" publicationId="03cf-6e37-8804-8b98" page="77" hidden="false">
+          <description>The Thorakitai&apos;s role was often to protect lighter units. During melees, Thorakitai and firendly units within *S* armed with ranged weapons can re-roll defence dice that didn&apos;t cancel a hit for each figure in the Thorakitai unit. Other friendly units within *S* can re-roll 1 defence die for every 2 figures in the Thorakitai unit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7922-fa69-6a9a-7138" name="Phalanx" hidden="false" targetId="dc9f-b2af-22d6-44ef" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d7a4-eb4c-67ad-8dab" name="New CategoryLink" hidden="false" targetId="c6bd-a6c8-e180-201f" primary="true"/>
+        <categoryLink id="e6a1-d745-7b63-c22b" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="de00-a6c0-09de-2e6b" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="063f-45d0-5854-67bd" name="Thorakitai" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b95-74dd-627d-a005" type="min"/>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbe9-c87c-5c79-0e65" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="a499-6a41-d7a2-37bf" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b735-e672-42d7-9485" name="Greek Cities Ruses" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="db91-a4c9-a8f6-f7df" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3855-095f-68f3-c84b" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4bf4-53f9-a794-d538" name="Greek Cities Ruses" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="b9a1-bd71-1c57-c31e" name="Recruitment Ruses" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a5fd-31bc-f1cd-07fa" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8f3-73cb-aab5-fa54" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="34b4-fc5c-7c94-f448" name="The Ten Thousand" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe39-e9fb-2f23-6c4d" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="5d44-b277-77a7-458b" name="The Ten Thousand" publicationId="03cf-6e37-8804-8b98" page="29" hidden="false">
+                      <description>Your Warband no longer has Veterans of the Cities special rule, and you cannot recruit any Levies.
+Up to half your Wrrior Figures on foot can be equipped with javelins, and the restriction on units of Hearthguards doesn&apos;t apply.
+The only Mercenaries you can hire are Cretan Archers and Thracian Mercenaries, who must fight on foot.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="db08-e978-a1de-6a68" name="Recuitment" hidden="false" targetId="34cf-5dfd-4b10-9a3a" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="78e0-d52c-afcf-1397" name="Ionian Cities" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ddd-225e-43a8-1e2c" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="17d8-aed8-60df-c605" name="Ionian Cities" publicationId="03cf-6e37-8804-8b98" page="29" hidden="false">
+                      <description>Your Warband no longer has Veterans of the Cities special rule, and you can&apos;t recruit any Heathguards.
+No more than half the figures in your warband can be Warriors with the Phalanxspecial rule.
+You can recruit up to two units of Scythian Horsemen with the Loyal special rule in addition to your normal choice of mercenaries.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="3e91-0453-19a3-cac5" name="Recuitment" hidden="false" targetId="34cf-5dfd-4b10-9a3a" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="287d-568b-8e42-fcd1" name="Preparation Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="36f8-d7f9-7aba-4dc9" name="Gorge" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa2e-e310-4800-795b" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="0ada-4b78-7ac4-6f88" name="Gorge" publicationId="03cf-6e37-8804-8b98" page="29" hidden="false">
+                      <description>Use this card once when you&apos;re setting up the scenery, before any terrain pieces have been placed.
+Place a large area of high terrain within *M* of any table edge. This piece of scenery is impassable: no unit can enter it or cross it.
+You can&apos;t place any more large areas of terrain while you&apos;re setting up the scenery, but your opponent can.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="0a11-337e-7aff-79c9" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6e9a-dbd0-29cb-566b" name="Veterans Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="6640-245d-7b0b-6d0d" name="Large Shields" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="359e-c2f0-b415-6319" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="e6c3-81ac-9b45-93dd" name="Large Shields" publicationId="03cf-6e37-8804-8b98" page="29" hidden="false">
+                      <description>Hearthguards or Oblique Phalanxes only.
+Each time a shooting activation is resolved against your unit, it cancels the first hit suffered.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="3ed5-a8c6-49ab-a2d6" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="a67a-f58e-2dba-350c" name="Stratagem Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="6755-c760-c3be-579e" name="Thermopylae" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="904a-b348-6486-4b38" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a31-6e63-a721-3cd7" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="091a-9aef-d235-6bb3" name="Thermopylae" publicationId="03cf-6e37-8804-8b98" page="29" hidden="false">
+                      <description>Use this card during step 1 of a melee in which one of your units with the *Phalanx* special rule is the defender and is more than *S* away from any friendly units.
+This unit counts as part of a Line of Battle with 3 units in it.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="cae9-1898-a4ef-0ae4" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="5d2f-b531-68e0-29a0" name="Determined Advance" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9328-80de-a0b6-69df" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="b7f2-925c-69cb-25e8" name="Determined Advance" publicationId="03cf-6e37-8804-8b98" page="29" hidden="false">
+                      <description>Play this card when you use the Form Line basic ability for the first time.
+Each move or charge made during this multiple activation is made with a distance of *M*.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="1e19-bb55-214d-d09b" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="feda-405d-c1ec-2308" name="Persian Ruses" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5461-c03b-510e-2a33" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c636-f03e-90e5-ef1a" name="New CategoryLink" hidden="false" targetId="f1d3-19fb-8dd7-e629" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e32b-38fc-162f-d8fe" name="Persian Ruses" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="fad3-4f40-87f8-d210" name="Recruitment Ruses" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2913-df6d-22ac-7881" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="b944-0982-af8e-a8d6" name="Minions" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1b9d-77e6-99f9-5162" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9412-fcc1-e2dd-2e59" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="5215-94e7-fc0c-a131" name="Minions" publicationId="03cf-6e37-8804-8b98" page="37" hidden="false">
+                      <description>When you recruit your warband, you can choose up to 16 warrior figures with no equipment options.
+The units they form count as Mercenaries and gain 2 bonus defence dice whenever they close ranks.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="fd1a-c538-ae13-6804" name="Recuitment" hidden="false" targetId="34cf-5dfd-4b10-9a3a" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="1.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="4efe-c31c-660c-16a3" name="Parapleuridia" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="primary-catalogue" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="12da-27fb-e288-7b9b" type="notInstanceOf"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9a6-d605-c8b3-4a28" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="f933-3e65-eeb2-6220" name="Parapleuridia" publicationId="03cf-6e37-8804-8b98" page="37" hidden="false">
+                      <description>One of your mounted Hearthguard units with a maximum of 8 figures receives the Cataphracts equipment option.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="a4fe-7548-0dfd-7055" name="Recuitment" hidden="false" targetId="34cf-5dfd-4b10-9a3a" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="5f00-0d92-6eff-8b8c" name="Preparation Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="5f0b-48bc-b737-5739" name="Flatten the Earth" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c2e-4fe4-fed3-f628" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="5b47-bfa1-e739-31b0" name="Flatten the Earth" publicationId="03cf-6e37-8804-8b98" page="37" hidden="false">
+                      <description>Use this card once the scenery has been set up but before the first unit is deployed.
+Choose two pieces of terrain and remove from the table.
+Only one of these terrain elements can be large.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="dd29-cc8d-f24b-3abb" name="Preparation" hidden="false" targetId="fbdb-316c-e845-1b9b" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="00ac-80b2-0212-bdde" name="Veterans Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="9ab9-f11c-8e84-592a" name="The King of Kings Gold" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6255-49e8-2ba4-2680" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="2095-8f80-4964-2bc7" name="The King of Kings Gold" publicationId="03cf-6e37-8804-8b98" page="37" hidden="false">
+                      <description>Mercenaries only
+Although the unit remains a Mercenary unit, it can benefit from the advanced abilities on the battle board; it ignors points 3, 4, adn 5 of the Mercenary special rule in the rulebook.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="74d1-ef7a-ae90-397d" name="Veterans" hidden="false" targetId="ded4-672f-6d73-1134" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="3.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="abcf-f8b2-ca47-c60f" name="Stratagem Ruses" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="078f-09f3-78d9-477d" name="Venerate the God-Emperor" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f65d-45ed-6a8a-a45c" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="eb4e-68cb-fc7d-7e13" name="Venerate the God-Emperor" publicationId="03cf-6e37-8804-8b98" page="37" hidden="false">
+                      <description>Choose a unit generating one Saga die within *M* of your Warlord, who can no longer be activated during this turn.
+Re-roll 1 inactive Saga die if it&apos;s a Levy unit, up to 2 if it&apos;s a Warrior unit, or up to 3 if it&apos;s a Hearthguard unit or an Elephant.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="abdb-01cb-fef8-34d3" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="dccf-a72d-e333-0261" name="A Million Warriors" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="46f1-2ce0-dcbe-3e1c" type="max"/>
+                  </constraints>
+                  <rules>
+                    <rule id="1316-75e5-8abe-c3d1" name="A Million Warriors" publicationId="03cf-6e37-8804-8b98" page="37" hidden="false">
+                      <description>Use this card at the start of your Orders phase, before rolling your Saga dice.
+Choose a unit that has suffered at least one casualty. Return 1 figure to the unit if it&apos;s made up of Hearthguards, 2 figures if it&apos;s made up of Warriors, or 3 figures if it&apos;s made of Levies.
+You can&apos;t exceed the original size of the unit, so excess figures are lost. Your opponent still scores massacre points for figures replaced this way.</description>
+                    </rule>
+                  </rules>
+                  <categoryLinks>
+                    <categoryLink id="483b-727a-daeb-f71d" name="Stratagem" hidden="false" targetId="8823-0694-1586-acc3" primary="false"/>
+                  </categoryLinks>
+                  <costs>
+                    <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="2.0"/>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3c95-fd95-6aaa-54a0" name="Elephantine Armour" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a5d-f087-fc5f-374e" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="b71f-62a5-72b9-f563" name="Elephantine Armour" publicationId="03cf-6e37-8804-8b98" page="65" hidden="false">
+          <description>Asian Elephants were often protected by imposing but restricitve lamellar armour. You can give armour to your elephants, but all elephants in the unit must be equipped in the same way. An armoured elephant increases its Armour against shooting by 1, but reduces its movement and charge distances to *S* in both its first and all subsequent activations.</description>
+        </rule>
+      </rules>
+      <costs>
+        <cost name=" Ruse Points" typeId="bd59-3330-754e-785d" value="0.0"/>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="1468-a40a-f291-8eb9" name="Combined Formation" publicationId="03cf-6e37-8804-8b98" page="32" hidden="false">
+      <description>Units in combined formation have different Aggression and Armour values to other troops, representing their unique mix of ranged troops protected by shield bearers. They suffer no Armour reduction from their equipment, but their move and charge distances become *S*. Despite being equipped with ranged weapons, units in combined formation can close ranks. A unit in Combined Formation even partially in uneven or dangerous terrain loses the ability to close ranks and suffers a -1 Armour penalty (both in melee and against shooting), as the shield bearers cannot efficently protect their shooting comrades in broken ground.
+A unit in combined formation should be represented with an equal mix of archer and shield-bearer figures. This has no effect on the game, however, since all the figures in the unit have the same equipment and the same characteristics.</description>
+    </rule>
+  </sharedRules>
+  <sharedInfoGroups>
+    <infoGroup id="c24b-12d5-65ce-5f50" name="Sarissa" page="" hidden="false">
+      <rules>
+        <rule id="eae2-3562-7d4e-d06d" name="Sarissa" publicationId="0ebe-a140-cc89-7de6" page="13" hidden="false">
+          <description>Only infantry figures can be equipped with sarissas. A unit equipped with sarissas reduces its movement distance to *S*, but its charge distance remains *M*. A sarissa provides the following two benefits as long as the unit carrying it isn’t even partially in uneven or dangerous terrain:
+• Once per turn, a unit equipped with sarissas can be activated for a free shooting attack that generates no fatigue with a range of *S*. Note that a sarissa doesn’t count as a ranged weapon, and that except for this special activation a unit with sarissas can’t be activated to shoot.
+• While it has no fatigue, a unit equipped with sarissas gets a +1 bonus to its attack dice in melee against Elephants or figures with the Mount (X) special rule.
+A unit equipped with sarissas can only close ranks if they are entirely in open terrain. If a figure from the unit finds itself even partially in uneven or dangerous terrain, the unit can’t close ranks.</description>
+        </rule>
+      </rules>
+    </infoGroup>
+    <infoGroup id="a5db-1f5f-79a5-da43" name="Chariots" hidden="false">
+      <rules>
+        <rule id="102e-71a6-ba24-8baf" name="Chariots" publicationId="0ebe-a140-cc89-7de6" page="13" hidden="false">
+          <description>A unit of Hearthguards can be equipped with chariots. Each chariot replaces two Hearthguard figures. A unit of Hearthguards in chariots will therefore have half as many figures as were equipped with chariots - assume that each chariot has a crew of two Hearthguards. Chariot units can therefore include 2-6 chariots.
+A chariot grants the following benefits and penalties:
+1) It increases melee Aggression by 2, and shooting Aggression by 1. Hearthguards in chariots therefore have an Aggression of 4 in Melee and 2 in shooting.
+2) It grants the Mounts (Horses) rule, but this does not reduce their armour against shooting attacks in the usual way.
+3) The unit gains the Presence and Resilience (1) special rules.
+4) The unit counts uneven and dangerous terrain as impassable.
+Each chariot counts as 2 Hearthguard figures when calculating victory points.
+*Warlord:* Your Warlord can choose to ride in a chariot. In this case, they gain the Mount (Horses) rule without the armour penalty associated with the rule, and count uneven and dangerous terrain as impassable. Their other characteristics are not modified, so they do not improve their Aggression or shooting as mentioned above.</description>
+        </rule>
+      </rules>
+    </infoGroup>
+    <infoGroup id="14a5-1cb3-60f0-b118" name="Cataphracts" hidden="false">
+      <rules>
+        <rule id="4fc5-1b74-4309-daf0" name="Cataphracts" publicationId="03cf-6e37-8804-8b98" page="14" hidden="false">
+          <description>Cataphracts are heavily protected fighters mounted on warhorses. They follow the Mount (Horse) special rule, with the following exceptions:
+- Their movement is *M* but their charge range remains *L*.
+- They don&apos;t reduce their armour against shooting.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="a6cb-bb81-5cfb-b04e" name="Mounts: Horses" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="dc9f-b2af-22d6-44ef" name="Phalanx" hidden="false">
+      <rules>
+        <rule id="ffe6-7e91-aaef-e83b" name="Phalanx" publicationId="03cf-6e37-8804-8b98" page="15" hidden="false">
+          <description>Certain units in the Macedonian, Successor, and Greek Cities factions have the *Phalanx* special rule, which affects the use of certain advanced abilities on their battle boards, or which modify their effects. A unit no longer benefits from its *Phalanx* special rule:
+- As soon aas it no longer generates Saga dice;
+- If it finds itself even partially in a building, unvevn terrain, or dangerous terrain.</description>
+        </rule>
+      </rules>
+    </infoGroup>
+    <infoGroup id="fd5c-62b0-b961-5c26" name="Mount (Camel)" hidden="false">
+      <rules>
+        <rule id="606a-6532-2b84-d3c7" name="Mount (Camel)" publicationId="03cf-6e37-8804-8b98" page="15" hidden="false">
+          <description>Certain units can be mounted on camels. When this is possible, the option is listed in the special rules for the faction in question.
+A figure mounted on a camel follows the following rules:
+- It has the Mount (X) special rule and therefore counts as mounted.
+- A unit mounted on camels reduces its Armour by 1 against shooting.
+- If a unit mounted on camels&apos; first activation of the turn is to move or charge, it makes said activation with a distance of *L*. this rule applies to their first activation both in their own turn and their enemies&apos;.
+- Any move or charge activation that isn&apos;t its first of the turn is made with a distance of *M*.
+- During a moement activation with a distance of *L*, the unit can replace the *L* ruler with two *M* rulers.
+- Units with the Mount (Horse) special rule suffer a -1 penalty to their attack dice during any melee in which the enemy unit has the Mount (Camel) special rule.
+- Units mounted on camels can never benefit from any cover either in melee or against shooting attacks. This applies not only to cover granted by pieces of terrain, but to cover providing Saga abilities or any other special rules.
+*Reminder*: Units mounted on camels aren&apos;t subject to the Mount (Horse) special rule, particularly in regards to interacting with terrain.</description>
+        </rule>
+      </rules>
+    </infoGroup>
+  </sharedInfoGroups>
+</catalogue>

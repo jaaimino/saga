@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="0637-4290-a193-bc79" name="Cilician Armenians" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="2d8b-24a3-b6f6-46cb" name="Warlord" hidden="false" collective="false" import="true" targetId="7713-68e2-b7a3-65a8" type="selectionEntry"/>
+    <entryLink id="d4a0-52a9-5430-b1ce" name="Hearthguards" hidden="false" collective="false" import="true" targetId="8080-3b65-cbe1-98dd" type="selectionEntry"/>
+    <entryLink id="0a90-2d59-9420-7182" name="Warriors" hidden="false" collective="false" import="true" targetId="bbac-349f-5d4d-17bb" type="selectionEntry"/>
+    <entryLink id="2206-1dde-d2f8-569b" name="Levies" hidden="false" collective="false" import="true" targetId="ee49-a691-165a-2906" type="selectionEntry"/>
+    <entryLink id="f9fa-1c17-4ac5-3079" name="Eastern Horsemen" hidden="false" collective="false" import="true" targetId="fb73-b06a-7418-0285" type="selectionEntry"/>
+    <entryLink id="8803-8b27-07a2-548a" name="Western Knights" hidden="false" collective="false" import="true" targetId="b860-5487-de52-1476" type="selectionEntry"/>
+    <entryLink id="365c-7d7c-36a0-5678" name="Priest" hidden="false" collective="false" import="true" targetId="ccb5-0e10-5097-9a80" type="selectionEntry"/>
+    <entryLink id="fd28-bde6-6a71-341f" name="Troubador" hidden="false" collective="false" import="true" targetId="8ec4-454e-c6d0-ce82" type="selectionEntry"/>
+    <entryLink id="a3f2-9231-e8a5-3980" name="Scouts" hidden="false" collective="false" import="true" targetId="b3aa-fc82-871e-80f2" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="7713-68e2-b7a3-65a8" name="Warlord" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="62d1-573e-a9d3-01ee" name="Warlord" publicationId="f5d0-f240-53ee-4975" page="65" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Warlord, Mount: Horse</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fad9-440d-045a-127d" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+        <infoLink id="7a97-2bb3-3c42-b46c" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2e7f-aa43-aba1-5c1a" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="55ad-666d-e0ce-9d94" name="Mounts (X)" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+        <categoryLink id="8aa0-1b04-713d-0ed2" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ed18-eaa2-8946-0b5f" name="Equipment Options" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="c5db-3ced-1e1b-e4fb" name="War Banner" hidden="false" collective="false" import="true" targetId="c073-e881-4a2f-46b3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8080-3b65-cbe1-98dd" name="Hearthguards" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="e502-3dd9-7836-e214" name="Hearthguards" publicationId="f5d0-f240-53ee-4975" page="65" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">2</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Mounts: Horses</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7536-eab2-3d99-ea45" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d430-7645-13a3-4abb" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+        <categoryLink id="fcff-4d74-3a1d-fdb7" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9f3e-1139-e195-03c3" name="Equipment Options" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="dacf-1430-0d71-d888" name="War Banner" hidden="false" collective="false" import="true" targetId="c073-e881-4a2f-46b3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f2ec-6175-6732-bd16" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8718-1c75-0af6-bd7b" name="Hearthguard" hidden="false" collective="false" import="true" targetId="124e-28c6-d2bb-6048" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f93-c4ce-b89d-ad31" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d6b-f6e7-883d-0cab" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="ffa8-727c-ec39-e8ae" name="Mounts (X)" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbac-349f-5d4d-17bb" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="9854-3b23-d6dd-e0f7" name="Warriors" publicationId="f5d0-f240-53ee-4975" page="65" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="bbac-349f-5d4d-17bb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="364e-1a0d-a934-5dae" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7962-d121-6270-ec08" value="4 (3)"/>
+                <modifier type="set" field="2d00-2f2d-9e87-57da" value="Mounts: Horses"/>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="bbac-349f-5d4d-17bb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f04f-46c4-f72d-105f" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7962-d121-6270-ec08" value="3 (3)"/>
+                <modifier type="set" field="2d00-2f2d-9e87-57da" value="Mounts: Horses"/>
+                <modifier type="set" field="6680-c929-0405-8a4f" value="1 (1/2)"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="c711-d2d1-dde7-c341" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+        <categoryLink id="ece6-50d1-8b36-bafa" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2553-a132-7ed5-0762" name="Equipment Options" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6888-779d-91da-141e" name="Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5dd-189d-6a27-3dd5" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="364e-1a0d-a934-5dae" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fa7-c175-f974-259f" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="a154-b348-3e67-61eb" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="f04f-46c4-f72d-105f" name="Horse, Composite Bows" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ac9-c9ee-1ceb-cc19" type="max"/>
+                    <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7da1-6552-b656-70e0" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="93a7-8d4f-04c9-0451" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+                    <infoLink id="5884-d655-c339-d2a1" name="Composite Bows" hidden="false" targetId="7376-dfda-5b9f-7cb3" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="ad32-2367-e865-8431" name="War Banner" hidden="false" collective="false" import="true" targetId="c073-e881-4a2f-46b3" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1d81-23cd-3980-e4fa" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="fcda-8200-41ac-67a6" name="Warrior" hidden="false" collective="false" import="true" targetId="d558-4bb2-dca5-6e81" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="bbac-349f-5d4d-17bb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6888-779d-91da-141e" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+                    <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="acbb-a264-d089-92c3" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95e7-e67c-0cd2-f000" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="6bf6-129d-3669-d4e6" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee49-a691-165a-2906" name="Levies" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="68d4-b521-a749-abff" name="Levies" publicationId="f5d0-f240-53ee-4975" page="65" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">3 (3)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1/3 (1/2)</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="db2d-1f04-02ac-629f" name="Bows and Slings" hidden="false" targetId="c95d-a936-7455-93ce" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c324-88e5-8cd1-fb14" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+        <categoryLink id="ed48-ff2d-b307-b39c" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="82bb-a780-5069-dd4d" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="bba7-22eb-bfe1-7d72" name="Levy" hidden="false" collective="false" import="true" targetId="cb8a-baa9-25c2-2e45" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e410-c926-caba-ad45" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b310-17b6-5dc0-458b" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="ea9d-2473-613d-a254" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="492b-cc6f-f0fc-a389" name="Age of Crusades" targetId="b6a3-52ab-a0a7-3a56" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

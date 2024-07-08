@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="61c2-9970-2a06-b9a4" name="Lords of the Wild" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="88d4-606b-35b0-72e5" name="Legendary Warband: The Minotaurs of the Black Hills" publicationId="ac45-6f39-de7c-3e52" page="45" hidden="false">
+      <categoryLinks>
+        <categoryLink id="2573-71d4-dee6-629b" name="Warlord" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfd1-13ea-acc3-2957" type="min"/>
+            <constraint field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef0b-70f3-8bf4-ef29" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="e360-9ee1-d1fd-8944" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="c0a4-cc36-a6f6-177e" name="Units" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="false"/>
+        <categoryLink id="3398-45e9-5da2-98da" name="Models" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="false"/>
+        <categoryLink id="51cb-da68-fda4-b6ed" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6945-8061-204b-5854" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="f9b8-6083-2385-cb38" name="Legendary Warband: The Arachnaen Jungle" publicationId="ac45-6f39-de7c-3e52" page="45" hidden="false">
+      <categoryLinks>
+        <categoryLink id="d88a-c316-6aaa-83df" name="Warlord" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6ff-be5b-567a-a023" type="min"/>
+            <constraint field="selections" scope="primary-category" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47a0-67e1-2724-8d02" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ad01-04a4-68b0-4aa7" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="c175-7424-7c87-2c3e" name="Units" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="false"/>
+        <categoryLink id="208f-6529-ff75-1f0e" name="Models" hidden="false" targetId="4074-ec27-1e1c-2a1e" primary="false"/>
+        <categoryLink id="3408-ec1a-6b8c-d5cd" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f79f-7c5d-c842-fe29" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="1034-8b2a-ff90-d818" name="Warlord" hidden="false" collective="false" import="true" targetId="e301-6026-3f19-d8b1" type="selectionEntry"/>
+    <entryLink id="cb15-4cf1-3c57-691b" name="Ranger" hidden="false" collective="false" import="true" targetId="e5ff-625a-bdb0-f94d" type="selectionEntry"/>
+    <entryLink id="87db-8724-4956-cb9a" name="Soreceror" hidden="false" collective="false" import="true" targetId="d1ae-d58a-4482-64e0" type="selectionEntry"/>
+    <entryLink id="d985-3310-3b56-de08" name="Monster" hidden="false" collective="false" import="true" targetId="ec5f-af75-060e-6f4e" type="selectionEntry"/>
+    <entryLink id="c66b-bdfc-96d5-0696" name="Creatures" hidden="false" collective="false" import="true" targetId="3817-ca41-0d51-de6b" type="selectionEntry"/>
+    <entryLink id="0d9d-a725-65d8-640a" name="Hearthguards" hidden="false" collective="false" import="true" targetId="88b3-2202-25c0-628c" type="selectionEntry"/>
+    <entryLink id="814c-7d5d-79dd-0615" name="Warriors" hidden="false" collective="false" import="true" targetId="3ab9-fa68-6496-aed7" type="selectionEntry"/>
+    <entryLink id="e8b8-60e5-5ed7-ccf2" name="Levies" hidden="false" collective="false" import="true" targetId="bf0f-a5a1-3e54-eac5" type="selectionEntry"/>
+    <entryLink id="e103-89f5-d5df-31e0" name="The Hunter and the Great Hunt" hidden="false" collective="false" import="true" targetId="b093-e12a-b5c4-224e" type="selectionEntry"/>
+    <entryLink id="d7db-1b9c-155c-82af" name="The Shapeshifters" hidden="false" collective="false" import="true" targetId="9b59-a099-03df-6586" type="selectionEntry"/>
+  </entryLinks>
+  <rules>
+    <rule id="9d98-8645-cedc-8d46" name="Sacred Ground: Primitive Totem" publicationId="ac45-6f39-de7c-3e52" page="42" hidden="false">
+      <description>The Primitive Totem has existed since the dawn of time. It is connected to Nature by its mysterious location, and provides a direct link to the primal Forces. It can take various Forms: a carved stone scarred with ancient inscriptions, a venerable tree or a magical copse. The Lords of the Wild venerate it, and in return, the Primitive Totem strikes their enemies with its magic.
+
+At the end of your Activation phase, and before the end of your turn, every enemy unit within *VS* of this Sacred Ground suffers a Fatigue if you have a unit within *VS* of the Primitive Totem which generates a Saga die. </description>
+    </rule>
+  </rules>
+  <sharedSelectionEntries>
+    <selectionEntry id="e301-6026-3f19-d8b1" name="Warlord" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="e301-6026-3f19-d8b1" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af3b-e66b-26dc-02c7" type="equalTo"/>
+                <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="eb67-2961-59ab-f39b" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+          <modifiers>
+            <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+            <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <infoLinks>
+        <infoLink id="9ee7-60c4-20ac-8a20" name="Warlord" publicationId="ac45-6f39-de7c-3e52" page="33" hidden="false" targetId="a0ca-1375-003b-e9d5" type="profile">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="4 (4)">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3e9b-859f-6c00-6b74" type="equalTo"/>
+                    <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="af3b-e66b-26dc-02c7" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="7962-d121-6270-ec08" value="5 (4)">
+              <conditions>
+                <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a1d-d5d5-10db-ba7f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5845-d4f8-b726-c71a" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="6680-c929-0405-8a4f" value="10 (4)"/>
+                <modifier type="set" field="2d00-2f2d-9e87-57da" value="Determination, Imposing, Presence, Pride, Resilience (2)"/>
+              </modifiers>
+            </modifierGroup>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f78f-2a79-28a9-e43a" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="6680-c929-0405-8a4f" value="10 (4)"/>
+                <modifier type="set" field="2d00-2f2d-9e87-57da" value="Determination, Imposing, Presence, Pride, Resilience (2)"/>
+                <modifier type="set" field="7962-d121-6270-ec08" value="5 (4)"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+        </infoLink>
+        <infoLink id="0507-98b0-5710-f136" name="Bodyguards" hidden="false" targetId="0ec9-efe5-7da3-39f1" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f78f-2a79-28a9-e43a" type="equalTo"/>
+                    <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5845-d4f8-b726-c71a" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5438-a47e-7c81-a842" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+        <infoLink id="ab49-d789-2fd6-13f2" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+        <infoLink id="7e2f-e915-4440-3a50" name="Pride" hidden="false" targetId="9f00-d195-875d-2387" type="rule"/>
+        <infoLink id="3ab2-6b68-79f6-4cc5" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+            <modifier type="set" field="name" value="Resilience (2)">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f78f-2a79-28a9-e43a" type="equalTo"/>
+                    <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5845-d4f8-b726-c71a" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7e9f-9797-0f6b-3948" name="We Obey" hidden="false" targetId="9d6a-1c55-95d2-cd3c" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f78f-2a79-28a9-e43a" type="equalTo"/>
+                    <condition field="selections" scope="e301-6026-3f19-d8b1" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5845-d4f8-b726-c71a" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="03db-dd05-d9b2-f65a" name="Minotaur Heroes" hidden="false" targetId="00cf-4219-5860-4fc7" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="30e1-2ab1-b048-3271" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="bccb-067f-563e-533b" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="61c5-eace-6816-7dcb" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="eb67-2961-59ab-f39b" name="Equipment Options" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="5e5d-9cf4-9775-7540" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="859e-7f14-db73-3be3" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e5d-9cf4-9775-7540" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="af3b-e66b-26dc-02c7" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="626f-fb22-8585-2ba3" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5f91-7147-f92c-49f8" name="Bows and Slings" hidden="false" targetId="c95d-a936-7455-93ce" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7a1d-d5d5-10db-ba7f" name="Mount: Animal" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="Mount: Spider">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbce-c00a-e9cf-3fd2" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="4cc8-5311-0824-1f23" name="Mount: Animal" hidden="false" targetId="39b6-0313-1dca-9182" type="infoGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="629f-80f1-f452-389d" name="Mount: Spider" hidden="false" targetId="14b8-b7c4-38b1-7aae" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5845-d4f8-b726-c71a" name="Mount: Beast" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d337-513a-01ea-2057" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e6e1-7c74-15e5-17a9" name="Mount: Beast" hidden="false" targetId="89b3-99bc-05ad-7519" type="infoGroup"/>
+                <infoLink id="98b6-7293-a3f4-a009" name="Imposing" hidden="false" targetId="39aa-af7c-f56c-ce44" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f78f-2a79-28a9-e43a" name="Mount: Beast (Flight)" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68f7-ef9c-83fa-ecdd" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="21ff-fde9-dbb0-0eaa" name="Mount: Beast" hidden="false" targetId="89b3-99bc-05ad-7519" type="infoGroup"/>
+                <infoLink id="4e62-36c4-27d6-6f63" name="Flight" hidden="false" targetId="4d9a-b007-204b-6e8c" type="rule"/>
+                <infoLink id="f24f-102d-fe58-5abc" name="Imposing" hidden="false" targetId="39aa-af7c-f56c-ce44" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3e9b-859f-6c00-6b74" name="Mount: Animal, Composite Bow" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="Mount: Spider, Composite Bow">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1fb5-aae3-9136-902b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6aa9-54a2-80b3-b9cc" name="Mount: Animal" hidden="false" targetId="39b6-0313-1dca-9182" type="infoGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="7c07-3662-79cc-0a2e" name="Composite Bows" hidden="false" targetId="7376-dfda-5b9f-7cb3" type="infoGroup"/>
+                <infoLink id="3999-057a-4647-9577" name="Mount: Spider" hidden="false" targetId="14b8-b7c4-38b1-7aae" type="infoGroup"/>
+                <infoLink id="bcd0-0b45-4e04-9c2d" name="Venom" hidden="false" targetId="48ed-99bd-0d61-df15" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e5ff-625a-bdb0-f94d" name="Ranger" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91bc-96aa-6494-d6e9" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="2260-3701-2af3-ab80" name="Ranger" publicationId="ac45-6f39-de7c-3e52" page="42" hidden="false">
+          <description>The Ranger can move through uneven ground without penalty. This applies to movement and charges. Also, if the Ranger is in an area of uneven terrain, all other units in your warband count that terrain as open terrain, and can therefore move through it without penalty even if they are mounted. Note however that an area of high terrain remains high and continues to block line of sight. Finally, this special rule only applies to uneven terrain, not dangerous terrain. </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="9a21-412a-fd6f-7039" name="Lieutenant" hidden="false" targetId="e739-1d0f-05b6-01a1" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Ranger"/>
+            <modifier type="append" field="2d00-2f2d-9e87-57da" value="Ranger"/>
+            <modifier type="set" field="7962-d121-6270-ec08" value="4 (4)">
+              <conditions>
+                <condition field="selections" scope="e5ff-625a-bdb0-f94d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7593-58c9-39a0-01db" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="95ee-cc55-f28d-7c62" name="Lieutenant" hidden="false" targetId="1c61-2dc5-b486-fe28" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="e7d1-93eb-7a05-bad1" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="true"/>
+        <categoryLink id="db38-67d4-6571-0eb9" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="ea75-d904-4a85-4d3a" name="Lieutenant" hidden="false" targetId="3e4f-a859-b1ff-4b25" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6f07-92aa-c01a-be39" name="Equipment Options" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9aae-43e7-de83-a3e7" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="7593-58c9-39a0-01db" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61e0-afb2-46fc-034a" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="00cc-a727-4447-1397" name="Bows and Slings" hidden="false" targetId="c95d-a936-7455-93ce" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="9246-3491-cfc9-6934" name="Cost" hidden="false" collective="false" import="true" targetId="3ae5-62b1-6f81-cb98" type="selectionEntryGroup">
+          <selectionEntries>
+            <selectionEntry id="e7f5-ff6e-0fc8-e045" name="1 Creature" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b12c-ca35-541c-ffd9" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="1a12-77b6-2913-a3a6" name="Creature" hidden="false" collective="false" import="true" targetId="01a6-4a46-2989-4ae5" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57da-c97b-461c-d4ff" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3da0-7aab-f7cd-afb5" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1ae-d58a-4482-64e0" name="Sorceror" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="d1ae-d58a-4482-64e0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c66-9735-fc90-0788" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+            <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <infoLinks>
+        <infoLink id="a25f-1ba6-f167-26df" name="Sorceror" hidden="false" targetId="74bb-993d-c74e-2a8b" type="profile">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="3 (3)">
+              <conditions>
+                <condition field="selections" scope="d1ae-d58a-4482-64e0" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5c66-9735-fc90-0788" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="34d8-7b0f-1a9a-3fbc" name="Sorceror" hidden="false" targetId="7b57-92e8-c726-d017" type="infoGroup"/>
+        <infoLink id="43fb-a459-2903-857f" name="Minotaur Heroes" hidden="false" targetId="00cf-4219-5860-4fc7" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7316-7345-bdff-0a4a" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="true"/>
+        <categoryLink id="1e4b-92d5-627f-ff64" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="43a3-bc9c-9943-630f" name="Sorceror" hidden="false" targetId="3e9e-5235-9d6d-122e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="26f5-075b-ab09-f675" name="Spells" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad3-eabe-7865-f335" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a38-afa2-31f5-84c2" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6b01-e36f-7ca9-5850" name="Domain of Earth" hidden="false" collective="false" import="true" targetId="3538-f19a-7986-226b" type="selectionEntryGroup"/>
+            <entryLink id="10c5-e401-eb6f-47a8" name="Domain of Light" hidden="false" collective="false" import="true" targetId="ce86-5d16-1aaf-76f0" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="5790-2012-4f08-dd98" name="Equipment Options" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f991-31b5-083b-e27e" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1405-188e-969e-f7c3" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f991-31b5-083b-e27e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5c66-9735-fc90-0788" name="Mount: Animal" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="Mount: Spider">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d266-8f4e-2a7e-0ef6" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="1ad9-2b67-4aab-0568" name="Mount: Animal" hidden="false" targetId="39b6-0313-1dca-9182" type="infoGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="8e67-cd73-8969-b323" name="Mount: Spider" hidden="false" targetId="14b8-b7c4-38b1-7aae" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec5f-af75-060e-6f4e" name="Monster" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="437b-0edb-2064-43a1" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="437b-0edb-2064-43a1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5057-3ea4-f7d4-737f" name="Monster" hidden="false" targetId="0e86-e0b2-7931-9116" primary="false"/>
+        <categoryLink id="761c-ed06-cc0a-6a70" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="d780-6a4d-4a4a-8ac5" name="Monster Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="1ea3-732a-c59b-7703">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a15d-7886-d84f-b3e0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d337-dd8d-6443-5e7e" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1ea3-732a-c59b-7703" name="Behemoth" hidden="false" collective="false" import="true" targetId="a124-a1da-e31b-6dcf" type="selectionEntry"/>
+            <entryLink id="50d4-1806-29a5-cd2a" name="Titan" hidden="false" collective="false" import="true" targetId="f894-d5ce-27ee-2f1e" type="selectionEntry"/>
+            <entryLink id="c642-d7f2-0870-d0c8" name="Scourge" hidden="false" collective="false" import="true" targetId="726e-b661-f849-da32" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="e9b2-9778-601e-3b72" name="Monster" hidden="false" collective="false" import="true" targetId="b104-bb06-caba-6928" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc1b-4f56-a54c-4226" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="643f-8d6c-ebc4-77ee" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3817-ca41-0d51-de6b" name="Creatures" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a139-b402-8ff9-76cb" name="Creature" hidden="false" targetId="33d5-4e7b-2527-f76d" primary="false"/>
+        <categoryLink id="b24a-f8c0-7aab-faf3" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="90c1-b4c8-e0fe-82bb" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="5269-6a9c-8fe6-2808" name="Creature" hidden="false" collective="false" import="true" targetId="01a6-4a46-2989-4ae5" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73be-89a0-5f7b-4ccd" type="min"/>
+                <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbf0-8c58-6351-b5c3" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7b17-4035-cf1a-12c1" name="Creature Type" hidden="false" collective="false" import="true" defaultSelectionEntryId="891c-0506-c2c8-28cb">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9afb-f5c8-b088-74f5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c993-7ea3-bca0-940d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="891c-0506-c2c8-28cb" name="Biped" hidden="false" collective="false" import="true" targetId="be07-45f9-2735-848e" type="selectionEntry"/>
+            <entryLink id="af69-e654-cf88-24da" name="Quadruped" hidden="false" collective="false" import="true" targetId="6494-b981-47ae-1de0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="3abc-dc36-659b-c2cc" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9a9a-df37-abdb-dd89" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="ba54-d51b-13c5-786c" name="Flyer" hidden="false" collective="false" import="true" targetId="3dc6-dc2d-1a9a-dba0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="c3d6-48ef-6a2d-6c15" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c3d6-48ef-6a2d-6c15" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88b3-2202-25c0-628c" name="Hearthguards" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="ae98-8ace-a531-98b1" name="Hearthguards" hidden="false" targetId="f3c3-5f26-914e-1865" type="profile">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="4 (5)">
+              <conditions>
+                <condition field="selections" scope="88b3-2202-25c0-628c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9208-5975-a677-2a28" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="7962-d121-6270-ec08" value="4 (4)">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="88b3-2202-25c0-628c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b63a-07de-4cb4-db89" type="equalTo"/>
+                    <condition field="selections" scope="88b3-2202-25c0-628c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e42c-b941-647a-1d87" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="7962-d121-6270-ec08" value="5 (4)">
+              <conditions>
+                <condition field="selections" scope="88b3-2202-25c0-628c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ccc4-9953-d090-eabd" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7dd9-3805-354f-3b44" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="7dc7-9477-8872-3a06" name="Hearthguards" hidden="false" targetId="8fe7-6958-d05c-c27f" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ad44-16b0-13eb-4ee5" name="Equipment Options" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7f3-d7e5-7091-72f5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9208-5975-a677-2a28" name="Heavy Weapon" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b64-f097-3afa-ff62" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="6f4c-5bf7-e295-a10d" name="Heavy Weapons" hidden="false" targetId="3c91-bb2c-a704-497e" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ccc4-9953-d090-eabd" name="Mount: Animal" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8659-f6d8-aa10-7a88" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="e55b-f60e-08a1-9b51" name="Mount: Animal" hidden="false" targetId="39b6-0313-1dca-9182" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="e42c-b941-647a-1d87" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcf0-ab8b-f325-ee6f" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="8cc3-0e2b-7dff-60d5" name="Bows and Slings" hidden="false" targetId="c95d-a936-7455-93ce" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b63a-07de-4cb4-db89" name="Mount: Animal, Composite Bow" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d060-2667-4cd6-edb7" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5434-3df5-93c4-831c" name="Mount: Animal" hidden="false" targetId="39b6-0313-1dca-9182" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0249-e58b-690f-6cc6" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="2140-88cf-911d-5d30" name="Hearthguard" hidden="false" collective="false" import="true" targetId="124e-28c6-d2bb-6048" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="45e2-0953-c336-dab4">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="88b3-2202-25c0-628c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ccc4-9953-d090-eabd" type="equalTo"/>
+                        <condition field="selections" scope="88b3-2202-25c0-628c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b63a-07de-4cb4-db89" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="add" field="category" value="68e9-a0ec-6533-f7d0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="88b3-2202-25c0-628c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9208-5975-a677-2a28" type="equalTo"/>
+                        <condition field="selections" scope="88b3-2202-25c0-628c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e42c-b941-647a-1d87" type="equalTo"/>
+                        <condition field="selections" scope="88b3-2202-25c0-628c" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad44-16b0-13eb-4ee5" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e518-1f23-1e75-cdfd" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="106e-9869-5fec-9736" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3ab9-fa68-6496-aed7" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="c2e2-342c-2cd6-92b6" name="Warriors" hidden="false" targetId="fcb1-e114-22d3-9e03" type="profile">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="3 (3)">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="3ab9-fa68-6496-aed7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d78a-e24e-fbc7-c7c8" type="equalTo"/>
+                    <condition field="selections" scope="3ab9-fa68-6496-aed7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9324-6891-4cb7-34af" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="7962-d121-6270-ec08" value="4 (3)">
+              <conditions>
+                <condition field="selections" scope="3ab9-fa68-6496-aed7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a388-e29a-2959-6e51" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6f45-6af3-5500-fee1" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="1716-d8f8-c868-7075" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7c45-ae0d-ad4b-6543" name="Equipment Options" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="654d-aeea-6864-8b12" value="1.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d44-4a27-b42f-8901" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="654d-aeea-6864-8b12" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a388-e29a-2959-6e51" name="Mount: Animal" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="Mount: Spider">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f7f-f105-0587-e583" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="30d3-5d52-c4a7-711f" name="Mount: Animal" hidden="false" targetId="39b6-0313-1dca-9182" type="infoGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="26c3-b5a6-026b-c5f2" name="Mount: Spider" hidden="false" targetId="14b8-b7c4-38b1-7aae" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9324-6891-4cb7-34af" name="Bow" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="49bf-ca10-ff03-2db1" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="5cf9-8c41-9d47-6340" name="Bows and Slings" hidden="false" targetId="c95d-a936-7455-93ce" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d78a-e24e-fbc7-c7c8" name="Mount: Animal, Composite Bow" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="Mount: Spider, Composite Bow">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b98-dbc5-1fae-7531" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="393c-41a3-f66c-fec6" name="Mount: Animal" hidden="false" targetId="39b6-0313-1dca-9182" type="infoGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="643d-761e-7783-3ba4" name="Mount: Spider" hidden="false" targetId="14b8-b7c4-38b1-7aae" type="infoGroup"/>
+                <infoLink id="4ae6-4de4-8eea-2fee" name="Composite Bows" hidden="false" targetId="7376-dfda-5b9f-7cb3" type="infoGroup"/>
+                <infoLink id="b1a8-7611-d631-89bb" name="Venom" hidden="false" targetId="48ed-99bd-0d61-df15" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="262b-b7b1-4c88-bcb8" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e198-fb37-4be5-5a68" name="Warrior" hidden="false" collective="false" import="true" targetId="d558-4bb2-dca5-6e81" type="selectionEntry">
+              <modifiers>
+                <modifier type="add" field="category" value="45e2-0953-c336-dab4">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="3ab9-fa68-6496-aed7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a388-e29a-2959-6e51" type="equalTo"/>
+                        <condition field="selections" scope="3ab9-fa68-6496-aed7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d78a-e24e-fbc7-c7c8" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="add" field="category" value="68e9-a0ec-6533-f7d0">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="3ab9-fa68-6496-aed7" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="9324-6891-4cb7-34af" type="equalTo"/>
+                        <condition field="selections" scope="3ab9-fa68-6496-aed7" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7c45-ae0d-ad4b-6543" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e686-5ec5-540b-ee6b" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c5b-5e42-f5db-4864" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf0f-a5a1-3e54-eac5" name="Levies" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="name" value="The Swarm">
+          <conditions>
+            <condition field="selections" scope="bf0f-a5a1-3e54-eac5" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5524-916c-53c8-458b" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="85a7-098d-a313-90d4" name="Levies" hidden="false" targetId="01ad-e80b-ec05-4303" type="profile">
+          <modifiers>
+            <modifier type="set" field="7962-d121-6270-ec08" value="3 (3)"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="bf0f-a5a1-3e54-eac5" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5524-916c-53c8-458b" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d5b0-935f-ef66-315b" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="ced0-7757-f914-deb7" name="Levies" hidden="false" targetId="1b85-ce22-49b2-db2a" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0b8e-a18f-8a07-dd27" name="Equipment Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="1a47-d09c-d0da-a737">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="436c-3144-cad2-50d3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5737-2c72-430a-4b17" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="1a47-d09c-d0da-a737" name="Javelins" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="889e-ee56-ed48-444b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="30a4-f24d-de4d-be3f" name="Javelins" hidden="false" targetId="74c9-ff26-9a53-f996" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="5524-916c-53c8-458b" name="The Swarm" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43d4-4333-d448-03ef" type="max"/>
+                <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9fbb-d0f1-e633-32f8" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="e91b-fd1e-96be-0cd1" name="The Swarm" publicationId="ac45-6f39-de7c-3e52" page="42" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+                    <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (3)</characteristic>
+                    <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1/2 (0)</characteristic>
+                    <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Insignificant, Primitive, Tiny</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="805e-712b-9d7a-3ae8" name="Insignificant" publicationId="ac45-6f39-de7c-3e52" page="42" hidden="false">
+                  <description>The Swarm always counts as being in light cover when it is targeted by a shooting attack. Eliminating the Swarm does not inflict Fatigue on Friendly units within *S*.</description>
+                </rule>
+                <rule id="2909-f4fc-db73-0102" name="Tiny" publicationId="ac45-6f39-de7c-3e52" page="42" hidden="false">
+                  <description>The Swarm does not reduce its charge or movement distance when moving across uneven or dangerous terrain. It also suffers no Fatigue when moving across dangerous terrain. </description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="674f-b6da-b440-68b8" name="Primitive" hidden="false" targetId="70cc-1ae9-da4d-f5d4" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="69f5-1f0e-b66c-e1bf" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="e022-2ac5-d6c0-9896" name="Levy" hidden="false" collective="false" import="true" targetId="cb8a-baa9-25c2-2e45" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5452-68fe-6864-1e19" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02f4-71cf-be56-a078" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="b190-3c91-2353-7091" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b093-e12a-b5c4-224e" name="The Hunter and the Great Hunt" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="88d4-606b-35b0-72e5" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="ec19-4e51-793f-a3c3" name="Heroic Unit" hidden="false" targetId="db6f-aeeb-2808-29ac" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="8f3d-17f8-3114-e631" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+        <categoryLink id="a55a-84a5-e3be-5f9c" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4b2d-0776-5531-4010" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="2483-efe1-2a95-8b7c" name="Hunter" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9914-e758-3d78-ad0c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36c5-c177-ae20-2994" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3b81-b4fc-4664-e3bf" name="Hunter" publicationId="ac45-6f39-de7c-3e52" page="44" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+                    <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (5)</characteristic>
+                    <characteristic name="Agression" typeId="6680-c929-0405-8a4f">6 (0)</characteristic>
+                    <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Call of the Hunter, Determination, Imposing, Presence, Resilience (1). Swift</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="651f-4ce3-1ffa-c8e3" name="Call of the Hunt" publicationId="ac45-6f39-de7c-3e52" page="44" hidden="false">
+                  <description>Once per game, the Hunter can blow his horn at the start of one of your Activation phases. All other units in the warband gain the Determination special rule during that turn if they do not already have it.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="e89a-7d49-9dbf-860a" name="Determination" hidden="false" targetId="013f-1fe9-9ab8-809b" type="rule"/>
+                <infoLink id="e62c-0871-63fe-b043" name="Imposing" hidden="false" targetId="39aa-af7c-f56c-ce44" type="rule"/>
+                <infoLink id="032c-4ed1-25e0-dc4e" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+                <infoLink id="59be-52d9-f2a4-5869" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Resilience (1)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="70b6-3146-181d-4032" name="Swift" hidden="false" targetId="5545-7947-6594-801b" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="774f-a8ba-7cbb-a308" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+                <categoryLink id="2ea1-a8fb-c247-2ab2" name="Mounts (X)" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ebc2-5f2e-a2ac-8a26" name="Companions" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7ae-0c85-769c-1956" type="min"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf04-15a1-8408-e979" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8ee2-e047-8303-bdb1" name="Companions" publicationId="ac45-6f39-de7c-3e52" page="44" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">0</characteristic>
+                    <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+                    <characteristic name="Agression" typeId="6680-c929-0405-8a4f">5</characteristic>
+                    <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Imposing, Presence, Resilience (1). Swift </characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="0178-3773-dec7-f4cc" name="Imposing" hidden="false" targetId="39aa-af7c-f56c-ce44" type="rule"/>
+                <infoLink id="7eb9-0813-892c-794b" name="Presence" hidden="false" targetId="b220-3aa6-7d5d-822c" type="rule"/>
+                <infoLink id="ae25-bf10-1d1e-d529" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Resilience (1)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="d524-90cc-7d6a-6df8" name="Swift" hidden="false" targetId="5545-7947-6594-801b" type="rule"/>
+              </infoLinks>
+              <categoryLinks>
+                <categoryLink id="4d97-0963-b122-c3aa" name="Mounts (X)" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9b59-a099-03df-6586" name="The Shapeshifters" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b58a-2e67-6522-383a" name="The Shapeshifters" publicationId="ac45-6f39-de7c-3e52" page="44" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">0</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">*</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">5</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Hidden, Surprise, Vulnerable</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="d6d4-b7f6-bf6f-b72b" name="Hidden" publicationId="ac45-6f39-de7c-3e52" page="44" hidden="false">
+          <description>The Shapeshifters are not deployed at the start of the game. Instead, note secretly which units they are hidden in. Each unit of Warriors on foot (and only them) can hide a maximum of2 Shapeshifters. A Shapeshifter&apos;s Armour is the same as that of the unit they accompany. </description>
+        </rule>
+        <rule id="d726-ab69-6eaa-cc84" name="Surprise" publicationId="ac45-6f39-de7c-3e52" page="44" hidden="false">
+          <description>At the start of the resolution of a melee involving a unit hiding one or more Shapeshifters, you must reveal the Shapeshifters. For each Shapeshifter in the unit, replace one of the Warrior figures with an appropriate miniature-often a terrifying animal! The removed figure counts as having been eliminated during the melee. If the enemy unit had no Fatigue when the Shapeshifter was revealed, it takes one immediately. When you are collecting the combat pool, remember to add 5 attack dice for each Shapeshifter present! Once transformed, a Shapeshifter is considered to be a
+figure in the unit with no equipment options. </description>
+        </rule>
+        <rule id="c5df-0ddd-4ed8-b4e3" name="Vulnerable" publicationId="ac45-6f39-de7c-3e52" page="44" hidden="false">
+          <description>Each time one or more casualties are suffered by a unit including one or more revealed Shapeshifters (those still hidden are unaffected), roll a die for each casualty suffered by the unit. If at least one of those dice scores a 5 or a 6, you must remove at least one Sb,apeshifter to fulfil the casualties suffered. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7073-5b61-4a8e-037c" name="New CategoryLink" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="true"/>
+        <categoryLink id="9c6e-f51f-f3e0-3d6b" name="Units" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="false"/>
+        <categoryLink id="afdf-7638-fce7-1999" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9085-ef20-d417-6861" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="a922-2130-1ccd-f00c" name="Shapeshifter" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb5-a53c-eb92-1948" type="min"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="410a-aa83-66ed-d89a" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="568f-f3f2-bb47-099d" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+              </categoryLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="00cf-4219-5860-4fc7" name="Minotaur Heroes" publicationId="ac45-6f39-de7c-3e52" page="45" hidden="false">
+      <description>At no additional cost, your Heroes all gain the Imposing special rule. You may also remove Creature figures in order to cancel casualties with the Bodyguards special rule</description>
+    </rule>
+    <rule id="1120-aacf-b039-d9c4" name="Mount: Spider" publicationId="ac45-6f39-de7c-3e52" page="45" hidden="false">
+      <description>Units with this special rule are subject to all the rules described under Mounts: Horses in the Saga rulebook (see Rulebook, Mounts: Horses, p. 39), with the following modifications:
+- They suffer no Fatigue when they start in, end in or cross an area of uneven terrain during a move or a charge.
+- Their movement distance is not affected by uneven terrain. In other words, uneven terrain has no effect on their movement. They are still subject to reductions in movement from dangerous terrain.</description>
+    </rule>
+    <rule id="48ed-99bd-0d61-df15" name="Venom" publicationId="ac45-6f39-de7c-3e52" page="45" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <description>All figures equipped with composite bows in an Arachnaean Jungle warband halve their melee Aggression. Warriors will therefore have an Aggression of 1/2, which is equal to half the figures in the unit.
+When an enemy with composite bows targets an enemy unit within *VS* of it for a shooting attack, it gets a +1 bonus to its attack rolls. Remember that only one figure in the unit has to be within range of the target unit For this bonus to apply. </description>
+    </rule>
+  </sharedRules>
+  <sharedInfoGroups>
+    <infoGroup id="14b8-b7c4-38b1-7aae" name="Mount: Spider" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f9b8-6083-2385-cb38" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="d914-50fd-584e-f7b8" name="Mount: Spider" hidden="false" targetId="1120-aacf-b039-d9c4" type="rule"/>
+        <infoLink id="7f24-9dda-31f2-a68e" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+      </infoLinks>
+    </infoGroup>
+  </sharedInfoGroups>
+  <catalogueLinks>
+    <catalogueLink id="d71d-b492-b414-7813" name="Age of Magic" targetId="d129-4eb9-056b-e103" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

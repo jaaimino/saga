@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1de0-a110-9ecc-fcd9" name="Ostrogoths" revision="2" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="e494-feaa-cd94-6b4e" name="Mounted Warrior" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="3e89-8ffd-dd4d-b2ed" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f7a5-ae2e-93a4-8077" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e89-8ffd-dd4d-b2ed" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="f7a5-ae2e-93a4-8077" name="Warrior on Foot" hidden="false"/>
+  </categoryEntries>
+  <entryLinks>
+    <entryLink id="45ad-6bea-9ad2-6b43" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="60b8-4bbd-9cd3-6ddc" name="Equipment Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="b69f-b45a-b8c1-068c">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86f6-d33f-1cee-1a2e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4f6-a5bb-9ef7-c3f3" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b69f-b45a-b8c1-068c" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry"/>
+            <entryLink id="346f-431f-7913-d9f4" name="Cataphracts" hidden="false" collective="false" import="true" targetId="6e79-3959-cf64-342b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f4b9-5e2b-048b-1c90" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="063e-9487-5db1-967e" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="896e-9475-982c-cd86" name="Equipment Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="4ccc-43ae-be16-0298">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8e7-34ee-62ea-25f4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9366-1f51-3028-808a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4ccc-43ae-be16-0298" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry"/>
+            <entryLink id="fdd4-2b1a-7701-3355" name="Cataphracts" hidden="false" collective="false" import="true" targetId="6e79-3959-cf64-342b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="895d-9ab8-b336-50eb" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="e5ab-07c8-9378-d4b4" name="Warriors" hidden="false" collective="false" import="true" targetId="c83f-784a-7c20-c643" type="selectionEntry"/>
+    <entryLink id="61b0-433b-c30a-3404" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="0c4b-3967-b4f0-d706" name="Bows and Slings" hidden="false" collective="false" import="true" targetId="ea4e-4463-8f31-3306" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a4-7e6f-0371-dd57" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="b16a-a327-1c65-a24c" name="Deserters" hidden="false" collective="false" import="true" targetId="0129-0bb5-eae7-cd83" type="selectionEntry"/>
+    <entryLink id="4db4-b00e-640d-afc7" name="Foederati" hidden="false" collective="false" import="true" targetId="a58e-c21c-0e8e-9d72" type="selectionEntry"/>
+    <entryLink id="472c-88ae-848b-4de2" name="Mounted Foederati" hidden="false" collective="false" import="true" targetId="3924-fe7d-58c5-63ea" type="selectionEntry"/>
+    <entryLink id="d740-569e-a540-d06e" name="Sea Wolves" hidden="false" collective="false" import="true" targetId="b2b4-7527-34f8-c3ef" type="selectionEntry"/>
+    <entryLink id="9f6a-5c53-5e4a-044e" name="Nomadic Horsemen" hidden="false" collective="false" import="true" targetId="e0f4-0936-d541-011c" type="selectionEntry"/>
+    <entryLink id="e9d9-2648-5fc6-7d1a" name="Vascones Scouts" hidden="false" collective="false" import="true" targetId="404c-0b79-85bf-7964" type="selectionEntry"/>
+    <entryLink id="87b8-e424-d811-40e7" name="Personal Champion" hidden="false" collective="false" import="true" targetId="2269-2d28-6fd4-d304" type="selectionEntry"/>
+    <entryLink id="7320-8514-b6ff-857e" name="Seer" hidden="false" collective="false" import="true" targetId="8af1-397d-bb2b-2780" type="selectionEntry"/>
+    <entryLink id="14f5-b626-950a-3f12" name="Bishop" hidden="false" collective="false" import="true" targetId="43bc-2f72-1e64-e292" type="selectionEntry"/>
+    <entryLink id="649c-dfcb-e8cb-3c77" name="Guides" hidden="false" collective="false" import="true" targetId="a8fd-3d8a-a503-5d8e" type="selectionEntry"/>
+    <entryLink id="e9df-c438-bba2-9316" name="Molossians" hidden="false" collective="false" import="true" targetId="41de-03e9-2414-b80e" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="c83f-784a-7c20-c643" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b2b1-1e69-77d7-3200" name="Warriors" publicationId="90fb-5671-0e32-356b" page="26" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="c83f-784a-7c20-c643" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6ed7-e12f-89f6-fb4d" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7962-d121-6270-ec08" value="4 (3)"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">1</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="d1de-6fea-55cb-735b" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="6833-b3df-aedc-2dbe" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="74ba-49fc-ca2e-c8b8" name="Models" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="aa69-aa56-8465-ec84" name="Warrior" hidden="false" collective="false" import="true" targetId="d558-4bb2-dca5-6e81" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <conditions>
+                    <condition field="selections" scope="c83f-784a-7c20-c643" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6ed7-e12f-89f6-fb4d" type="equalTo"/>
+                  </conditions>
+                  <modifiers>
+                    <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+                    <modifier type="add" field="category" value="e494-feaa-cd94-6b4e"/>
+                    <modifier type="remove" field="category" value="f7a5-ae2e-93a4-8077"/>
+                    <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b73c-59e9-19c3-b90a" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3c9-00c4-1070-1ee7" type="max"/>
+              </constraints>
+              <categoryLinks>
+                <categoryLink id="5f94-e1f5-85be-87bb" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+                <categoryLink id="49c6-1944-1831-3b9f" name="Warrior on Foot" hidden="false" targetId="f7a5-ae2e-93a4-8077" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="8649-6c04-e9e2-c5d9" name="Equipment Options" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7967-90cd-8822-dee7" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="6ed7-e12f-89f6-fb4d" name="Horse" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0908-8b4b-627a-59c7" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="a75a-5df8-83f6-027f" name="Mounts (Horses)" hidden="false" targetId="c4e6-d4e7-c067-d4b6" type="infoGroup"/>
+              </infoLinks>
+              <costs>
+                <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2dd6-7751-1d68-f449" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <catalogueLinks>
+    <catalogueLink id="d24c-d932-8ccf-98d5" name="Age of Invasions" targetId="3188-29f4-c778-04ae" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

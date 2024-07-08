@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="54b7-b6a4-649b-3632" name="Greek Cities - Thebans" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="1227-7ce6-4146-9105" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry"/>
+    <entryLink id="a2bd-213e-2d47-e2de" name="Warriors" hidden="false" collective="false" import="true" targetId="72f8-c50e-a8b8-e497" type="selectionEntry"/>
+    <entryLink id="681b-32b2-692c-8680" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="3277-dc3a-892d-bda9" name="Javelins" hidden="false" collective="false" import="true" targetId="6ec3-de4b-9966-8ca0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f341-fcff-b370-bf4c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="5929-8b46-2559-2718" name="Agrianian Javelinmen" hidden="false" collective="false" import="true" targetId="4688-6a6a-df50-b86f" type="selectionEntry"/>
+    <entryLink id="745f-b70f-6e18-a765" name="Cretan Archers" hidden="false" collective="false" import="true" targetId="88d2-56a3-0275-34a5" type="selectionEntry"/>
+    <entryLink id="e865-d3e4-9472-7035" name="Greek Cities Ruses" hidden="false" collective="false" import="true" targetId="b735-e672-42d7-9485" type="selectionEntry"/>
+    <entryLink id="13b4-1976-79fe-0c2a" name="Illyrians" hidden="false" collective="false" import="true" targetId="ef51-16ba-076d-f287" type="selectionEntry"/>
+    <entryLink id="41e1-1055-ba1f-2ccf" name="Psiloi" hidden="false" collective="false" import="true" targetId="3890-2633-c38b-80f3" type="selectionEntry"/>
+    <entryLink id="7e79-8712-b492-c78d" name="Rhodian Slingers" hidden="false" collective="false" import="true" targetId="40aa-f1b9-4eaf-9d65" type="selectionEntry"/>
+    <entryLink id="5de2-4680-81f2-e6c5" name="Tarentine Cavalry" hidden="false" collective="false" import="true" targetId="bc96-92c3-d82d-6df7" type="selectionEntry"/>
+    <entryLink id="711c-38e7-509b-8ae6" name="Thessalian Cavalry" hidden="false" collective="false" import="true" targetId="fff9-b7b8-470d-0829" type="selectionEntry"/>
+    <entryLink id="3b81-6ce0-a565-1df3" name="Thorakitai" hidden="false" collective="false" import="true" targetId="e4fd-19ea-cc8a-ef25" type="selectionEntry"/>
+    <entryLink id="6ca5-7284-463f-bbb8" name="Thracian Mercenaries" hidden="false" collective="false" import="true" targetId="a123-1ade-77bb-b780" type="selectionEntry"/>
+    <entryLink id="febd-85e8-0139-c8f3" name="Thureophoroi" hidden="false" collective="false" import="true" targetId="bf1a-58b4-ebf9-b380" type="selectionEntry"/>
+    <entryLink id="7037-f18b-bd53-0092" name="The Sacred Band" hidden="false" collective="false" import="true" targetId="3993-ddce-e8cb-97c5" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="72f8-c50e-a8b8-e497" name="Warriors" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="9989-bdbb-b501-d73f" name="Warriors" hidden="false" targetId="fcb1-e114-22d3-9e03" type="profile">
+          <modifiers>
+            <modifier type="set" field="21d8-0469-79eb-3da5" value="2">
+              <conditions>
+                <condition field="selections" scope="72f8-c50e-a8b8-e497" value="12.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1d22-8120-9b32-2a03" name="Oblique Phalanx" hidden="false" targetId="ffb3-dc7d-69ed-9f16" type="rule"/>
+        <infoLink id="d927-eb1e-1a2c-52ef" name="Phalanx" hidden="false" targetId="dc9f-b2af-22d6-44ef" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4f14-8107-3982-74c5" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="3ed3-4b85-6d31-4dce" name="New CategoryLink" hidden="false" targetId="747b-acb0-9c2d-9f9e" primary="true"/>
+        <categoryLink id="f80f-d452-dd02-fc08" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1d35-43a1-0a46-63aa" name="Warrior" hidden="false" collective="false" import="true" targetId="d558-4bb2-dca5-6e81" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2eb0-fe8f-a75a-fc75" type="min"/>
+            <constraint field="selections" scope="parent" value="18.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e64a-4209-7847-9ab1" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3993-ddce-e8cb-97c5" name="The Sacred Band" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="44f1-7b8c-4ae3-c41c" name="The Sacred Band" publicationId="03cf-6e37-8804-8b98" page="26" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2/1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">4 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">2</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Phalanx, Resilience (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9fc5-b874-c932-4419" name="Elite Hoplites" publicationId="03cf-6e37-8804-8b98" page="26" hidden="false">
+          <description>When this unit is the defender in a melee, its Armour is 5.</description>
+        </rule>
+        <rule id="0444-e105-3eb7-c1e3" name="Unshakeable" publicationId="03cf-6e37-8804-8b98" page="26" hidden="false">
+          <description>This unit always generates 2 Saga dice while it contains at least 8 figures, and 1 Saga die while it contains at least 2 figures.</description>
+        </rule>
+        <rule id="05ee-c6f1-d764-de59" name="To the Last" publicationId="03cf-6e37-8804-8b98" page="26" hidden="false">
+          <description>No matter how many figures there are in the unit, it counts as 3 units when it is part of a Line of Battle. It can form a Line of Battle by itself, even without friendly units within *VS*.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="3e6f-3c94-e4f2-045f" name="Phalanx" hidden="false" targetId="dc9f-b2af-22d6-44ef" type="infoGroup"/>
+        <infoLink id="d309-9d30-b90d-cc98" name="Resilience (x)" hidden="false" targetId="d694-4dd3-6875-4495" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Resilience (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="ad46-2e0e-1af5-ae7e" name="Infantry" hidden="false" targetId="68e9-a0ec-6533-f7d0" primary="false"/>
+        <categoryLink id="153e-f418-5bfa-6adf" name="New CategoryLink" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="true"/>
+        <categoryLink id="f51e-c60d-1b60-5e7c" name="Warriors" hidden="false" targetId="f071-f35a-e225-9c96" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ea76-57f5-6f4a-a8fb" name="Models" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="12ab-6a05-cc63-0b60" name="Warrior" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b258-0075-10e1-1d9e" type="min"/>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c990-2b61-1ea2-ff79" type="max"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="2.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedRules>
+    <rule id="ffb3-dc7d-69ed-9f16" name="Oblique Phalanx" publicationId="03cf-6e37-8804-8b98" page="24" hidden="false">
+      <description>Theban armies were made up of phalanxes that were much deeper than those used by the other Greek cities, more than fifty ranks deep. Units with Oblique Phalanx special rule have the *Phalanx* special rule, must contain at least 10 figures during deployment, and can contain up to 18 figures. Units of 13 figures or more count as three units when calculating the number of units in a Line of Battle, and generate two Saga dice instead of one.</description>
+    </rule>
+  </sharedRules>
+  <catalogueLinks>
+    <catalogueLink id="3c29-3e6b-374a-f7f3" name="Age of Ancients" targetId="952b-66d2-440b-5912" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

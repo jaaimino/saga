@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="8b52-f564-a655-ab4e" name="Visigoths" revision="2" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="4c40-dd23-b4d5-54ae" name="Warlord" hidden="false" collective="false" import="true" targetId="37d5-b84f-df4a-dce1" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="a9f4-a99a-9c42-0146" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+        <entryLink id="3533-3faa-3385-8863" name="Equipment Options" hidden="false" collective="false" import="true" targetId="aad2-cc9c-748d-e769" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="5995-f025-5c0a-fe79" name="Hearthguards" hidden="false" collective="false" import="true" targetId="4d36-0ec5-b41c-4586" type="selectionEntry">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ab67-85f6-e24d-2f27" name="Equipment Options" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="aad2-cc9c-748d-e769" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad9b-98dc-0af7-d30b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8e17-5011-e2ed-db00" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry"/>
+            <entryLink id="957e-09f8-7224-47e6" name="Cataphracts" hidden="false" collective="false" import="true" targetId="6e79-3959-cf64-342b" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="7e22-935d-4b6c-e60f" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="2f71-86b1-f1a9-6918" name="Warriors" hidden="false" collective="false" import="true" targetId="1897-8e1b-ec24-4c58" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="7152-9693-0413-34b3" name="War Banner" hidden="false" collective="false" import="true" targetId="5603-4a23-4c2c-d54a" type="selectionEntry"/>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="2ef9-0948-766b-3f5c" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="68e1-8931-5890-d4f1" name="Bows and Slings" hidden="false" collective="false" import="true" targetId="ea4e-4463-8f31-3306" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fdb-75db-f02c-7f14" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="8fa1-95ac-1704-6c82" name="Alaric" hidden="false" collective="false" import="true" targetId="7b6b-7d2a-7334-3dcf" type="selectionEntry"/>
+    <entryLink id="97a1-3cf2-343f-c2e0" name="Theodric the 1st, King of the Visigoths" hidden="false" collective="false" import="true" targetId="8729-d7da-77cb-0c50" type="selectionEntry"/>
+    <entryLink id="66d4-0130-56c4-d2e6" name="Nomadic Horsemen" hidden="false" collective="false" import="true" targetId="e0f4-0936-d541-011c" type="selectionEntry"/>
+    <entryLink id="93a3-3ae4-9034-18ec" name="Foederati" hidden="false" collective="false" import="true" targetId="a58e-c21c-0e8e-9d72" type="selectionEntry"/>
+    <entryLink id="7f87-cdd1-0128-7dd2" name="Mounted Foederati" hidden="false" collective="false" import="true" targetId="3924-fe7d-58c5-63ea" type="selectionEntry"/>
+    <entryLink id="7ed6-7841-106e-8d6d" name="Sea Wolves" hidden="false" collective="false" import="true" targetId="b2b4-7527-34f8-c3ef" type="selectionEntry"/>
+    <entryLink id="7839-16b4-74ec-2df7" name="Vascones Scouts" hidden="false" collective="false" import="true" targetId="404c-0b79-85bf-7964" type="selectionEntry"/>
+    <entryLink id="a9be-c001-6836-c3f3" name="Deserters" hidden="false" collective="false" import="true" targetId="0129-0bb5-eae7-cd83" type="selectionEntry"/>
+    <entryLink id="a1aa-85d6-ba77-11ae" name="Personal Champion" hidden="false" collective="false" import="true" targetId="2269-2d28-6fd4-d304" type="selectionEntry"/>
+    <entryLink id="2be5-6ed0-37a2-83aa" name="Seer" hidden="false" collective="false" import="true" targetId="8af1-397d-bb2b-2780" type="selectionEntry"/>
+    <entryLink id="e0ed-25a3-8341-526d" name="Bishop" hidden="false" collective="false" import="true" targetId="43bc-2f72-1e64-e292" type="selectionEntry"/>
+    <entryLink id="69cd-c435-ea6f-9ecd" name="Guides" hidden="false" collective="false" import="true" targetId="a8fd-3d8a-a503-5d8e" type="selectionEntry"/>
+    <entryLink id="6e16-4480-b9c6-2010" name="Molossians" hidden="false" collective="false" import="true" targetId="41de-03e9-2414-b80e" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="7b6b-7d2a-7334-3dcf" name="Alaric" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="cbf1-a53b-2dcf-7034" name="Alaric" publicationId="90fb-5671-0e32-356b" page="30" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="7b6b-7d2a-7334-3dcf" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e79-3959-cf64-342b" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7962-d121-6270-ec08" value="5 (5)"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">2</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determination, Presence, Pride, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="58d7-935c-272a-17d4" name="A People on the Move" publicationId="90fb-5671-0e32-356b" page="31" hidden="false">
+          <description>For the majority of his reign, Alaric took his people on the road in search of land. Each time he activates a unit in his warband using the basic activation abilitie (situated at the top of your Battle Board), Alaric can activatea s econd unit from an inferior class for free. Therfore, if he activates a unit of Hearthguards, he can then also activate a unit or Warriors of Levies; if he activates Warriors, he can then activate an additional unit of Levies.</description>
+        </rule>
+        <rule id="dd3a-9e47-6787-f45c" name="The Sacker of Rome" publicationId="90fb-5671-0e32-356b" page="31" hidden="false">
+          <description>History remembers Alaric as the first barbarian to plunder Rome. During the game, enemy units can never gain bonuses linked to either light or solid cover, whether it&apos;s granted by a piece of terrain, a special rule, or a Saga ability. Notably, this includes the cover bonus granted by units who close ranks.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ec4e-995a-1e14-0a0b" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="a7f9-23b4-019b-9c7f" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="b963-cdba-37c9-1ead" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+        <categoryLink id="9e49-ca6c-e806-a9a0" name="Mounts: x" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="e66a-4795-ed89-81ad" name="Equipment Options" hidden="false" collective="false" import="true" targetId="aad2-cc9c-748d-e769" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a34-09ab-7045-0c76" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8729-d7da-77cb-0c50" name="Theodric I, King of the Visigoths" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="8729-d7da-77cb-0c50" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="81bb-3d05-d93c-e0f4" type="equalTo"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="45e2-0953-c336-dab4"/>
+            <modifier type="remove" field="category" value="68e9-a0ec-6533-f7d0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <profiles>
+        <profile id="2808-f4a6-57db-2985" name="Theodric I, King of the Visigoths" publicationId="90fb-5671-0e32-356b" page="31" hidden="false" typeId="c212-f7f0-1b50-166d" typeName="Unit">
+          <modifierGroups>
+            <modifierGroup>
+              <conditions>
+                <condition field="selections" scope="8729-d7da-77cb-0c50" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="6e79-3959-cf64-342b" type="equalTo"/>
+              </conditions>
+              <modifiers>
+                <modifier type="set" field="7962-d121-6270-ec08" value="5 (5)"/>
+              </modifiers>
+            </modifierGroup>
+          </modifierGroups>
+          <characteristics>
+            <characteristic name="Saga Dice" typeId="21d8-0469-79eb-3da5">1</characteristic>
+            <characteristic name="Armour" typeId="7962-d121-6270-ec08">5 (4)</characteristic>
+            <characteristic name="Agression" typeId="6680-c929-0405-8a4f">8</characteristic>
+            <characteristic name="Special Rules" typeId="2d00-2f2d-9e87-57da">Bodyguards, Determination, Presence, Pride, Resilience (1), We Obey</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="ae37-b30d-1713-e31c" name="Warrior King" publicationId="90fb-5671-0e32-356b" page="31" hidden="false">
+          <description>During each melee, Theodric gets a number of bonus attack and defence dice equal to the number of fatigues he currently has.</description>
+        </rule>
+        <rule id="b7c6-ca5d-d195-8caf" name="Glorious Death" publicationId="90fb-5671-0e32-356b" page="31" hidden="false">
+          <description>Theodric continues to generate his Saga dice normally even after being eliminated.</description>
+        </rule>
+        <rule id="3e8c-f100-7fb8-7521" name="King of the Visigoths" publicationId="90fb-5671-0e32-356b" page="31" hidden="false">
+          <description>The range of Theodric&apos;s We Obey special rule is increased to *L*.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="6b0d-e04f-c96c-faf3" name="Warlord Rules" hidden="false" targetId="ead2-6ba0-1443-b801" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f440-2336-43a4-6dfd" name="Hero" hidden="false" targetId="b9c7-f4c1-3f1c-3019" primary="false"/>
+        <categoryLink id="b02c-e1db-1bf3-c617" name="New CategoryLink" hidden="false" targetId="55c0-4d12-b093-6f8a" primary="true"/>
+        <categoryLink id="01c8-b877-bbf4-4a02" name="Legendary" hidden="false" targetId="fd2f-d278-ed9c-f034" primary="false"/>
+        <categoryLink id="3156-5198-608d-f501" name="Mounts: x" hidden="false" targetId="45e2-0953-c336-dab4" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="6978-09c9-9399-0479" name="Equipment Options" hidden="false" collective="false" import="true" targetId="aad2-cc9c-748d-e769" type="selectionEntryGroup">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4ed-a426-6a36-2a33" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" Points" typeId="67d0-6d3a-a0de-3174" value="1.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="aad2-cc9c-748d-e769" name="Equipment Options" hidden="false" collective="false" import="true" defaultSelectionEntryId="0e53-db4b-723d-d099">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8831-7de5-a23e-cc48" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="0e53-db4b-723d-d099" name="Horse" hidden="false" collective="false" import="true" targetId="ab2b-9d87-6da9-0c20" type="selectionEntry"/>
+        <entryLink id="7e96-6b5a-146e-ec33" name="Cataphracts" hidden="false" collective="false" import="true" targetId="6e79-3959-cf64-342b" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <catalogueLinks>
+    <catalogueLink id="2b80-27bc-7133-3fe3" name="Age of Invasions" targetId="3188-29f4-c778-04ae" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>

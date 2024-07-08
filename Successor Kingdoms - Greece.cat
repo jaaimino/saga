@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="c694-171e-7429-a2ab" name="Successor Kingdoms - Greece" revision="1" battleScribeVersion="2.03" authorName="Jono Firth" library="false" gameSystemId="ce89-634a-7e30-72b1" gameSystemRevision="8" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <entryLinks>
+    <entryLink id="40ec-53ce-7aa9-3255" name="Levies" hidden="false" collective="false" import="true" targetId="9103-6b42-f7b7-8f38" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="4b51-7fd6-f444-af54" name="Javelins" hidden="false" collective="false" import="true" targetId="6ec3-de4b-9966-8ca0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70fb-6bf4-bd2c-c4c6" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </entryLink>
+    <entryLink id="3b63-70a4-bff3-cc5a" name="Cretan Archers" hidden="false" collective="false" import="true" targetId="88d2-56a3-0275-34a5" type="selectionEntry"/>
+    <entryLink id="aa0a-d592-ab1e-0a74" name="Tarentine Cavalry" hidden="false" collective="false" import="true" targetId="bc96-92c3-d82d-6df7" type="selectionEntry"/>
+    <entryLink id="0496-c9ab-d7f2-6f87" name="Thessalian Cavalry" hidden="false" collective="false" import="true" targetId="fff9-b7b8-470d-0829" type="selectionEntry"/>
+    <entryLink id="7e6f-c986-790d-d6b0" name="Galatians" hidden="false" collective="false" import="true" targetId="fb5f-719b-f65c-8b84" type="selectionEntry"/>
+    <entryLink id="940d-9674-8f1b-cc18" name="Illyrians" hidden="false" collective="false" import="true" targetId="ef51-16ba-076d-f287" type="selectionEntry"/>
+    <entryLink id="c797-b1ea-74bf-ba9f" name="Agrianian Javelinmen" hidden="false" collective="false" import="true" targetId="4688-6a6a-df50-b86f" type="selectionEntry"/>
+    <entryLink id="5f2f-7c65-b964-f108" name="Greek Mercenaries" hidden="false" collective="false" import="true" targetId="2e6d-d0d8-9d1b-0b28" type="selectionEntry"/>
+    <entryLink id="a221-0127-6206-834a" name="Thracian Mercenaries" hidden="false" collective="false" import="true" targetId="a123-1ade-77bb-b780" type="selectionEntry"/>
+    <entryLink id="842a-8849-4ca5-09ca" name="Psiloi" hidden="false" collective="false" import="true" targetId="3890-2633-c38b-80f3" type="selectionEntry"/>
+    <entryLink id="3aa4-6231-c6ea-57e0" name="Thorakitai" hidden="false" collective="false" import="true" targetId="e4fd-19ea-cc8a-ef25" type="selectionEntry"/>
+    <entryLink id="73bb-0ddd-22b7-fbac" name="Thureophoroi" hidden="false" collective="false" import="true" targetId="bf1a-58b4-ebf9-b380" type="selectionEntry"/>
+  </entryLinks>
+  <catalogueLinks>
+    <catalogueLink id="3a57-00bb-e919-a036" name="Successor Kingdoms" targetId="4b3b-8909-9524-9ae8" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
+</catalogue>
